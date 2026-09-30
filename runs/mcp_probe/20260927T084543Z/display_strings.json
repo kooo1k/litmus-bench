@@ -1,0 +1,21 @@
+{
+  "ta_btc_rsi_ma": {
+    "is_error": false,
+    "text": "{\"rsi\":{\"rsi7\":\"65.78\",\"rsi14\":\"64.97\",\"rsi21\":\"64.42\"},\"moving_averages\":{\"simple_moving_average_7_day\":\"84,445.89\",\"simple_moving_average_30_day\":\"79,712.16\",\"simple_moving_average_200_day\":\"71,001.46\",\"exponential_moving_average_7_day\":\"83,690.92\",\"exponential_moving_average_30_day\":\"79,443.87\",\"exponential_moving_average_200_day\":\"74,887.26\"}}",
+    "json": {
+      "rsi": {
+        "rsi7": "65.78",
+        "rsi14": "64.97",
+        "rsi21": "64.42"
+      },
+      "moving_averages": {
+        "simple_moving_average_7_day": "84,445.89",
+        "simple_moving_average_30_day": "79,712.16",
+        "simple_moving_average_200_day": "71,001.46",
+        "exponential_moving_average_7_day": "83,690.92",
+        "exponential_moving_average_30_day": "79,443.87",
+        "exponential_moving_average_200_day": "74,887.26"
+      }
+    }
+  }
+}

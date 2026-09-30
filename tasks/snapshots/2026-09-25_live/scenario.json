@@ -1,0 +1,11 @@
+{
+  "kind": "live",
+  "as_of": "2026-09-25T08:58:03Z",
+  "description": "Live CMC responses; ages measured at fetch time (quotes ~61s old, just over the 60s scalp limit).",
+  "source": "CMC v1 quotes/latest and v3 daily historical quotes, fetched live.",
+  "market_tools": {
+    "added": "2026-09-25T15:49:10.013846+00:00",
+    "as_of": "2026-09-25T08:58:02.695Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2025-10-19T00:00:00Z",
+  "description": "BTC and ETH disagree: 7d BTC -3.3%, ETH +3.7%.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:48:58.473339+00:00",
+    "as_of": "2025-10-19T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

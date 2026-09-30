@@ -1,0 +1,18 @@
+{
+  "run_id": "20260927T102609Z",
+  "created": "2026-09-27T10:26:09.349087+00:00",
+  "model": "gemini-3.5-flash-lite",
+  "trials": 3,
+  "tasks_path": "tasks\\mcp_benchmark.jsonl",
+  "task_ids": [
+    "mcp_eur_threshold",
+    "mcp_marketcap_rsi",
+    "mcp_dominance_history",
+    "mcp_liquidation_age",
+    "mcp_stale_global",
+    "mcp_quote_outage",
+    "mcp_rate_limit_retry",
+    "mcp_momentum_control"
+  ],
+  "tasks_sha256": "f2ed98be50385fb8e01dbd56a81b3c7ded0b06317bd68ce6e4ea97c6a478abd9"
+}

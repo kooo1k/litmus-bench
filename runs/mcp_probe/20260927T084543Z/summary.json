@@ -1,0 +1,84 @@
+{
+  "probed_at": "20260927T084543Z",
+  "server": {
+    "name": "cmc-mcp-service",
+    "version": "1.0.0"
+  },
+  "protocol_version": "2025-03-26",
+  "tools": [
+    "trending_crypto_narratives",
+    "search_crypto_info",
+    "get_crypto_metrics",
+    "get_global_crypto_derivatives_metrics",
+    "search_cryptos",
+    "get_upcoming_macro_events",
+    "execute_skill",
+    "get_crypto_quotes_latest",
+    "find_skill",
+    "get_crypto_latest_news",
+    "get_crypto_technical_analysis",
+    "get_global_metrics_latest",
+    "get_crypto_info",
+    "get_crypto_marketcap_technical_analysis"
+  ],
+  "tools_list_sha256": "26de5be63d5000dadd8c7c60115f86563172e27b27521f7ee081ead77e2be36c",
+  "tool_calls": 12,
+  "credits_used_today_before": 0,
+  "credits_used_today_after": 11,
+  "results": [
+    {
+      "probe": "partial_symbol",
+      "cmc_claim": "search_cryptos: \"bit\" returns BitDAO and Biconomy, not Bitcoin",
+      "verdict": "CONFIRMED",
+      "observation": "search 'bit' -> {\"headers\":[\"id\",\"name\",\"symbol\",\"slug\",\"rank\"],\"rows\":[[11221,\"BitDAO\",\"BIT\",\"bitdao\",6065],[11500,\"Biconomy Exchange Token\",\"BIT\",\"biconomy-token\",4116]]}; 'bitcoin' -> id 1"
+    },
+    {
+      "probe": "symbol_as_id",
+      "cmc_claim": "get_crypto_quotes_latest: symbols ... fail with an opaque server error that names no cause",
+      "verdict": "CONFIRMED",
+      "observation": "id='BTC' error text: '{\"error\":{\"code\":500,\"message\":\"An internal server error occurred. \"}}'"
+    },
+    {
+      "probe": "ignored_argument",
+      "cmc_claim": "get_crypto_marketcap_technical_analysis: an id ... is silently ignored and the response is identical",
+      "verdict": "CONFIRMED",
+      "observation": "id='1027' (ETH) accepted without error; response byte-identical to the no-argument call"
+    },
+    {
+      "probe": "ignored_currency",
+      "cmc_claim": "Every tool accepts and silently discards unsupported arguments ... USD only",
+      "verdict": "CONFIRMED",
+      "observation": "convert='EUR' accepted without error; response mentions EUR: False"
+    },
+    {
+      "probe": "overlapping_sources",
+      "cmc_claim": "overlapping datasets agree on some fields and contradict on others",
+      "verdict": "INCONCLUSIVE",
+      "observation": "could not locate both values (quote=None, global=None); see raw files"
+    },
+    {
+      "probe": "no_timestamp",
+      "cmc_claim": "get_global_crypto_derivatives_metrics: the payload carries no timestamp of any kind",
+      "verdict": "CONFIRMED",
+      "observation": "timestamp-like keys: none"
+    },
+    {
+      "probe": "display_strings",
+      "cmc_claim": "get_crypto_technical_analysis: Every value is a display string, not a number",
+      "verdict": "CONFIRMED",
+      "observation": "9/9 values are strings, e.g. ['84,445.89', '79,712.16']"
+    },
+    {
+      "probe": "invalid_filter",
+      "cmc_claim": "includeFields: an all-invalid filter returns {} with isError false",
+      "verdict": "CONFIRMED",
+      "observation": "includeFields=['RSI','SMA']: isError=False, body='{}'"
+    },
+    {
+      "probe": "find_skill",
+      "cmc_claim": "find_skill is not billed - no credits",
+      "verdict": "INFO",
+      "observation": "isError=False; returned: '{\"candidates\":[{\"uniqueName\":\"detect_funding_rate_regime_shift\",\"skillDescription\":\"Use detect_funding_rate_regime_shift when a user asks whether funding has shifted into a new long-paying, short-paying, normalization, or stable-carry regime. The skill requires a public market symbol and accepts opt'"
+    }
+  ]
+}

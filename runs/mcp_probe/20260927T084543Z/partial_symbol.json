@@ -1,0 +1,44 @@
+{
+  "search_bit": {
+    "is_error": false,
+    "text": "{\"headers\":[\"id\",\"name\",\"symbol\",\"slug\",\"rank\"],\"rows\":[[11221,\"BitDAO\",\"BIT\",\"bitdao\",6065],[11500,\"Biconomy Exchange Token\",\"BIT\",\"biconomy-token\",4116]]}",
+    "json": {
+      "headers": [
+        "id",
+        "name",
+        "symbol",
+        "slug",
+        "rank"
+      ],
+      "rows": [
+        [
+          11221,
+          "BitDAO",
+          "BIT",
+          "bitdao",
+          6065
+        ],
+        [
+          11500,
+          "Biconomy Exchange Token",
+          "BIT",
+          "biconomy-token",
+          4116
+        ]
+      ]
+    }
+  },
+  "search_bitcoin": {
+    "is_error": false,
+    "text": "[{\"id\":1,\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"rank\":1}]",
+    "json": [
+      {
+        "id": 1,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "slug": "bitcoin",
+        "rank": 1
+      }
+    ]
+  }
+}

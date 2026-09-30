@@ -1,0 +1,51 @@
+name: tests
+
+# The suite is fully offline: every test blocks the network and scripts the
+# model, so CI needs no API keys and spends no quota.
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    # Only on the public repo, where Actions minutes are free. A private copy
+    # would bill every push (macOS minutes count 10x).
+    if: ${{ !github.event.repository.private }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        include:
+          - os: windows-latest
+            python: "3.13"
+          - os: macos-latest
+            python: "3.13"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install
+        run: python -m pip install -e ".[dev]"
+      - name: Check the shipped task files
+        run: |
+          litmus-bench --check tasks/benchmark.jsonl
+          litmus-bench --check tasks/mcp_benchmark.jsonl
+          litmus-bench --check docs/examples/tasks.jsonl
+          litmus-bench --check tasks/experiments/eur_description_patch.jsonl
+          litmus-bench --check tasks/experiments/freshness_description_patch.jsonl
+      - name: Reprint the published results (no keys)
+        run: litmus-bench --report results/2026-09-27_mcp_k3_flash-lite
+      - name: Compare two published runs (no keys)
+        run: litmus-bench --compare results/2026-09-28_mcp_k3_o4-mini results/2026-09-28_prompt_v2.1/o4-mini
+      # Litmus as a CI gate: grade an agent over the bring-your-own-agent
+      # protocol and fail the job if it drops below its known baseline.
+      - name: Grade the example agent, gated on its baseline (no keys)
+        run: litmus-bench --agent "python docs/examples/agents/lookup_and_hold.py" --tasks tasks/mcp_benchmark.jsonl --fail-under 0.1
+      - name: Tests
+        run: python -m pytest -q

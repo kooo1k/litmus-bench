@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2026-02-07T00:00:00Z",
+  "description": "Relief rally inside a crash: BTC +12.3% in 24h, still -16.2% over 7d.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:49:03.695926+00:00",
+    "as_of": "2026-02-07T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

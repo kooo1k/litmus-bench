@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2026-08-22T00:00:00Z",
+  "description": "Strong uptrend: BTC +24.4% over 7d, +7.3% in 24h.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:49:08.205273+00:00",
+    "as_of": "2026-08-22T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

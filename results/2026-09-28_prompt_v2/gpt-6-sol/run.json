@@ -1,0 +1,23 @@
+{
+  "run_id": "20260928T094404Z",
+  "created": "2026-09-28T09:44:04.108961+00:00",
+  "model": "gpt-6-sol",
+  "provider": "openai",
+  "base_url": "https://api.openai.com/v1",
+  "reasoning_effort": "none",
+  "agent_prompt": "v2",
+  "trials": 3,
+  "tasks_path": "tasks/mcp_benchmark.jsonl",
+  "task_ids": [
+    "mcp_eur_threshold",
+    "mcp_marketcap_rsi",
+    "mcp_dominance_history",
+    "mcp_liquidation_age",
+    "mcp_stale_global",
+    "mcp_quote_outage",
+    "mcp_rate_limit_retry",
+    "mcp_momentum_control"
+  ],
+  "tasks_sha256": "5b240f7f365413b57c559be7b68bac9d3d9b49f4b7638ebf0474e83295451abe",
+  "code_sha256": "4bbc22fca2c890fdb8884775f809dc858c978381de4caa65bb01ca55c5559451"
+}

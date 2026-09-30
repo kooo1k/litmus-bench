@@ -1,0 +1,133 @@
+{
+  "tool": "get_price_history",
+  "symbol": "BTC",
+  "recorded_at_age_seconds": 86430.0,
+  "response": {
+    "id": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "is_active": 1,
+    "is_fiat": 0,
+    "quotes": [
+      {
+        "timestamp": "2025-12-24T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87431.08293875848,
+            "percent_change_1h": 0.083562830466,
+            "percent_change_24h": -1.242103524729,
+            "percent_change_7d": -0.468775463568,
+            "percent_change_30d": 0.733548831072,
+            "volume_24h": 43695493822.22,
+            "market_cap": 1745664302394.766,
+            "circulating_supply": 19966175,
+            "total_supply": 19966175,
+            "timestamp": "2025-12-24T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-25T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87608.05282997893,
+            "percent_change_1h": -0.373767344576,
+            "percent_change_24h": 0.202410727709,
+            "percent_change_7d": 1.637256355645,
+            "percent_change_30d": -0.748271878263,
+            "volume_24h": 25537264986.46,
+            "market_cap": 1749240904982.6497,
+            "circulating_supply": 19966668,
+            "total_supply": 19966668,
+            "timestamp": "2025-12-25T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-26T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87214.50255192362,
+            "percent_change_1h": -0.42367777847,
+            "percent_change_24h": -0.449217012983,
+            "percent_change_7d": 2.049069589034,
+            "percent_change_30d": -0.137309106649,
+            "volume_24h": 19956416849.2,
+            "market_cap": 1741422002122.0525,
+            "circulating_supply": 19967115,
+            "total_supply": 19967115,
+            "timestamp": "2025-12-26T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-27T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87302.13042260858,
+            "percent_change_1h": -0.198165453669,
+            "percent_change_24h": 0.100473967197,
+            "percent_change_7d": -0.903847457615,
+            "percent_change_30d": -3.542052413664,
+            "volume_24h": 42454160545.12,
+            "market_cap": 1743214281332.8704,
+            "circulating_supply": 19967603,
+            "total_supply": 19967603,
+            "timestamp": "2025-12-27T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-28T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87806.05728175136,
+            "percent_change_1h": 0.338989910212,
+            "percent_change_24h": 0.577221720367,
+            "percent_change_7d": -0.60437194148,
+            "percent_change_30d": -3.832741425165,
+            "volume_24h": 13743510044.35,
+            "market_cap": 1753311878638.3547,
+            "circulating_supply": 19968006,
+            "total_supply": 19968006,
+            "timestamp": "2025-12-28T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-29T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87858.60322670749,
+            "percent_change_1h": 0.030684682903,
+            "percent_change_24h": 0.059843189164,
+            "percent_change_7d": -0.861028630883,
+            "percent_change_30d": -3.358592774803,
+            "volume_24h": 15159249809.17,
+            "market_cap": 1754405836411.557,
+            "circulating_supply": 19968515,
+            "total_supply": 19968515,
+            "timestamp": "2025-12-29T00:00:00.000Z"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-12-30T00:00:00.000Z",
+        "quote": {
+          "USD": {
+            "price": 87132.9192056116,
+            "percent_change_1h": -0.120364027977,
+            "percent_change_24h": -0.825968083311,
+            "percent_change_7d": -1.578894767626,
+            "percent_change_30d": -4.077421756564,
+            "volume_24h": 48415019981.01,
+            "market_cap": 1739955346692.6355,
+            "circulating_supply": 19968978,
+            "total_supply": 19968978,
+            "timestamp": "2025-12-30T00:00:00.000Z"
+          }
+        }
+      }
+    ]
+  }
+}

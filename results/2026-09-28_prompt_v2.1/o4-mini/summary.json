@@ -1,0 +1,416 @@
+{
+  "run_id": "20260928T130814Z",
+  "model": "o4-mini",
+  "tasks": 8,
+  "trials": 3,
+  "planned_trials": 24,
+  "scored_trials": 24,
+  "complete": true,
+  "harness_errors": [],
+  "overall": {
+    "n": 24,
+    "passed": 15,
+    "pass": {
+      "rate": 0.625,
+      "n": 24
+    },
+    "completed": {
+      "rate": 0.958,
+      "n": 24
+    },
+    "required_tools": {
+      "rate": 0.75,
+      "n": 24
+    },
+    "data_seen": {
+      "rate": 1.0,
+      "n": 8
+    },
+    "action": {
+      "rate": 0.708,
+      "n": 24
+    },
+    "symbol": {
+      "rate": 1.0,
+      "n": 8
+    },
+    "size": {
+      "rate": null,
+      "n": 0
+    },
+    "grounded": {
+      "rate": 1.0,
+      "n": 23
+    },
+    "sign": {
+      "rate": 1.0,
+      "n": 23
+    },
+    "trap": {
+      "rate": 0.833,
+      "n": 6
+    },
+    "schema_compliant": {
+      "rate": 1.0,
+      "n": 23
+    },
+    "placeholder_values": 0,
+    "construction": {
+      "rate": 0.75,
+      "n": 8,
+      "by_rule": {
+        "D1_missing_stop_loss": 0,
+        "D2_invalid_stop_direction": 0,
+        "D3_zero_risk_distance": 0,
+        "D4_poor_risk_reward": 2
+      }
+    }
+  },
+  "by_category": {
+    "mcp_trap": {
+      "n": 9,
+      "passed": 4,
+      "pass": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 0.556,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 4
+      },
+      "action": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 4
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "trap": {
+        "rate": 0.833,
+        "n": 6
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.5,
+        "n": 4,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 2
+        }
+      }
+    },
+    "mcp_freshness": {
+      "n": 6,
+      "passed": 4,
+      "pass": {
+        "rate": 0.667,
+        "n": 6
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "required_tools": {
+        "rate": 0.667,
+        "n": 6
+      },
+      "data_seen": {
+        "rate": null,
+        "n": 0
+      },
+      "action": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "symbol": {
+        "rate": null,
+        "n": 0
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": null,
+        "n": 0,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "mcp_fault": {
+      "n": 6,
+      "passed": 5,
+      "pass": {
+        "rate": 0.833,
+        "n": 6
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "action": {
+        "rate": 0.833,
+        "n": 6
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 1.0,
+        "n": 2,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "mcp_control": {
+      "n": 3,
+      "passed": 2,
+      "pass": {
+        "rate": 0.667,
+        "n": 3
+      },
+      "completed": {
+        "rate": 0.667,
+        "n": 3
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 3
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "action": {
+        "rate": 0.667,
+        "n": 3
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 1.0,
+        "n": 2,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    }
+  },
+  "by_task": {
+    "mcp_eur_threshold": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {
+        "action": 3,
+        "required_tools": 3
+      },
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_marketcap_rsi": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "HOLD ETH": 2,
+        "LONG ETH": 1
+      },
+      "failures": {
+        "action": 2,
+        "required_tools": 1,
+        "trap": 1
+      },
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_dominance_history": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "SHORT BTC": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 2
+      },
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_liquidation_age": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_stale_global": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {
+        "required_tools": 2
+      },
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_quote_outage": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_rate_limit_retry": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "LONG BTC": 2,
+        "HOLD BTC": 1
+      },
+      "failures": {
+        "action": 1
+      },
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_momentum_control": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "LONG SOL": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 1
+    }
+  }
+}

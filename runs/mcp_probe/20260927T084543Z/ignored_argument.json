@@ -1,0 +1,72 @@
+{
+  "mcap_ta_plain": {
+    "is_error": false,
+    "text": "{\"macd\":{\"macdLine\":\"90.02 B\",\"signalLine\":\"80.35 B\",\"histogram\":\"9.68 B\"},\"rsi\":{\"rsi7\":\"73.67\",\"rsi14\":\"73.86\",\"rsi21\":\"61.57\"},\"fibonacciLevels\":{\"swingHigh\":\"2.94 T\",\"swingLow\":\"2.57 T\",\"retracementLevels\":{\"50.0%\":\"2.76 T\",\"23.6%\":\"2.85 T\",\"38.2%\":\"2.8 T\",\"78.6%\":\"2.65 T\",\"61.8%\":\"2.71 T\"},\"extensionLevels\":{\"161.8%\":\"3.16 T\",\"127.2%\":\"3.03 T\",\"200.0%\":\"3.3 T\"}},\"pivotPoint\":\"2.91 T\",\"currentMarketCap\":\"2.91 T\",\"currentVolume\":\"54.92 B\"}",
+    "json": {
+      "macd": {
+        "macdLine": "90.02 B",
+        "signalLine": "80.35 B",
+        "histogram": "9.68 B"
+      },
+      "rsi": {
+        "rsi7": "73.67",
+        "rsi14": "73.86",
+        "rsi21": "61.57"
+      },
+      "fibonacciLevels": {
+        "swingHigh": "2.94 T",
+        "swingLow": "2.57 T",
+        "retracementLevels": {
+          "50.0%": "2.76 T",
+          "23.6%": "2.85 T",
+          "38.2%": "2.8 T",
+          "78.6%": "2.65 T",
+          "61.8%": "2.71 T"
+        },
+        "extensionLevels": {
+          "161.8%": "3.16 T",
+          "127.2%": "3.03 T",
+          "200.0%": "3.3 T"
+        }
+      },
+      "pivotPoint": "2.91 T",
+      "currentMarketCap": "2.91 T",
+      "currentVolume": "54.92 B"
+    }
+  },
+  "mcap_ta_with_id": {
+    "is_error": false,
+    "text": "{\"macd\":{\"macdLine\":\"90.02 B\",\"signalLine\":\"80.35 B\",\"histogram\":\"9.68 B\"},\"rsi\":{\"rsi7\":\"73.67\",\"rsi14\":\"73.86\",\"rsi21\":\"61.57\"},\"fibonacciLevels\":{\"swingHigh\":\"2.94 T\",\"swingLow\":\"2.57 T\",\"retracementLevels\":{\"50.0%\":\"2.76 T\",\"23.6%\":\"2.85 T\",\"38.2%\":\"2.8 T\",\"78.6%\":\"2.65 T\",\"61.8%\":\"2.71 T\"},\"extensionLevels\":{\"161.8%\":\"3.16 T\",\"127.2%\":\"3.03 T\",\"200.0%\":\"3.3 T\"}},\"pivotPoint\":\"2.91 T\",\"currentMarketCap\":\"2.91 T\",\"currentVolume\":\"54.92 B\"}",
+    "json": {
+      "macd": {
+        "macdLine": "90.02 B",
+        "signalLine": "80.35 B",
+        "histogram": "9.68 B"
+      },
+      "rsi": {
+        "rsi7": "73.67",
+        "rsi14": "73.86",
+        "rsi21": "61.57"
+      },
+      "fibonacciLevels": {
+        "swingHigh": "2.94 T",
+        "swingLow": "2.57 T",
+        "retracementLevels": {
+          "50.0%": "2.76 T",
+          "23.6%": "2.85 T",
+          "38.2%": "2.8 T",
+          "78.6%": "2.65 T",
+          "61.8%": "2.71 T"
+        },
+        "extensionLevels": {
+          "161.8%": "3.16 T",
+          "127.2%": "3.03 T",
+          "200.0%": "3.3 T"
+        }
+      },
+      "pivotPoint": "2.91 T",
+      "currentMarketCap": "2.91 T",
+      "currentVolume": "54.92 B"
+    }
+  }
+}

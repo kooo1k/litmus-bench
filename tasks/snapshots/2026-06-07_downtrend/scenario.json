@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2026-06-07T00:00:00Z",
+  "description": "Grinding downtrend: BTC -17.5% over 7d, flat day.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:49:06.700550+00:00",
+    "as_of": "2026-06-07T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260930T055421Z",
+  "created": "2026-09-30T05:54:21.067499+00:00",
+  "model": "gemini-3.5-flash-lite",
+  "provider": "gemini",
+  "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "reasoning_effort": null,
+  "agent_prompt": "v2.1",
+  "trials": 3,
+  "tasks_path": "tasks/experiments/freshness_description_patch.jsonl",
+  "task_ids": [
+    "mcp_stale_global_date_note"
+  ],
+  "tasks_sha256": "d8fbea7036e1cb6698d73f5b83e48893b17d63695d9490933bbd178d4d097f5b",
+  "code_sha256": "9e88ada6fd96f6c68f524a8589f35e22cc29e69b0d20d15885907ff66b228ee5"
+}

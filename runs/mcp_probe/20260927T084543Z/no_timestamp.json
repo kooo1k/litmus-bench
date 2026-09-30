@@ -1,0 +1,114 @@
+{
+  "derivatives": {
+    "is_error": false,
+    "text": "{\"totalOpenInterest\":{\"current\":\"347.75 B\",\"percentage_change_24h\":\"-4.41%\",\"percentage_change_7d\":\"-19.68%\",\"percentage_change_14d\":\"-21.81%\",\"percentage_change_30d\":\"-22.4%\"},\"totalVolume\":{\"total_usd_24h\":\"142.05 T\",\"pct_change_prev_24h_vs_prior_24h\":\"-42.65%\",\"pct_change_prev_7d_vs_prior_7d\":\"+15.42%\",\"pct_change_prev_14d_vs_prior_14d\":\"+19.83%\",\"pct_change_prev_30d_vs_prior_30d\":\"+16.74%\"},\"futures\":{\"volume\":{\"total_usd_24h\":\"86.5 B\",\"pct_change_prev_24h_vs_prior_24h\":\"-47.75%\",\"pct_change_prev_7d_vs_prior_7d\":\"+43.14%\",\"pct_change_prev_14d_vs_prior_14d\":\"+40.59%\",\"pct_change_prev_30d_vs_prior_30d\":\"+35.74%\"},\"openInterest\":{\"current\":\"1.12 B\",\"percentage_change_24h\":\"+2.06%\",\"percentage_change_7d\":\"-18.06%\",\"percentage_change_14d\":\"-12.89%\",\"percentage_change_30d\":\"-57.73%\"}},\"perpetuals\":{\"volume\":{\"total_usd_24h\":\"141.96 T\",\"pct_change_prev_24h_vs_prior_24h\":\"-42.64%\",\"pct_change_prev_7d_vs_prior_7d\":\"+15.4%\",\"pct_change_prev_14d_vs_prior_14d\":\"+19.82%\",\"pct_change_prev_30d_vs_prior_30d\":\"+16.73%\"},\"openInterest\":{\"current\":\"346.63 B\",\"percentage_change_24h\":\"-4.43%\",\"percentage_change_7d\":\"-19.68%\",\"percentage_change_14d\":\"-21.83%\",\"percentage_change_30d\":\"-22.19%\"}},\"fundingRate\":{\"current\":\"0.0044133\",\"percentage_change_24h\":\"+14.47%\",\"percentage_change_7d\":\"-26.8%\",\"percentage_change_14d\":\"-31.3%\",\"percentage_change_30d\":\"+2.91%\"},\"btc_liquidations\":{\"definitions\":{\"short\":\"Total USD value of short positions that were forcibly closed\",\"total\":\"Total USD value of forced BTC position closures\",\"long\":\"Total USD value of long positions that were forcibly closed\",\"pct_change_prev_x_vs_prior_x\":\"Percent change in the metric between the most-recent <period> window and the <period> window immediately before it.\"},\"total_usd_1h\":{\"total\":\"0\",\"long\":\"0\",\"short\":\"0\"},\"total_usd_4h\":{\"total\":\"0\",\"long\":\"0\",\"short\":\"0\"},\"total_usd_12h\":{\"total\":\"3.09 M\",\"long\":\"136,916.72\",\"short\":\"2.95 M\"},\"total_usd_24h\":{\"total\":\"7.45 M\",\"long\":\"3.36 M\",\"short\":\"4.08 M\"},\"pct_change_prev_4h_vs_prior_4h\":{\"total\":\"-100%\",\"long\":\"-100%\",\"short\":\"-100%\"},\"pct_change_prev_12h_vs_prior_12h\":{\"total\":\"-29.03%\",\"long\":\"-95.76%\",\"short\":\"+161.75%\"},\"pct_change_prev_24h_vs_prior_24h\":{\"total\":\"-87.84%\",\"long\":\"-91.85%\",\"short\":\"-79.55%\"},\"pct_change_prev_7d_vs_prior_7d\":{\"total\":\"+32.55%\",\"long\":\"+14.93%\",\"short\":\"+44.05%\"},\"pct_change_prev_30d_vs_prior_30d\":{\"total\":\"-28.1%\",\"long\":\"+43.16%\",\"short\":\"-49.25%\"}}}",
+    "json": {
+      "totalOpenInterest": {
+        "current": "347.75 B",
+        "percentage_change_24h": "-4.41%",
+        "percentage_change_7d": "-19.68%",
+        "percentage_change_14d": "-21.81%",
+        "percentage_change_30d": "-22.4%"
+      },
+      "totalVolume": {
+        "total_usd_24h": "142.05 T",
+        "pct_change_prev_24h_vs_prior_24h": "-42.65%",
+        "pct_change_prev_7d_vs_prior_7d": "+15.42%",
+        "pct_change_prev_14d_vs_prior_14d": "+19.83%",
+        "pct_change_prev_30d_vs_prior_30d": "+16.74%"
+      },
+      "futures": {
+        "volume": {
+          "total_usd_24h": "86.5 B",
+          "pct_change_prev_24h_vs_prior_24h": "-47.75%",
+          "pct_change_prev_7d_vs_prior_7d": "+43.14%",
+          "pct_change_prev_14d_vs_prior_14d": "+40.59%",
+          "pct_change_prev_30d_vs_prior_30d": "+35.74%"
+        },
+        "openInterest": {
+          "current": "1.12 B",
+          "percentage_change_24h": "+2.06%",
+          "percentage_change_7d": "-18.06%",
+          "percentage_change_14d": "-12.89%",
+          "percentage_change_30d": "-57.73%"
+        }
+      },
+      "perpetuals": {
+        "volume": {
+          "total_usd_24h": "141.96 T",
+          "pct_change_prev_24h_vs_prior_24h": "-42.64%",
+          "pct_change_prev_7d_vs_prior_7d": "+15.4%",
+          "pct_change_prev_14d_vs_prior_14d": "+19.82%",
+          "pct_change_prev_30d_vs_prior_30d": "+16.73%"
+        },
+        "openInterest": {
+          "current": "346.63 B",
+          "percentage_change_24h": "-4.43%",
+          "percentage_change_7d": "-19.68%",
+          "percentage_change_14d": "-21.83%",
+          "percentage_change_30d": "-22.19%"
+        }
+      },
+      "fundingRate": {
+        "current": "0.0044133",
+        "percentage_change_24h": "+14.47%",
+        "percentage_change_7d": "-26.8%",
+        "percentage_change_14d": "-31.3%",
+        "percentage_change_30d": "+2.91%"
+      },
+      "btc_liquidations": {
+        "definitions": {
+          "short": "Total USD value of short positions that were forcibly closed",
+          "total": "Total USD value of forced BTC position closures",
+          "long": "Total USD value of long positions that were forcibly closed",
+          "pct_change_prev_x_vs_prior_x": "Percent change in the metric between the most-recent <period> window and the <period> window immediately before it."
+        },
+        "total_usd_1h": {
+          "total": "0",
+          "long": "0",
+          "short": "0"
+        },
+        "total_usd_4h": {
+          "total": "0",
+          "long": "0",
+          "short": "0"
+        },
+        "total_usd_12h": {
+          "total": "3.09 M",
+          "long": "136,916.72",
+          "short": "2.95 M"
+        },
+        "total_usd_24h": {
+          "total": "7.45 M",
+          "long": "3.36 M",
+          "short": "4.08 M"
+        },
+        "pct_change_prev_4h_vs_prior_4h": {
+          "total": "-100%",
+          "long": "-100%",
+          "short": "-100%"
+        },
+        "pct_change_prev_12h_vs_prior_12h": {
+          "total": "-29.03%",
+          "long": "-95.76%",
+          "short": "+161.75%"
+        },
+        "pct_change_prev_24h_vs_prior_24h": {
+          "total": "-87.84%",
+          "long": "-91.85%",
+          "short": "-79.55%"
+        },
+        "pct_change_prev_7d_vs_prior_7d": {
+          "total": "+32.55%",
+          "long": "+14.93%",
+          "short": "+44.05%"
+        },
+        "pct_change_prev_30d_vs_prior_30d": {
+          "total": "-28.1%",
+          "long": "+43.16%",
+          "short": "-49.25%"
+        }
+      }
+    }
+  }
+}

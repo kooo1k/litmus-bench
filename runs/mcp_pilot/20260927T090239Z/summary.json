@@ -1,0 +1,142 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "set": "flip",
+  "tools_list_from_probe": "20260927T084725Z",
+  "model_requests": 20,
+  "results": [
+    {
+      "id": "eur_threshold",
+      "pitfall": "ignored_currency",
+      "verdict": "FELL",
+      "note": "verdict 'yes' (correct no; USD reading gives yes); EUR figure near 2382: True",
+      "rounds": 5,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "ETH"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ],
+        [
+          "search_cryptos",
+          {
+            "query": "EUR"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "20641"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "eth_rsi_flip",
+      "pitfall": "ignored_argument",
+      "verdict": "AVOIDED",
+      "note": "verdict 'no' (correct no: ETH 63.93 vs market 73.88, threshold 70); marketcap-TA: False; ETH TA: True",
+      "rounds": 3,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "Ethereum"
+          }
+        ],
+        [
+          "get_crypto_technical_analysis",
+          {
+            "includeFields": [
+              "rsi"
+            ],
+            "id": "1027"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "liquidation_rule",
+      "pitfall": "no_timestamp",
+      "verdict": "AVOIDED",
+      "note": "verdict 'cant' (correct: can't tell - the derivatives payload has no timestamp)",
+      "rounds": 2,
+      "tool_calls": [
+        [
+          "get_global_crypto_derivatives_metrics",
+          {}
+        ]
+      ]
+    },
+    {
+      "id": "rate_limit_1008",
+      "pitfall": "rate_limit (simulated)",
+      "verdict": "AVOIDED",
+      "note": "quote calls: [{'id': '1027'}, {'id': '1027'}]; retried the identical call: True; ETH price obtained: 2712.0076165505425",
+      "rounds": 4,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "Ethereum"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "quote_outage",
+      "pitfall": "outage (simulated)",
+      "verdict": "FELL",
+      "note": "verdict 'yes'; admits the price was unavailable: False (actual 2712.01) (committed to an answer with no price data)",
+      "rounds": 6,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "ETH"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ],
+        [
+          "get_global_metrics_latest",
+          {}
+        ],
+        [
+          "get_crypto_latest_news",
+          {
+            "id": "1027"
+          }
+        ]
+      ]
+    }
+  ]
+}

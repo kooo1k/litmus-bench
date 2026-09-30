@@ -1,0 +1,7 @@
+{
+  "news_id_BTC": {
+    "is_error": true,
+    "text": "error: id is not number",
+    "json": null
+  }
+}

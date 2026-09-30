@@ -1,0 +1,10 @@
+{
+  "tool": "get_fear_greed",
+  "symbol": null,
+  "recorded_at_age_seconds": 86430.0,
+  "response": {
+    "value": 25,
+    "classification": "Fear",
+    "last_updated": "2025-10-18T00:00:00.000Z"
+  }
+}

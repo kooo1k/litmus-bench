@@ -1,0 +1,117 @@
+{
+  "question": "What's Bitcoin's 14-day RSI? Only fetch the RSI, nothing else.",
+  "model": "gemini-3.5-flash-lite",
+  "tool_calls": [
+    {
+      "name": "search_cryptos",
+      "args": {
+        "query": "Bitcoin"
+      },
+      "result": {
+        "is_error": false,
+        "text": "[{\"id\":1,\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"rank\":1}]",
+        "json": [
+          {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "get_crypto_technical_analysis",
+      "args": {
+        "id": "1",
+        "includeFields": [
+          "rsi"
+        ]
+      },
+      "result": {
+        "is_error": false,
+        "text": "{\"rsi\":{\"rsi7\":\"65.78\",\"rsi14\":\"64.97\",\"rsi21\":\"64.42\"}}",
+        "json": {
+          "rsi": {
+            "rsi7": "65.78",
+            "rsi14": "64.97",
+            "rsi21": "64.42"
+          }
+        }
+      }
+    }
+  ],
+  "answer": "Bitcoin's 14-day RSI is **64.97**.",
+  "rounds": 3,
+  "stopped": null,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a crypto market assistant. Answer the user's question using the CoinMarketCap tools available to you. Be concise and give concrete numbers. The current time is 2026-09-27T08:54:34Z (UTC)."
+    },
+    {
+      "role": "user",
+      "content": "What's Bitcoin's 14-day RSI? Only fetch the RSI, nothing else."
+    },
+    {
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "call_1479846",
+          "function": {
+            "arguments": "{\"query\":\"Bitcoin\"}",
+            "name": "search_cryptos"
+          },
+          "type": "function",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmAKXgFpFH0TZ+JWMYEm5RcT6SES9PqYYBjd+eVYZL4ihZP+CLxX6FQ+RJIq5EIJKHYycpKUCawTTEgxY+LWbOVDD24f+sa4A9vAu5WbJh6qgkMuxi0Bxy/DGQZ8rEoUruk="
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1479846",
+      "content": "[{\"id\":1,\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"rank\":1}]"
+    },
+    {
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "call_2022674",
+          "function": {
+            "arguments": "{\"id\":\"1\",\"includeFields\":[\"rsi\"]}",
+            "name": "get_crypto_technical_analysis"
+          },
+          "type": "function",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmAKXgFpFH0TCUGPQhY8oiKwLMPqlz3stXmqyU8GH3J50yYDpH0SFBY1g1F0kyrKESVq2iqh7vmrbNoIUkYNaTVXcvoDP2W2Vefv3AeqWJFVGtpzFvAPo7XZKsjNb9yxAV0="
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_2022674",
+      "content": "{\"rsi\":{\"rsi7\":\"65.78\",\"rsi14\":\"64.97\",\"rsi21\":\"64.42\"}}"
+    },
+    {
+      "content": "Bitcoin's 14-day RSI is **64.97**.",
+      "role": "assistant",
+      "extra_content": {
+        "google": {
+          "thought_signature": "EmAKXgFpFH0Tt/NCPbHeDgbpy+rZszxpNCKOfhODnBIdKaqFMMiKxXzp8o96juqxkzCr5s9a+eyj7qsJEDHTztFokR03w0qiljJ0shEW7yorfQXcw1eN3b4OwDckKBsZWZg="
+        }
+      }
+    }
+  ],
+  "id": "btc_rsi",
+  "pitfall": "invalid_filter",
+  "verdict": "AVOIDED",
+  "note": "empty {} from a bad filter seen: False; rsi14 returned: 64.97"
+}

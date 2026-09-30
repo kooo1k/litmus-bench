@@ -1,0 +1,263 @@
+{
+  "question": "What are the current prices of Bitcoin and Ethereum?",
+  "model": "gemini-3.5-flash-lite",
+  "tool_calls": [
+    {
+      "name": "search_cryptos",
+      "args": {
+        "query": "Bitcoin"
+      },
+      "result": {
+        "is_error": false,
+        "text": "[{\"id\":1,\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"rank\":1}]",
+        "json": [
+          {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "search_cryptos",
+      "args": {
+        "query": "Ethereum"
+      },
+      "result": {
+        "is_error": false,
+        "text": "[{\"id\":1027,\"name\":\"Ethereum\",\"symbol\":\"ETH\",\"slug\":\"ethereum\",\"rank\":2}]",
+        "json": [
+          {
+            "id": 1027,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "rank": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "get_crypto_quotes_latest",
+      "args": {
+        "id": "1,1027"
+      },
+      "result": {
+        "is_error": false,
+        "text": "{\"headers\":[\"id\",\"name\",\"symbol\",\"slug\",\"price\",\"rank\",\"turnover\",\"last_updated_time\",\"percent_change_1h\",\"percent_change_24h\",\"percent_change_7d\",\"percent_change_30d\",\"percent_change_60d\",\"percent_change_90d\",\"percent_change_1y\",\"percent_change_3y\",\"percent_change_all\",\"percent_change_ytd\",\"market_cap\",\"volume_24h\",\"volume_change_24h\",\"last_updated_time_dup\",\"fully_diluted_market_cap\",\"market_cap_by_total_supply\",\"date_added\",\"max_supply\",\"total_supply\",\"self_reported_circulating_supply\",\"circulating_supply\",\"market_cap_percent_change_1h\",\"market_cap_percent_change_24h\",\"market_cap_percent_change_7d\",\"market_cap_percent_change_30d\",\"market_cap_percent_change_90d\",\"market_cap_percent_change_1y\",\"market_cap_percent_change_3y\",\"market_cap_percent_change_all\",\"market_cap_dominance\"],\"rows\":[[\"1\",\"Bitcoin\",\"BTC\",\"bitcoin\",84777.747616605800000000000000000000,1,0.00938939,\"2026-09-27T08:54:00.000Z\",0.15535054,0.67608848,5.65893651,6.50788780,31.79657044,41.79356336,-22.48134412,223.03896638408700,137441816.54794998913800,-4.4564,1703184949617.61,15991862433.44693184,-46.1077,\"2026-09-27T08:54:00.000Z\",1780332699948.72,1703184949617.61000000,\"2010-07-13T00:00:00.000Z\",21000000.00000000,20090000.00000000,0,20090000.00000000,0.15552502458500,0.6784,5.71555615380600,6.30041518198400,40.64771735171900,-21.84979918542200,232.86141001733000,8341729.67948533804384,58.55180000],[\"1027\",\"Ethereum\",\"ETH\",\"ethereum\",2715.916300283926400000000000000000,2,0.01829974,\"2026-09-27T08:54:00.000Z\",0.13544087,0.91015679,5.52869053,9.04679300,41.96940755,72.72611855,-31.92758814,70.61865868622800,95813.89407694406000,-9.4814,331571766265.39,6067676009.19942570,-47.7189,\"2026-09-27T08:54:00.000Z\",331571766265.39,331571766265.39000000,\"2015-08-07T00:00:00.000Z\",null,122084677.73131435,0,122084677.73131435,0.13544086669300,0.9126,5.58556931228100,8.42945957118700,73.61326682770600,-31.16514921647600,73.24506303076200,0,11.39870000]]}",
+        "json": {
+          "headers": [
+            "id",
+            "name",
+            "symbol",
+            "slug",
+            "price",
+            "rank",
+            "turnover",
+            "last_updated_time",
+            "percent_change_1h",
+            "percent_change_24h",
+            "percent_change_7d",
+            "percent_change_30d",
+            "percent_change_60d",
+            "percent_change_90d",
+            "percent_change_1y",
+            "percent_change_3y",
+            "percent_change_all",
+            "percent_change_ytd",
+            "market_cap",
+            "volume_24h",
+            "volume_change_24h",
+            "last_updated_time_dup",
+            "fully_diluted_market_cap",
+            "market_cap_by_total_supply",
+            "date_added",
+            "max_supply",
+            "total_supply",
+            "self_reported_circulating_supply",
+            "circulating_supply",
+            "market_cap_percent_change_1h",
+            "market_cap_percent_change_24h",
+            "market_cap_percent_change_7d",
+            "market_cap_percent_change_30d",
+            "market_cap_percent_change_90d",
+            "market_cap_percent_change_1y",
+            "market_cap_percent_change_3y",
+            "market_cap_percent_change_all",
+            "market_cap_dominance"
+          ],
+          "rows": [
+            [
+              "1",
+              "Bitcoin",
+              "BTC",
+              "bitcoin",
+              84777.7476166058,
+              1,
+              0.00938939,
+              "2026-09-27T08:54:00.000Z",
+              0.15535054,
+              0.67608848,
+              5.65893651,
+              6.5078878,
+              31.79657044,
+              41.79356336,
+              -22.48134412,
+              223.038966384087,
+              137441816.54795,
+              -4.4564,
+              1703184949617.61,
+              15991862433.446932,
+              -46.1077,
+              "2026-09-27T08:54:00.000Z",
+              1780332699948.72,
+              1703184949617.61,
+              "2010-07-13T00:00:00.000Z",
+              21000000.0,
+              20090000.0,
+              0,
+              20090000.0,
+              0.155525024585,
+              0.6784,
+              5.715556153806,
+              6.300415181984,
+              40.647717351719,
+              -21.849799185422,
+              232.86141001733,
+              8341729.679485338,
+              58.5518
+            ],
+            [
+              "1027",
+              "Ethereum",
+              "ETH",
+              "ethereum",
+              2715.9163002839264,
+              2,
+              0.01829974,
+              "2026-09-27T08:54:00.000Z",
+              0.13544087,
+              0.91015679,
+              5.52869053,
+              9.046793,
+              41.96940755,
+              72.72611855,
+              -31.92758814,
+              70.618658686228,
+              95813.89407694407,
+              -9.4814,
+              331571766265.39,
+              6067676009.199426,
+              -47.7189,
+              "2026-09-27T08:54:00.000Z",
+              331571766265.39,
+              331571766265.39,
+              "2015-08-07T00:00:00.000Z",
+              null,
+              122084677.73131435,
+              0,
+              122084677.73131435,
+              0.135440866693,
+              0.9126,
+              5.585569312281,
+              8.429459571187,
+              73.613266827706,
+              -31.165149216476,
+              73.245063030762,
+              0,
+              11.3987
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "answer": "* **Bitcoin (BTC):** $84,777.75 (+0.68% in the last 24h)\n* **Ethereum (ETH):** $2,715.92 (+0.91% in the last 24h)",
+  "rounds": 3,
+  "stopped": null,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a crypto market assistant. Answer the user's question using the CoinMarketCap tools available to you. Be concise and give concrete numbers. The current time is 2026-09-27T08:54:47Z (UTC)."
+    },
+    {
+      "role": "user",
+      "content": "What are the current prices of Bitcoin and Ethereum?"
+    },
+    {
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "call_12092",
+          "function": {
+            "arguments": "{\"query\":\"Bitcoin\"}",
+            "name": "search_cryptos"
+          },
+          "type": "function",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmAKXgFpFH0T3OzbllVxFnuz8JfzCOlWCre+d4yX7s4Drfb7JptPGH2ojNCLAddjYPtnJAkMKoTwGCYMDk1ek0upWM4T39HIQxOUWCT1q18TINZUGcUeSKesVHWXVVH+Bf0="
+            }
+          }
+        },
+        {
+          "id": "call_12093",
+          "function": {
+            "arguments": "{\"query\":\"Ethereum\"}",
+            "name": "search_cryptos"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_12092",
+      "content": "[{\"id\":1,\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"rank\":1}]"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_12093",
+      "content": "[{\"id\":1027,\"name\":\"Ethereum\",\"symbol\":\"ETH\",\"slug\":\"ethereum\",\"rank\":2}]"
+    },
+    {
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "id": "call_1844709",
+          "function": {
+            "arguments": "{\"id\":\"1,1027\"}",
+            "name": "get_crypto_quotes_latest"
+          },
+          "type": "function",
+          "extra_content": {
+            "google": {
+              "thought_signature": "EmAKXgFpFH0T/mC/CX9wmB0rl/Tb1KXwqJD4yip2eqVnU3Xr5AtO2cizOggQgDJ/Ah21COa2kod/4KDyUfVt0Knx3aW1UPJEsi67cydvxIa30zc0Tk/8HAWBt9H/t13DDSE="
+            }
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_1844709",
+      "content": "{\"headers\":[\"id\",\"name\",\"symbol\",\"slug\",\"price\",\"rank\",\"turnover\",\"last_updated_time\",\"percent_change_1h\",\"percent_change_24h\",\"percent_change_7d\",\"percent_change_30d\",\"percent_change_60d\",\"percent_change_90d\",\"percent_change_1y\",\"percent_change_3y\",\"percent_change_all\",\"percent_change_ytd\",\"market_cap\",\"volume_24h\",\"volume_change_24h\",\"last_updated_time_dup\",\"fully_diluted_market_cap\",\"market_cap_by_total_supply\",\"date_added\",\"max_supply\",\"total_supply\",\"self_reported_circulating_supply\",\"circulating_supply\",\"market_cap_percent_change_1h\",\"market_cap_percent_change_24h\",\"market_cap_percent_change_7d\",\"market_cap_percent_change_30d\",\"market_cap_percent_change_90d\",\"market_cap_percent_change_1y\",\"market_cap_percent_change_3y\",\"market_cap_percent_change_all\",\"market_cap_dominance\"],\"rows\":[[\"1\",\"Bitcoin\",\"BTC\",\"bitcoin\",84777.747616605800000000000000000000,1,0.00938939,\"2026-09-27T08:54:00.000Z\",0.15535054,0.67608848,5.65893651,6.50788780,31.79657044,41.79356336,-22.48134412,223.03896638408700,137441816.54794998913800,-4.4564,1703184949617.61,15991862433.44693184,-46.1077,\"2026-09-27T08:54:00.000Z\",1780332699948.72,1703184949617.61000000,\"2010-07-13T00:00:00.000Z\",21000000.00000000,20090000.00000000,0,20090000.00000000,0.15552502458500,0.6784,5.71555615380600,6.30041518198400,40.64771735171900,-21.84979918542200,232.86141001733000,8341729.67948533804384,58.55180000],[\"1027\",\"Ethereum\",\"ETH\",\"ethereum\",2715.916300283926400000000000000000,2,0.01829974,\"2026-09-27T08:54:00.000Z\",0.13544087,0.91015679,5.52869053,9.04679300,41.96940755,72.72611855,-31.92758814,70.61865868622800,95813.89407694406000,-9.4814,331571766265.39,6067676009.19942570,-47.7189,\"2026-09-27T08:54:00.000Z\",331571766265.39,331571766265.39000000,\"2015-08-07T00:00:00.000Z\",null,122084677.73131435,0,122084677.73131435,0.13544086669300,0.9126,5.58556931228100,8.42945957118700,73.61326682770600,-31.16514921647600,73.24506303076200,0,11.39870000]]}"
+    },
+    {
+      "content": "* **Bitcoin (BTC):** $84,777.75 (+0.68% in the last 24h)\n* **Ethereum (ETH):** $2,715.92 (+0.91% in the last 24h)",
+      "role": "assistant",
+      "extra_content": {
+        "google": {
+          "thought_signature": "EmAKXgFpFH0TM39XxqO0h2SVwnlbQBwhARCqpTQzunqgmkFup3bx5wz+zQdozqzchFToybDeVSFyCCM9vPLPkwQa6WBkDp3mW6dx+wr8BXwhFU7mFD01BR8GpjtbyLV5Ipc="
+        }
+      }
+    }
+  ],
+  "id": "btc_eth_prices",
+  "pitfall": "shape_change",
+  "verdict": "AVOIDED",
+  "note": "BTC 84777.7476166058, ETH 2715.9163002839264; {headers, rows} table seen: True"
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "get_price",
+  "symbol": "BTC",
+  "recorded_at_age_seconds": 30.0,
+  "response": {
+    "symbol": "BTC",
+    "price_usd": 62801.27392446833,
+    "percent_change_1h": -1.557855357941,
+    "percent_change_24h": -13.993298869363,
+    "last_updated": "2026-02-06T00:00:00.000Z"
+  }
+}

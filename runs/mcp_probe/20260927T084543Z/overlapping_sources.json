@@ -1,0 +1,437 @@
+{
+  "quotes_btc_eth": {
+    "is_error": false,
+    "text": "{\"headers\":[\"id\",\"name\",\"symbol\",\"slug\",\"price\",\"rank\",\"turnover\",\"last_updated_time\",\"percent_change_1h\",\"percent_change_24h\",\"percent_change_7d\",\"percent_change_30d\",\"percent_change_60d\",\"percent_change_90d\",\"percent_change_1y\",\"percent_change_3y\",\"percent_change_all\",\"percent_change_ytd\",\"market_cap\",\"volume_24h\",\"volume_change_24h\",\"last_updated_time_dup\",\"fully_diluted_market_cap\",\"market_cap_by_total_supply\",\"date_added\",\"max_supply\",\"total_supply\",\"self_reported_circulating_supply\",\"circulating_supply\",\"market_cap_percent_change_1h\",\"market_cap_percent_change_24h\",\"market_cap_percent_change_7d\",\"market_cap_percent_change_30d\",\"market_cap_percent_change_90d\",\"market_cap_percent_change_1y\",\"market_cap_percent_change_3y\",\"market_cap_percent_change_all\",\"market_cap_dominance\"],\"rows\":[[\"1\",\"Bitcoin\",\"BTC\",\"bitcoin\",84692.094768855470000000000000000000,1,0.00929406,\"2026-09-27T08:44:00.000Z\",0.12198866,0.50635225,5.55639420,6.23430827,31.63233763,41.68204886,-22.56149939,222.80456089356000,137302955.91666932003500,-4.5529,1701464183906.31,15813507659.38849068,-46.6986,\"2026-09-27T08:44:00.000Z\",1778533990145.96,1701464183906.31000000,\"2010-07-13T00:00:00.000Z\",21000000.00000000,20090000.00000000,0,20090000.00000000,0.12710007016000,0.5086,5.57268465905000,6.06518010611900,40.77559639517800,-21.92742494215900,232.61987710578700,8333301.84408870972774,58.47780000],[\"1027\",\"Ethereum\",\"ETH\",\"ethereum\",2715.171005521262500000000000000000,2,0.01800739,\"2026-09-27T08:44:00.000Z\",0.12062661,0.79799057,5.53144978,8.83847531,41.85121341,72.75268279,-31.99560792,70.62950410317500,95787.57363293230100,-9.5062,331480777194.47,5969102631.10776806,-48.5602,\"2026-09-27T08:44:00.000Z\",331480777194.47,331480777194.47000000,\"2015-08-07T00:00:00.000Z\",null,122084677.73131435,0,122084677.73131435,0.13850729688800,0.8004,5.54868348854500,8.33584603559400,73.87716125470400,-31.21736008547800,73.25607539574300,0,11.39270000]]}",
+    "json": {
+      "headers": [
+        "id",
+        "name",
+        "symbol",
+        "slug",
+        "price",
+        "rank",
+        "turnover",
+        "last_updated_time",
+        "percent_change_1h",
+        "percent_change_24h",
+        "percent_change_7d",
+        "percent_change_30d",
+        "percent_change_60d",
+        "percent_change_90d",
+        "percent_change_1y",
+        "percent_change_3y",
+        "percent_change_all",
+        "percent_change_ytd",
+        "market_cap",
+        "volume_24h",
+        "volume_change_24h",
+        "last_updated_time_dup",
+        "fully_diluted_market_cap",
+        "market_cap_by_total_supply",
+        "date_added",
+        "max_supply",
+        "total_supply",
+        "self_reported_circulating_supply",
+        "circulating_supply",
+        "market_cap_percent_change_1h",
+        "market_cap_percent_change_24h",
+        "market_cap_percent_change_7d",
+        "market_cap_percent_change_30d",
+        "market_cap_percent_change_90d",
+        "market_cap_percent_change_1y",
+        "market_cap_percent_change_3y",
+        "market_cap_percent_change_all",
+        "market_cap_dominance"
+      ],
+      "rows": [
+        [
+          "1",
+          "Bitcoin",
+          "BTC",
+          "bitcoin",
+          84692.09476885547,
+          1,
+          0.00929406,
+          "2026-09-27T08:44:00.000Z",
+          0.12198866,
+          0.50635225,
+          5.5563942,
+          6.23430827,
+          31.63233763,
+          41.68204886,
+          -22.56149939,
+          222.80456089356,
+          137302955.9166693,
+          -4.5529,
+          1701464183906.31,
+          15813507659.38849,
+          -46.6986,
+          "2026-09-27T08:44:00.000Z",
+          1778533990145.96,
+          1701464183906.31,
+          "2010-07-13T00:00:00.000Z",
+          21000000.0,
+          20090000.0,
+          0,
+          20090000.0,
+          0.12710007016,
+          0.5086,
+          5.57268465905,
+          6.065180106119,
+          40.775596395178,
+          -21.927424942159,
+          232.619877105787,
+          8333301.84408871,
+          58.4778
+        ],
+        [
+          "1027",
+          "Ethereum",
+          "ETH",
+          "ethereum",
+          2715.1710055212625,
+          2,
+          0.01800739,
+          "2026-09-27T08:44:00.000Z",
+          0.12062661,
+          0.79799057,
+          5.53144978,
+          8.83847531,
+          41.85121341,
+          72.75268279,
+          -31.99560792,
+          70.629504103175,
+          95787.5736329323,
+          -9.5062,
+          331480777194.47,
+          5969102631.107768,
+          -48.5602,
+          "2026-09-27T08:44:00.000Z",
+          331480777194.47,
+          331480777194.47,
+          "2015-08-07T00:00:00.000Z",
+          null,
+          122084677.73131435,
+          0,
+          122084677.73131435,
+          0.138507296888,
+          0.8004,
+          5.548683488545,
+          8.335846035594,
+          73.877161254704,
+          -31.217360085478,
+          73.256075395743,
+          0,
+          11.3927
+        ]
+      ]
+    }
+  },
+  "global_metrics": {
+    "is_error": false,
+    "text": "{\"last_updated\":\"27 September 2026 12:00 AM UTC+0\",\"market_size\":{\"definition\":\"Market size captures the aggregate USD value of the entire crypto asset class, providing a top-down gauge of how large or small the market is relative to history or to other cryptos or asset classes.\",\"total_crypto_market_cap_usd\":{\"current\":\"2.91 T\",\"percent_change\":{\"24h\":\"+0.72343%\",\"7d\":\"+4.77%\",\"30d\":\"+9.21%\"},\"yearly\":{\"max\":{\"value\":\"4.28 T\",\"timestamp\":\"7 October 2025 12:00 AM UTC+0\"},\"min\":{\"value\":\"2.04 T\",\"timestamp\":\"1 July 2026 12:00 AM UTC+0\"}}}},\"liquidity\":{\"definition\":\"Liquidity metrics track how much value changes hands—across spot markets and derivatives—within 24 h, signalling market depth, conviction, and the ease of entering or exiting positions.\",\"volume24h\":{\"total\":{\"current\":\"54.92 B\",\"percent_change\":{\"24h\":\"-45.77%\",\"7d\":\"-23.43%\",\"30d\":\"-42.52%\"}},\"spot\":{\"current\":\"107.19 B\",\"percent_change\":{\"24h\":\"-43.15%\",\"7d\":\"-55.3%\",\"30d\":\"-38.3%\"}},\"derivatives\":{\"total\":{\"current\":\"413.34 B\",\"percent_change\":{\"24h\":\"-55.95%\",\"7d\":\"-61.11%\",\"30d\":\"-52.79%\"}},\"futures\":{\"current\":\"262.15 M\",\"percent_change\":{\"24h\":\"-50.71%\",\"7d\":\"-62.79%\",\"30d\":\"-61.17%\"}},\"perpetuals\":{\"current\":\"413.08 B\",\"percent_change\":{\"24h\":\"-55.95%\",\"7d\":\"-61.11%\",\"30d\":\"-52.79%\"}}},\"spot_vs_perp_ratio\":\"0.26\"}},\"sentiment\":{\"fear_greed\":{\"definition\":\"The CMC Fear & Greed Index distills overall crypto-market sentiment into a single 0-100 score that traders can read contrarily—treating high, greed-driven readings (overvalued) as cues to trim or hedge, low, fear-driven readings (undervalued) as potential bargain zones.\",\"current\":{\"value\":\"Greed\",\"index\":73},\"history\":{\"yesterday\":{\"value\":\"Greed\",\"index\":73},\"last_week\":{\"value\":\"Greed\",\"index\":72},\"last_month\":{\"value\":\"Extreme greed\",\"index\":82}},\"yearly\":{\"max\":{\"value\":\"Extreme greed\",\"index\":82,\"timestamp\":\"27 August 2026 12:00 AM UTC+0\"},\"min\":{\"value\":\"Extreme fear\",\"index\":5,\"timestamp\":\"6 February 2026 12:00 AM UTC+0\"}}}},\"rotation\":{\"altcoin_season\":{\"definition\":\"The CMC Altcoin Season Index is a real-time sentiment gauge of crypto’s typical rotation—Bitcoin rallies and dominance rise, Ethereum heats up on dApp buzz, narratives catch fire, then capital floods into smaller alts—so a rising score signals the shift toward higher-beta altcoins, while a falling score warns funds are moving back to Bitcoin or cash.\",\"current\":{\"value\":\"\",\"index\":62},\"percent_change\":{\"24h\":\"0%\",\"7d\":\"+29.17%\",\"30d\":\"+67.57%\"},\"history\":{\"yesterday\":{\"value\":\"\",\"index\":62},\"last_week\":{\"value\":\"\",\"index\":48},\"last_month\":{\"value\":\"\",\"index\":37}},\"yearly\":{\"max\":{\"value\":\"\",\"index\":67,\"timestamp\":\"2 October 2025 12:00 AM UTC+0\"},\"min\":{\"value\":\"Bitcoin Season\",\"index\":14,\"timestamp\":\"19 December 2025 12:00 AM UTC+0\"}}}},\"dominance\":{\"definition\":\"Bitcoin dominance—BTC’s share of total crypto value—condenses sentiment, maturity, and diversification cues: rising dominance favors a defensive tilt into Bitcoin, while falling dominance signals a risk-on swing toward altcoins.\",\"btc\":{\"current\":\"+58.5%\",\"yearly\":{\"max\":{\"value\":\"+60.57%\",\"timestamp\":\"5 May 2026 12:00 AM UTC+0\"},\"min\":{\"value\":\"+57.33%\",\"timestamp\":\"4 June 2026 12:00 AM UTC+0\"}},\"history\":{\"yesterday\":\"+58.52%\",\"last_week\":\"+58.76%\",\"last_month\":\"+59.71%\"}},\"eth\":{\"current\":\"+11.4%\",\"yearly\":{\"max\":{\"value\":\"+10.73%\",\"timestamp\":\"5 May 2026 12:00 AM UTC+0\"},\"min\":{\"value\":\"+9.77%\",\"timestamp\":\"4 June 2026 12:00 AM UTC+0\"}},\"history\":{\"yesterday\":\"+11.38%\",\"last_week\":\"+11.57%\",\"last_month\":\"+11.23%\"}},\"others\":{\"current\":\"+30.1%\",\"yearly\":{\"max\":{\"value\":\"+28.7%\",\"timestamp\":\"5 May 2026 12:00 AM UTC+0\"},\"min\":{\"value\":\"+32.9%\",\"timestamp\":\"4 June 2026 12:00 AM UTC+0\"}},\"history\":{\"yesterday\":\"+30.1%\",\"last_week\":\"+29.67%\",\"last_month\":\"+29.06%\"}}},\"leverage\":{\"definition\":\"Leverage fields measure borrowed-risk exposure via derivatives open interest, funding rates, and liquidations, revealing how much speculative fuel—or squeeze risk—is in the system.\",\"open_interest\":{\"total\":{\"current\":\"349.65 B\",\"percent_change\":{\"24h\":\"-9.78%\",\"7d\":\"-21.18%\",\"30d\":\"-21.67%\"},\"yearly\":{\"max\":{\"value\":\"1.2 T\",\"timestamp\":\"2 October 2025 12:00 AM UTC+0\"},\"min\":{\"value\":\"353.41 B\",\"timestamp\":\"27 September 2026 12:00 AM UTC+0\"}}},\"perpetuals\":{\"current\":\"348.53 B\",\"percent_change\":{\"24h\":\"-9.81%\",\"7d\":\"-21.18%\",\"30d\":\"-21.46%\"},\"yearly\":{\"max\":{\"value\":\"1.14 T\",\"timestamp\":\"8 October 2025 12:00 AM UTC+0\"},\"min\":{\"value\":\"1.08 B\",\"timestamp\":\"26 September 2026 12:00 AM UTC+0\"}}},\"futures\":{\"current\":\"1.12 B\",\"percent_change\":{\"24h\":\"+3.01%\",\"7d\":\"-18.64%\",\"30d\":\"-57.48%\"},\"yearly\":{\"max\":{\"value\":\"1.2 T\",\"timestamp\":\"2 October 2025 12:00 AM UTC+0\"},\"min\":{\"value\":\"1.11 B\",\"timestamp\":\"27 September 2026 12:00 AM UTC+0\"}}}},\"funding_rate\":{\"average\":{\"current\":\"+0.0037227%\",\"percent_change\":{\"24h\":\"+49.75%\",\"7d\":\"-47.85%\",\"30d\":\"-24.66%\"}},\"top_alts_minus_btc_spread_current\":\"0.0011824\"},\"liquidations\":{\"btc\":{\"total_usd24h\":\"7.45 M\",\"total_usd7d\":\"1.06 B\",\"total_usd30d\":\"3.25 B\",\"percent_change24h\":\"-87.84%\"}}},\"trad_fi_flows\":{\"definition\":\"TradFi flows capture capital moving into or out of regulated exchange-traded products—such as U.S. spot-BTC ETFs—acting as a proxy for institutional demand.\",\"etf_aum\":{\"btc\":{\"current\":\"111.23 B\",\"history\":{\"yesterday\":\"111.25 B\",\"last_week\":\"98.51 B\",\"last_month\":\"101.61 B\"}},\"eth\":{\"current\":\"14.66 B\",\"history\":{\"yesterday\":\"14.65 B\",\"last_week\":\"14.6 B\",\"last_month\":\"13.96 B\"}}}}}",
+    "json": {
+      "last_updated": "27 September 2026 12:00 AM UTC+0",
+      "market_size": {
+        "definition": "Market size captures the aggregate USD value of the entire crypto asset class, providing a top-down gauge of how large or small the market is relative to history or to other cryptos or asset classes.",
+        "total_crypto_market_cap_usd": {
+          "current": "2.91 T",
+          "percent_change": {
+            "24h": "+0.72343%",
+            "7d": "+4.77%",
+            "30d": "+9.21%"
+          },
+          "yearly": {
+            "max": {
+              "value": "4.28 T",
+              "timestamp": "7 October 2025 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "2.04 T",
+              "timestamp": "1 July 2026 12:00 AM UTC+0"
+            }
+          }
+        }
+      },
+      "liquidity": {
+        "definition": "Liquidity metrics track how much value changes hands—across spot markets and derivatives—within 24 h, signalling market depth, conviction, and the ease of entering or exiting positions.",
+        "volume24h": {
+          "total": {
+            "current": "54.92 B",
+            "percent_change": {
+              "24h": "-45.77%",
+              "7d": "-23.43%",
+              "30d": "-42.52%"
+            }
+          },
+          "spot": {
+            "current": "107.19 B",
+            "percent_change": {
+              "24h": "-43.15%",
+              "7d": "-55.3%",
+              "30d": "-38.3%"
+            }
+          },
+          "derivatives": {
+            "total": {
+              "current": "413.34 B",
+              "percent_change": {
+                "24h": "-55.95%",
+                "7d": "-61.11%",
+                "30d": "-52.79%"
+              }
+            },
+            "futures": {
+              "current": "262.15 M",
+              "percent_change": {
+                "24h": "-50.71%",
+                "7d": "-62.79%",
+                "30d": "-61.17%"
+              }
+            },
+            "perpetuals": {
+              "current": "413.08 B",
+              "percent_change": {
+                "24h": "-55.95%",
+                "7d": "-61.11%",
+                "30d": "-52.79%"
+              }
+            }
+          },
+          "spot_vs_perp_ratio": "0.26"
+        }
+      },
+      "sentiment": {
+        "fear_greed": {
+          "definition": "The CMC Fear & Greed Index distills overall crypto-market sentiment into a single 0-100 score that traders can read contrarily—treating high, greed-driven readings (overvalued) as cues to trim or hedge, low, fear-driven readings (undervalued) as potential bargain zones.",
+          "current": {
+            "value": "Greed",
+            "index": 73
+          },
+          "history": {
+            "yesterday": {
+              "value": "Greed",
+              "index": 73
+            },
+            "last_week": {
+              "value": "Greed",
+              "index": 72
+            },
+            "last_month": {
+              "value": "Extreme greed",
+              "index": 82
+            }
+          },
+          "yearly": {
+            "max": {
+              "value": "Extreme greed",
+              "index": 82,
+              "timestamp": "27 August 2026 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "Extreme fear",
+              "index": 5,
+              "timestamp": "6 February 2026 12:00 AM UTC+0"
+            }
+          }
+        }
+      },
+      "rotation": {
+        "altcoin_season": {
+          "definition": "The CMC Altcoin Season Index is a real-time sentiment gauge of crypto’s typical rotation—Bitcoin rallies and dominance rise, Ethereum heats up on dApp buzz, narratives catch fire, then capital floods into smaller alts—so a rising score signals the shift toward higher-beta altcoins, while a falling score warns funds are moving back to Bitcoin or cash.",
+          "current": {
+            "value": "",
+            "index": 62
+          },
+          "percent_change": {
+            "24h": "0%",
+            "7d": "+29.17%",
+            "30d": "+67.57%"
+          },
+          "history": {
+            "yesterday": {
+              "value": "",
+              "index": 62
+            },
+            "last_week": {
+              "value": "",
+              "index": 48
+            },
+            "last_month": {
+              "value": "",
+              "index": 37
+            }
+          },
+          "yearly": {
+            "max": {
+              "value": "",
+              "index": 67,
+              "timestamp": "2 October 2025 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "Bitcoin Season",
+              "index": 14,
+              "timestamp": "19 December 2025 12:00 AM UTC+0"
+            }
+          }
+        }
+      },
+      "dominance": {
+        "definition": "Bitcoin dominance—BTC’s share of total crypto value—condenses sentiment, maturity, and diversification cues: rising dominance favors a defensive tilt into Bitcoin, while falling dominance signals a risk-on swing toward altcoins.",
+        "btc": {
+          "current": "+58.5%",
+          "yearly": {
+            "max": {
+              "value": "+60.57%",
+              "timestamp": "5 May 2026 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "+57.33%",
+              "timestamp": "4 June 2026 12:00 AM UTC+0"
+            }
+          },
+          "history": {
+            "yesterday": "+58.52%",
+            "last_week": "+58.76%",
+            "last_month": "+59.71%"
+          }
+        },
+        "eth": {
+          "current": "+11.4%",
+          "yearly": {
+            "max": {
+              "value": "+10.73%",
+              "timestamp": "5 May 2026 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "+9.77%",
+              "timestamp": "4 June 2026 12:00 AM UTC+0"
+            }
+          },
+          "history": {
+            "yesterday": "+11.38%",
+            "last_week": "+11.57%",
+            "last_month": "+11.23%"
+          }
+        },
+        "others": {
+          "current": "+30.1%",
+          "yearly": {
+            "max": {
+              "value": "+28.7%",
+              "timestamp": "5 May 2026 12:00 AM UTC+0"
+            },
+            "min": {
+              "value": "+32.9%",
+              "timestamp": "4 June 2026 12:00 AM UTC+0"
+            }
+          },
+          "history": {
+            "yesterday": "+30.1%",
+            "last_week": "+29.67%",
+            "last_month": "+29.06%"
+          }
+        }
+      },
+      "leverage": {
+        "definition": "Leverage fields measure borrowed-risk exposure via derivatives open interest, funding rates, and liquidations, revealing how much speculative fuel—or squeeze risk—is in the system.",
+        "open_interest": {
+          "total": {
+            "current": "349.65 B",
+            "percent_change": {
+              "24h": "-9.78%",
+              "7d": "-21.18%",
+              "30d": "-21.67%"
+            },
+            "yearly": {
+              "max": {
+                "value": "1.2 T",
+                "timestamp": "2 October 2025 12:00 AM UTC+0"
+              },
+              "min": {
+                "value": "353.41 B",
+                "timestamp": "27 September 2026 12:00 AM UTC+0"
+              }
+            }
+          },
+          "perpetuals": {
+            "current": "348.53 B",
+            "percent_change": {
+              "24h": "-9.81%",
+              "7d": "-21.18%",
+              "30d": "-21.46%"
+            },
+            "yearly": {
+              "max": {
+                "value": "1.14 T",
+                "timestamp": "8 October 2025 12:00 AM UTC+0"
+              },
+              "min": {
+                "value": "1.08 B",
+                "timestamp": "26 September 2026 12:00 AM UTC+0"
+              }
+            }
+          },
+          "futures": {
+            "current": "1.12 B",
+            "percent_change": {
+              "24h": "+3.01%",
+              "7d": "-18.64%",
+              "30d": "-57.48%"
+            },
+            "yearly": {
+              "max": {
+                "value": "1.2 T",
+                "timestamp": "2 October 2025 12:00 AM UTC+0"
+              },
+              "min": {
+                "value": "1.11 B",
+                "timestamp": "27 September 2026 12:00 AM UTC+0"
+              }
+            }
+          }
+        },
+        "funding_rate": {
+          "average": {
+            "current": "+0.0037227%",
+            "percent_change": {
+              "24h": "+49.75%",
+              "7d": "-47.85%",
+              "30d": "-24.66%"
+            }
+          },
+          "top_alts_minus_btc_spread_current": "0.0011824"
+        },
+        "liquidations": {
+          "btc": {
+            "total_usd24h": "7.45 M",
+            "total_usd7d": "1.06 B",
+            "total_usd30d": "3.25 B",
+            "percent_change24h": "-87.84%"
+          }
+        }
+      },
+      "trad_fi_flows": {
+        "definition": "TradFi flows capture capital moving into or out of regulated exchange-traded products—such as U.S. spot-BTC ETFs—acting as a proxy for institutional demand.",
+        "etf_aum": {
+          "btc": {
+            "current": "111.23 B",
+            "history": {
+              "yesterday": "111.25 B",
+              "last_week": "98.51 B",
+              "last_month": "101.61 B"
+            }
+          },
+          "eth": {
+            "current": "14.66 B",
+            "history": {
+              "yesterday": "14.65 B",
+              "last_week": "14.6 B",
+              "last_month": "13.96 B"
+            }
+          }
+        }
+      }
+    }
+  }
+}

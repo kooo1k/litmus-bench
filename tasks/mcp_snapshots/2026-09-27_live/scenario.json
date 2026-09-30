@@ -1,0 +1,29 @@
+{
+  "name": "2026-09-27_live",
+  "recorded_at": "2026-09-27T09:51:52.782183+00:00",
+  "server": {
+    "name": "cmc-mcp-service",
+    "version": "1.0.0"
+  },
+  "protocol_version": "2025-03-26",
+  "tools_list_sha256": "26de5be63d5000dadd8c7c60115f86563172e27b27521f7ee081ead77e2be36c",
+  "ids": {
+    "1": "BTC",
+    "1027": "ETH",
+    "5426": "SOL",
+    "20641": "EURC"
+  },
+  "search_queries": [
+    "btc",
+    "bitcoin",
+    "eth",
+    "ethereum",
+    "sol",
+    "solana",
+    "eur",
+    "eurc",
+    "bit",
+    "bitcon"
+  ],
+  "tool_calls": 27
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2025-10-11T00:00:00Z",
+  "description": "Sharp drop near the highs: BTC -7.2%, ETH -12.2% in 24h, BTC ~113k.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:48:56.724699+00:00",
+    "as_of": "2025-10-11T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

@@ -1,0 +1,1690 @@
+{
+ "search_cryptos": {
+  "btc": {
+   "fetched_at": "2026-09-27T09:50:27.375372+00:00",
+   "payload": [
+    {
+     "id": 1,
+     "name": "Bitcoin",
+     "symbol": "BTC",
+     "slug": "bitcoin",
+     "rank": 1
+    }
+   ]
+  },
+  "bitcoin": {
+   "fetched_at": "2026-09-27T09:50:30.230855+00:00",
+   "payload": [
+    {
+     "id": 1,
+     "name": "Bitcoin",
+     "symbol": "BTC",
+     "slug": "bitcoin",
+     "rank": 1
+    }
+   ]
+  },
+  "eth": {
+   "fetched_at": "2026-09-27T09:50:33.540463+00:00",
+   "payload": [
+    {
+     "id": 1027,
+     "name": "Ethereum",
+     "symbol": "ETH",
+     "slug": "ethereum",
+     "rank": 2
+    }
+   ]
+  },
+  "ethereum": {
+   "fetched_at": "2026-09-27T09:50:36.872027+00:00",
+   "payload": [
+    {
+     "id": 1027,
+     "name": "Ethereum",
+     "symbol": "ETH",
+     "slug": "ethereum",
+     "rank": 2
+    }
+   ]
+  },
+  "sol": {
+   "fetched_at": "2026-09-27T09:50:39.729601+00:00",
+   "payload": [
+    {
+     "id": 5426,
+     "name": "Solana",
+     "symbol": "SOL",
+     "slug": "solana",
+     "rank": 7
+    }
+   ]
+  },
+  "solana": {
+   "fetched_at": "2026-09-27T09:50:42.653545+00:00",
+   "payload": [
+    {
+     "id": 5426,
+     "name": "Solana",
+     "symbol": "SOL",
+     "slug": "solana",
+     "rank": 7
+    }
+   ]
+  },
+  "eur": {
+   "fetched_at": "2026-09-27T09:50:46.068061+00:00",
+   "payload": [
+    {
+     "id": 20641,
+     "name": "EURC",
+     "symbol": "EURC",
+     "slug": "euro-coin",
+     "rank": 95
+    },
+    {
+     "id": 32796,
+     "name": "EUR CoinVertible",
+     "symbol": "EURCV",
+     "slug": "eur-coinvertible",
+     "rank": 228
+    }
+   ]
+  },
+  "eurc": {
+   "fetched_at": "2026-09-27T09:50:49.393971+00:00",
+   "payload": [
+    {
+     "id": 20641,
+     "name": "EURC",
+     "symbol": "EURC",
+     "slug": "euro-coin",
+     "rank": 95
+    }
+   ]
+  },
+  "bit": {
+   "fetched_at": "2026-09-27T09:50:52.730676+00:00",
+   "payload": [
+    {
+     "id": 11221,
+     "name": "BitDAO",
+     "symbol": "BIT",
+     "slug": "bitdao",
+     "rank": 5844
+    },
+    {
+     "id": 11500,
+     "name": "Biconomy Exchange Token",
+     "symbol": "BIT",
+     "slug": "biconomy-token",
+     "rank": 4109
+    }
+   ]
+  },
+  "bitcon": {
+   "fetched_at": "2026-09-27T09:50:55.632216+00:00",
+   "payload": [
+    {
+     "id": 26386,
+     "name": "BitCone",
+     "symbol": "CONE",
+     "slug": "bitcone",
+     "rank": 2921
+    }
+   ]
+  }
+ },
+ "get_crypto_quotes_latest": {
+  "1": {
+   "fetched_at": "2026-09-27T09:50:58.948123+00:00",
+   "payload": {
+    "id": "1",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin",
+    "price": 84917.53778902789,
+    "rank": 1,
+    "turnover": 0.00963316,
+    "last_updated_time": "2026-09-27T09:50:00.000Z",
+    "percent_change_1h": 0.23193176,
+    "percent_change_24h": 1.08285859,
+    "percent_change_7d": 5.55095025,
+    "percent_change_30d": 7.08134904,
+    "percent_change_60d": 31.70357683,
+    "percent_change_90d": 41.66730936,
+    "percent_change_1y": -22.32027434,
+    "percent_change_3y": 222.805441670602,
+    "percent_change_all": 137668444.7582104,
+    "percent_change_ytd": -4.2988,
+    "market_cap": 1705994353192.02,
+    "volume_24h": 16434124350.548923,
+    "volume_change_24h": -43.4001,
+    "last_updated_time_dup": "2026-09-27T09:50:00.000Z",
+    "fully_diluted_market_cap": 1783268293569.59,
+    "market_cap_by_total_supply": 1705994353192.02,
+    "date_added": "2010-07-13T00:00:00.000Z",
+    "max_supply": 21000000.0,
+    "total_supply": 20090012.0,
+    "self_reported_circulating_supply": 0,
+    "circulating_supply": 20090012.0,
+    "market_cap_percent_change_1h": 0.231991630414,
+    "market_cap_percent_change_24h": 1.0851,
+    "market_cap_percent_change_7d": 5.543480485251,
+    "market_cap_percent_change_30d": 5.965731055828,
+    "market_cap_percent_change_90d": 41.071817663599,
+    "market_cap_percent_change_1y": -21.705857669856,
+    "market_cap_percent_change_3y": 232.620983342482,
+    "market_cap_percent_change_all": 8355489.362591727,
+    "market_cap_dominance": 58.6203
+   }
+  },
+  "1027": {
+   "fetched_at": "2026-09-27T09:51:09.225187+00:00",
+   "payload": {
+    "id": "1027",
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "slug": "ethereum",
+    "price": 2714.9470109474396,
+    "rank": 2,
+    "turnover": 0.01847045,
+    "last_updated_time": "2026-09-27T09:49:00.000Z",
+    "percent_change_1h": -0.01325129,
+    "percent_change_24h": 1.23036079,
+    "percent_change_7d": 5.13186884,
+    "percent_change_30d": 9.07672625,
+    "percent_change_60d": 41.56722683,
+    "percent_change_90d": 72.51342534,
+    "percent_change_1y": -32.04233623,
+    "percent_change_3y": 69.2390519483,
+    "percent_change_all": 95779.66315652138,
+    "percent_change_ytd": -9.5137,
+    "market_cap": 331453430889.11,
+    "volume_24h": 6122095167.082438,
+    "volume_change_24h": -44.8255,
+    "last_updated_time_dup": "2026-09-27T09:49:00.000Z",
+    "fully_diluted_market_cap": 331453430889.11,
+    "market_cap_by_total_supply": 331453430889.11,
+    "date_added": "2015-08-07T00:00:00.000Z",
+    "total_supply": 122084677.73131435,
+    "self_reported_circulating_supply": 0,
+    "circulating_supply": 122084677.73131435,
+    "market_cap_percent_change_1h": -0.002844462729,
+    "market_cap_percent_change_24h": 1.2328,
+    "market_cap_percent_change_7d": 5.149037291515,
+    "market_cap_percent_change_30d": 8.047957063274,
+    "market_cap_percent_change_90d": 73.851412023659,
+    "market_cap_percent_change_1y": -31.264623154673,
+    "market_cap_percent_change_3y": 71.844219429535,
+    "market_cap_percent_change_all": 0,
+    "market_cap_dominance": 11.3892
+   }
+  },
+  "5426": {
+   "fetched_at": "2026-09-27T09:51:19.023438+00:00",
+   "payload": {
+    "id": "5426",
+    "name": "Solana",
+    "symbol": "SOL",
+    "slug": "solana",
+    "price": 124.22977883558711,
+    "rank": 7,
+    "turnover": 0.04212735,
+    "last_updated_time": "2026-09-27T09:50:00.000Z",
+    "percent_change_1h": 0.07523914,
+    "percent_change_24h": 3.58090166,
+    "percent_change_7d": 14.53525258,
+    "percent_change_30d": 17.42859391,
+    "percent_change_60d": 67.84367341,
+    "percent_change_90d": 70.69281176,
+    "percent_change_1y": -38.31612894,
+    "percent_change_3y": 550.858914845548,
+    "percent_change_all": 14709.378531910206,
+    "percent_change_ytd": -1.9969,
+    "market_cap": 73011317915.76,
+    "volume_24h": 3075773261.556656,
+    "volume_change_24h": -46.3106,
+    "last_updated_time_dup": "2026-09-27T09:50:00.000Z",
+    "fully_diluted_market_cap": 78856478543.6,
+    "market_cap_by_total_supply": 78856478543.6,
+    "date_added": "2020-04-10T00:00:00.000Z",
+    "total_supply": 634763092.0921077,
+    "self_reported_circulating_supply": 525236893.3,
+    "circulating_supply": 587711888.406323,
+    "market_cap_percent_change_1h": 0.075232754804,
+    "market_cap_percent_change_24h": 3.5807,
+    "market_cap_percent_change_7d": 14.590738136707,
+    "market_cap_percent_change_30d": 19.186133293424,
+    "market_cap_percent_change_90d": 75.438614718654,
+    "market_cap_percent_change_1y": -33.304367800352,
+    "market_cap_percent_change_3y": 826.469380083071,
+    "market_cap_percent_change_all": 0,
+    "market_cap_dominance": 2.5088
+   }
+  },
+  "20641": {
+   "fetched_at": "2026-09-27T09:51:28.872166+00:00",
+   "payload": {
+    "id": "20641",
+    "name": "EURC",
+    "symbol": "EURC",
+    "slug": "euro-coin",
+    "price": 1.1386827087460745,
+    "rank": 95,
+    "turnover": 0.02980403,
+    "last_updated_time": "2026-09-27T09:50:00.000Z",
+    "percent_change_1h": 0.0018421,
+    "percent_change_24h": -0.038855,
+    "percent_change_7d": -0.90846445,
+    "percent_change_30d": -2.21110243,
+    "percent_change_60d": -0.07156387,
+    "percent_change_90d": -0.10690532,
+    "percent_change_1y": -2.59839239,
+    "percent_change_3y": 7.772690463322,
+    "percent_change_all": 8.99473162072,
+    "percent_change_ytd": -3.1039,
+    "market_cap": 460860359.27,
+    "volume_24h": 13735495.3035876,
+    "volume_change_24h": -65.9653,
+    "last_updated_time_dup": "2026-09-27T09:50:00.000Z",
+    "fully_diluted_market_cap": 460860359.27,
+    "market_cap_by_total_supply": 460860359.27,
+    "date_added": "2022-06-16T19:13:48.000Z",
+    "total_supply": 404731147.4274052,
+    "self_reported_circulating_supply": 0.0,
+    "circulating_supply": 404731147.4274052,
+    "market_cap_percent_change_1h": 0.00184210176,
+    "market_cap_percent_change_24h": -0.0389,
+    "market_cap_percent_change_7d": 1.652357131049,
+    "market_cap_percent_change_30d": 0.288157361372,
+    "market_cap_percent_change_90d": 7.629644079125,
+    "market_cap_percent_change_1y": 75.978894592842,
+    "market_cap_percent_change_3y": 783.744873091327,
+    "market_cap_percent_change_all": 0,
+    "market_cap_dominance": 0.0158
+   }
+  }
+ },
+ "get_crypto_technical_analysis": {
+  "1": {
+   "fetched_at": "2026-09-27T09:51:02.280883+00:00",
+   "payload": {
+    "moving_averages": {
+     "simple_moving_average_7_day": "84,445.89",
+     "simple_moving_average_30_day": "79,712.16",
+     "simple_moving_average_200_day": "71,001.46",
+     "exponential_moving_average_7_day": "83,690.92",
+     "exponential_moving_average_30_day": "79,443.87",
+     "exponential_moving_average_200_day": "74,887.26"
+    },
+    "macd": {
+     "macdLine": "2,466.63",
+     "signalLine": "2,161.49",
+     "histogram": "305.14"
+    },
+    "rsi": {
+     "rsi7": "65.78",
+     "rsi14": "64.97",
+     "rsi21": "64.42"
+    },
+    "fibonacciLevels": {
+     "swingHigh": "87,363.76",
+     "swingLow": "74,944.6",
+     "retracementLevels": {
+      "50.0%": "81,154.18",
+      "23.6%": "84,432.84",
+      "38.2%": "82,619.64",
+      "78.6%": "77,602.3",
+      "61.8%": "79,688.72"
+     },
+     "extensionLevels": {
+      "161.8%": "95,038.8",
+      "127.2%": "90,741.77",
+      "200.0%": "99,782.92"
+     }
+    },
+    "pivotPoint": "84203.58"
+   }
+  },
+  "1027": {
+   "fetched_at": "2026-09-27T09:51:12.115682+00:00",
+   "payload": {
+    "moving_averages": {
+     "simple_moving_average_7_day": "2,704.25",
+     "simple_moving_average_30_day": "2,530.04",
+     "simple_moving_average_200_day": "2,097.63",
+     "exponential_moving_average_7_day": "2,676.83",
+     "exponential_moving_average_30_day": "2,521.26",
+     "exponential_moving_average_200_day": "2,306.48"
+    },
+    "macd": {
+     "macdLine": "93.28",
+     "signalLine": "89.26",
+     "histogram": "4.02"
+    },
+    "rsi": {
+     "rsi7": "63.8",
+     "rsi14": "63.93",
+     "rsi21": "63.94"
+    },
+    "fibonacciLevels": {
+     "swingHigh": "2,805.5",
+     "swingLow": "2,356.19",
+     "retracementLevels": {
+      "50.0%": "2,580.84",
+      "23.6%": "2,699.46",
+      "38.2%": "2,633.86",
+      "78.6%": "2,452.34",
+      "61.8%": "2,527.82"
+     },
+     "extensionLevels": {
+      "161.8%": "3,083.17",
+      "127.2%": "2,927.71",
+      "200.0%": "3,254.81"
+     }
+    },
+    "pivotPoint": "2686.02"
+   }
+  },
+  "5426": {
+   "fetched_at": "2026-09-27T09:51:22.399220+00:00",
+   "payload": {
+    "moving_averages": {
+     "simple_moving_average_7_day": "117.69",
+     "simple_moving_average_30_day": "106.29",
+     "simple_moving_average_200_day": "84.78",
+     "exponential_moving_average_7_day": "117.24",
+     "exponential_moving_average_30_day": "106.23",
+     "exponential_moving_average_200_day": "96.69"
+    },
+    "macd": {
+     "macdLine": "6.24",
+     "signalLine": "5.09",
+     "histogram": "1.15"
+    },
+    "rsi": {
+     "rsi7": "72.5",
+     "rsi14": "68.61",
+     "rsi21": "67.11"
+    },
+    "fibonacciLevels": {
+     "swingHigh": "122.75",
+     "swingLow": "96.23",
+     "retracementLevels": {
+      "50.0%": "109.49",
+      "23.6%": "116.49",
+      "38.2%": "112.62",
+      "78.6%": "101.9",
+      "61.8%": "106.36"
+     },
+     "extensionLevels": {
+      "161.8%": "139.14",
+      "127.2%": "129.96",
+      "200.0%": "149.27"
+     }
+    },
+    "pivotPoint": "121.19"
+   }
+  },
+  "20641": {
+   "fetched_at": "2026-09-27T09:51:32.316082+00:00",
+   "payload": {
+    "moving_averages": {
+     "simple_moving_average_7_day": "1.14",
+     "simple_moving_average_30_day": "1.15",
+     "simple_moving_average_200_day": "1.16",
+     "exponential_moving_average_7_day": "1.14",
+     "exponential_moving_average_30_day": "1.15",
+     "exponential_moving_average_200_day": "1.16"
+    },
+    "macd": {
+     "macdLine": "-0.005452",
+     "signalLine": "-0.003906",
+     "histogram": "-0.001546"
+    },
+    "rsi": {
+     "rsi7": "20.05",
+     "rsi14": "26.12",
+     "rsi21": "32.03"
+    },
+    "fibonacciLevels": {
+     "swingHigh": "1.17",
+     "swingLow": "1.14",
+     "retracementLevels": {
+      "50.0%": "1.15",
+      "23.6%": "1.16",
+      "38.2%": "1.15",
+      "78.6%": "1.14",
+      "61.8%": "1.15"
+     },
+     "extensionLevels": {
+      "161.8%": "1.18",
+      "127.2%": "1.17",
+      "200.0%": "1.2"
+     }
+    },
+    "pivotPoint": "1.14"
+   }
+  }
+ },
+ "get_crypto_latest_news": {
+  "1": {
+   "fetched_at": "2026-09-27T09:51:05.890216+00:00",
+   "payload": [
+    {
+     "title": "How high will Bitcoin get in 2026? | Prediction Markets | Coinbase",
+     "description": "Make your prediction on How high will Bitcoin get in 2026?. Trade on the future with Coinbase Predictions.",
+     "content": "The Coinbase prediction market asks: Will Bitcoin's spot price, as measured by the CF Bitcoin Real-Time Index (BRTI), exceed $99,999.99 at any point between January 2, 2026, 6:00 PM ET and December 31, 2026, 11:59 PM ET? If so, the market resolves to Yes; otherwise, it resolves to No. The resolution uses a trimmed mean of BRTI values, discarding the top and bottom 20% of minute-by-minute prices during the period and averaging the remaining 60%. If the threshold is crossed at any time, the market resolves early. If no data is available at expiration, the market resolves to No. The outcome is verified by CF Benchmarks.\n\nAs of now, the market gives a 23% probability that Bitcoin will exceed $99,999.99 in 2026 (\"Yes\" contracts at 23¢, \"No\" at 78¢). For higher thresholds, the probabilities are 14% for above $109,999.99 and 11% for above $119,999.99. The market expires January 1, 2027 (213 days from now), with $1,804,719.70 in open interest, $47,998.29 in 24-hour volume (up 287.10%), and $6.9M total volume.\n\nTrading is open to Coinbase Financial Markets (CFM) users who complete onboarding. Employees of source agencies and those with material non-public information are prohibited from trading. Contracts pay $1 if the event occurs, $0 if not; profit equals payout minus purchase price and fees. Settlement usually occurs within 24 hours of market close, with projected payout 60 minutes after closing. Trading is available 24/7 except for a weekly maintenance window. Fees apply and are disclosed before order placement.",
+     "url": "https://www.coinbase.com/predictions/event/KXBTCMAXY-26DEC31",
+     "publishedAt": "31 December 2026 12:00 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "Bitcoin’s drop below $77,000 triggered a major leverage flus | KuCoin",
+     "description": "Bitcoin’s drop below $77,000 triggered a major leverage flush, with roughly $214 million in long positions liquidated within just four hours.\nThe move shows how",
+     "content": "Bitcoin (BTC) dropped below $77,000, triggering a major leverage flush in the crypto market. Within four hours, approximately $214 million in long positions were liquidated, highlighting how excessive leverage can rapidly amplify downside volatility. BTC is currently priced at $76,159.10, up 0.52%. KuCoin’s 24-hour trading volume stands at 3,451,308,533 USDT as of 2026-09-17 05:03:02 (UTC+8).\n\nKuCoin offers a range of crypto trading and earning products, including spot, margin, and futures trading, as well as staking, mining, and structured yield plans. Newcomers can earn up to 10,650 USDT in rewards through sign-up bonuses. The GemSlot feature allows users to complete daily tasks to earn free tokens. KCUSD deposits can earn up to 6% APR, with principal protection backed by U.S. Treasury securities.\n\nOther market insights include the House Ways & Means Committee passing the Crypto Tax Act with a 38-5 vote, and anticipation for the FOMC interest rate decision later tonight, which is expected to impact market sentiment. KuCoin supports whistleblower rewards for reporting misconduct such as fraud, theft, or illegal transfers, with confidentiality assured.\n\nKuCoin provides institutional services, API access, VIP programs, and a variety of promotions, including the GNOT Spotlight Feast with a 1,520,200 GNOT prize pool. The platform emphasizes user privacy, offering customizable cookie preferences and detailed privacy policies. KuCoin’s ecosystem includes community engagement, educational resources, and security tools, aiming to support both individual and institutional crypto participants.",
+     "url": "https://www.kucoin.com/news/insight/BTC/6aa2fae9ccf4ec00077cacc5",
+     "publishedAt": "9 October 2026 12:00 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "NEAR Hits One-Year High, Outpaces Bitcoin After Bitwise Files Final Prospectus For Spot ETF",
+     "description": "NEAR Protocol's one-year return has climbed to about 96%, after turning positive in mid-September.",
+     "content": "NEAR Protocol (NEAR) surged over 7% to its highest level in a year on Sunday, outperforming Bitcoin (BTC), after Bitwise filed the final prospectus for a spot NEAR exchange-traded fund (ETF). NEAR traded around $5 over the last 24 hours, with a one-year return climbing to about 96%, rebounding from a 60% loss in February. In contrast, Bitcoin's price rose only 0.6% in the same period and has not reclaimed the $85,000 level. Retail investor sentiment for both NEAR and BTC stayed 'bullish' on Stocktwits.\n\nThe catalyst was Bitwise's Thursday filing of the final prospectus for its spot NEAR fund, cleared to list on NYSE Arca under ticker \"NRR.\" The registration statement became effective under Section 12(b) of the Exchange Act; trading is expected next week pending final filings. According to the prospectus, the fund will stake all NEAR holdings and pass most rewards to shareholders: 33% of additional NEAR generated from staking goes to staking agents, custodian, and sponsor, with the trust retaining 67%. Bitwise will be paid a 0.75% annual sponsor fee.\n\nAnalyst Michaël van de Poppe announced he was reducing exposure to the NEAR rally, stating, \"I don't think we'll see much more upside yet, and I'm looking to derisk a little more here in these ranges.\" He advised long-term investors to wait for a correction. Nonetheless, van de Poppe maintains aggressive multi-year price targets, with a base case for NEAR above $150 and a bull case above $550.\n\nAuthor Anushka Basu disclosed no investment position. The article is for informational purposes only, not investment advice.",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/near-hits-one-high-outpaces-093717875.html",
+     "publishedAt": "27 September 2026 09:37 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Crypto ATM Numbers Fall to 2021 Levels Amid Regulatory Crackdown – Bitcoin News",
+     "description": "Global crypto ATM numbers fall to 2021 levels as U.S. state bans accelerate removals, leaving just 27,358 machines worldwide.",
+     "content": "The number of global crypto ATMs has fallen to 27,358 as of late September 2026, reaching levels last seen in 2021, with 587 machines removed since July 8, 2026. The majority of recent removals, 476 machines, occurred in the United States, which still holds 71.4% of the world’s crypto ATMs. Since 2023, 35 U.S. states have enacted legislation targeting crypto ATMs, with outright bans in states such as Indiana and Minnesota, driven by concerns that these machines facilitate fraud and scams. Vermont, in contrast, has extended a moratorium on new kiosks rather than banning current ones. A significant portion of ATM industry losses prior to September 2026 was linked to Bitcoin Depot’s Chapter 11 bankruptcy and subsequent asset sales. In terms of global distribution, Canada is second to the U.S. in crypto ATM count, followed by Oceania (7%; Australia 6.3%, New Zealand 0.7%) and Europe (5.6%; Poland 1.1%, Spain 1%). Together, the U.S., Canada, and Australia account for about 91% of all crypto ATMs worldwide. Observers remain divided: some argue that regulatory crackdowns are necessary for fraud prevention, while critics warn that bans penalize legitimate users, hinder innovation, and may drive crypto activity underground, increasing consumer risk. The regulatory debate continues, with calls for balanced measures rather than outright prohibition.",
+     "url": "https://news.bitcoin.com/crypto-news/crypto-atm-numbers-fall-to-2021-levels-amid-regulatory-crackdown/",
+     "publishedAt": "27 September 2026 09:30 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Quant Jumps 39 As Altcoins Rally While Bitcoin Stalls Near 84K",
+     "description": "Altcoins rallied broadly on September 25 as BTC consolidated near $84,000, with Quant emerging as one of the strongest large moves in the market.",
+     "content": "Quant (QNT) rose roughly 39% over 24 hours on September 25 during a broad altcoin rally, while Bitcoin stalled near $84,000. The surge was not isolated; 93 out of 100 assets in the CoinDesk 100 traded higher, indicating widespread positive market breadth. This level of participation suggests money is rotating from Bitcoin into altcoins. An altcoin-season metric reached its highest point in over three months, with assets like Solana outperforming in the prior week.\n\nBitcoin's consolidation just below $84,000, after reaching near $87,000 recently, set up a scenario where traders who concentrate capital in BTC during sharp rallies begin shifting profits and fresh capital into smaller-cap coins once Bitcoin stabilizes. Such rotations have occurred before and do not necessarily signal a sustained altcoin season. These moves can quickly reverse if Bitcoin either falls sharply or resumes its climb.\n\nQuant's gain should not be interpreted as a fundamental repricing of all altcoins; factors like short positioning, thinner liquidity, and market momentum outside Bitcoin can amplify price swings. However, the broad-based rally suggests a growing risk appetite beyond Bitcoin's institutional narrative, which has recently been dominated by ETFs, corporate treasuries, and regulated investment products.\n\nMarket breadth—93 of 100 large crypto assets rising—demonstrates that the wider market can advance even without Bitcoin setting new highs, as long as it remains stable. This summary is based on content from bitcoinist.com, with editorial review for accuracy and unbiased reporting by News Desk and Samuel Rae.\n\nOther news links in the original included Ethena expanding USDe backing, Binance listing Hyperliquid HYPE, Kamino launching onchain sterling lending, Forward Industries raising $25M to buy Solana, Streamflow burning 70% of STREAM supply, and a Canadian-dollar stablecoin going live on Solana, but no specific additional details were included in the main article body.",
+     "url": "https://bitcoinist.com/quant-jumps-39-as-altcoins-rally-while-bitcoin-stalls-near-84k/",
+     "publishedAt": "27 September 2026 09:30 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Bitcoin hashrate falls to 3-week low as miners cut BTC",
+     "description": "Bitcoin’s seven-day hashrate fell to a three-week low as miner reserves dropped 1,530 BTC and the Puell Multiple rose to 1.13.",
+     "content": "Bitcoin’s seven-day average network hashrate dropped to 915.8 EH/s between Sept. 20–26, its lowest in three weeks. This decline, down about 34.86 million TH/s week-over-week, reflects reduced computing power securing the network; daily readings frequently fell below one zettahash, after surpassing that threshold earlier in September. CoinWarz reported hashrate near 954 EH/s on Sept. 25, down from 984 EH/s on Sept. 24, and cited significant volatility during the month, including peaks above 1 ZH/s on Sept. 9 and 15. According to Twenty One Capital CEO Raphael Zagury, this marks Bitcoin’s first “hashrate bear market,” with network strength falling roughly 22%–24% from late-2025 peaks, partly as mining firms shift capacity toward AI computing.\n\nMiner Bitcoin reserves decreased by 1,530 BTC over the week, reaching approximately 1,192,766 BTC. These outflows, reported by CryptoQuant and Digital Asset, do not necessarily signify exchange sales; reserves can drop due to sales, transfers, lending, or other treasury activities. In early September, miner reserves had briefly increased by 261 BTC. Policies vary: CleanSpark mined 593 BTC but sold 821 BTC in August, ending the month with 13,703 BTC and an operating hashrate of 38.3 EH/s. Hyperscale Data ceased mining at its Michigan site on Sept. 1 for an AI contract, reducing holdings by 79% (from 1,006 BTC in July to around 215 BTC).\n\nThe Puell Multiple, measuring daily miner revenue to the one-year average, rose by 0.24 to 1.13 on Sept. 26. Other dashboards showed neutral readings (~1.01), estimating daily miner issuance at 450 BTC and revenue at $37.8 million. Bitcoin’s current block subsidy remains 3.125 BTC after April 2024 halving; the next reduction to 1.5625 BTC is projected for 2028.\n\nRegional mining conditions are uneven. Ethiopia cut electricity supplied to miners to 23% of contracted levels amid reduced reservoir inflows, after mining used nearly one-third of national electricity and generated 35% of utility revenue last year. The utility will review conditions in October. Despite the hashrate dip, block production continued normally, as the difficulty adjustment mechanism responds every 2,016 blocks.",
+     "url": "https://crypto.news/bitcoin-hashrate-falls-to-3-week-low-as-miners-cut-btc/",
+     "publishedAt": "27 September 2026 08:54 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Bitcoin hashrate falls to 3-week low as miners cut BTC",
+     "description": null,
+     "content": "Bitcoin’s seven-day average hashrate dropped to 915.8 EH/s from Sept. 20–26, its lowest in three weeks, indicating less computing power securing the network. This decline is supported by Digital Asset reporting a moving average of 915,844,520 TH/s on Sept. 26, down 34.86 million TH/s week-over-week, and confirmed by Mempool and CoinWarz data showing fluctuations below one zettahash. The drop follows a longer-term decline since late-2025, with Twenty One Capital CEO Raphael Zagury describing it as Bitcoin’s first “hashrate bear market,” down 22–24% from prior highs, partly due to miners redirecting resources to AI computing.\n\nMiner Bitcoin reserves fell by 1,530 BTC to 1,192,766 BTC per CryptoQuant, indicating coins moving out of miner wallets, but not confirming all were sold. Outflows may involve sales, transfers, collateral, or lending. Some miners, like CleanSpark, are actively selling: in August, it mined 593 BTC but sold 821, ending with 13,703 BTC and an operating hashrate of 38.3 EH/s. Others, like Hyperscale Data, have pivoted to AI, stopping Bitcoin mining at its Michigan facility and reducing holdings by 79%, from 1,006 BTC in July to 215 BTC.\n\nBitcoin’s Puell Multiple rose by 0.24 to 1.13, meaning daily miner issuance revenue now exceeds its 365-day average. HalvingLens reported a similar metric near 1.01 with daily miner issuance at 450 BTC and revenue at $37.8 million; differences reflect data sources and methodology.\n\nRegional mining conditions vary: Ethiopia cut electricity to miners to 23% of contracts, after reservoir inflows dropped 20%. Bitcoin mining consumed nearly a third of Ethiopia’s power and generated 35% of utility revenue last year; reassessment is due in October. Despite declining hashrate, block production proceeds normally, with difficulty adjustments every 2,016 blocks based on actual output.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8dc3d58d7441c7face611",
+     "publishedAt": "27 September 2026 08:54 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Jason Calacanis Slams Meme Coins as 'Giant Scam' - U.Today",
+     "description": "Prominent tech investor Jason Calacanis has taken aim at meme coins, branding them a “giant scam.”.",
+     "content": "On September 27, 2026, tech investor Jason Calacanis publicly labeled meme coins as a “giant scam.” Calacanis declared he has never, and will never, be involved with any meme coin projects, emphasizing, “I have nothing to do with any meme coins and never will.” He further warned followers that he would never privately instruct anyone regarding investments, particularly via social media or direct messages: “For the truly gullible, I will obviously never ask you to buy, sell or trade anything — especially on social media or via DM.”\n\nCalacanis, a self-declared fan of Bitcoin, recently adopted a skeptical tone toward the cryptocurrency. On September 18, 2026, he described Bitcoin’s price recovery as a “dead cat” bounce and questioned its relevance 17 years after launch. He argued Bitcoin remains unsuitable for daily transactions and smart contracts, and noted its challenging user experience for mainstream users. He also claimed that the currency is no longer attracting public attention as it once did.\n\nIn an earlier post from August 22, Calacanis again called a price rally a dead-cat bounce and predicted that Bitcoin would not achieve a new all-time high soon, stating, “There are more valuable things for individuals and institutions to own IMO.” Yet he has also commented enthusiastically on Bitcoin’s short-term moves, at one point posting simply, “BITCOIN!” during a market uptick.\n\nCalacanis has joked about Michael Saylor, Strategy co-founder and prominent Bitcoin advocate, asking followers to “check on Saylor” during periods of Bitcoin weakness. He repeatedly cautioned, “Don’t buy meme coins or invest in startups if you can’t afford to lose 100% of the money you put down.” While recent remarks have been uncompromising, previous statements offered a more nuanced skepticism.",
+     "url": "https://u.today/jason-calacanis-slams-meme-coins-as-giant-scam",
+     "publishedAt": "27 September 2026 08:35 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "Bitcoin ETFs add $5.3B after Treasury buyback plan",
+     "description": "U.S. spot Bitcoin ETFs have added $5.3 billion since Treasury announced larger long-bond buybacks, including $2.4 billion last week.",
+     "content": "U.S. spot Bitcoin ETFs have drawn $5.3 billion in inflows since the Treasury announced on August 19, 2026, it would increase buybacks of longer-dated nominal Treasury securities, raising maximum operation size from $2 billion to at least $4 billion for the 10–30 year sectors. The buybacks began September 9 and run through November 4. ETF analyst Nate Geraci cites Treasury’s policy as coinciding with renewed ETF demand but notes the data do not prove causality.\n\nDuring the week ending September 25, 2026, spot Bitcoin ETFs attracted $2.4 billion, including $999 million on Monday, marking the ninth-largest daily inflow since their January 2024 launch. BlackRock’s iShares Bitcoin Trust (IBIT) led with $1.16 billion, Fidelity’s FBTC brought in $701.6 million, ARK 21Shares’ ARKB added $294.7 million, and Morgan Stanley’s MSBT garnered $203.3 million—its most since launching in April. The five consecutive positive sessions produced the largest weekly total since October 2025.\n\nThis influx reversed a year-to-date net outflow of roughly $5.8 billion recorded in July, bringing 2026 flows to $934 million positive by September 22. Cumulative net inflows since January 2024 total $57.6 billion, with U.S. spot Bitcoin ETF assets nearing $108.4 billion as of September 26.\n\nBitcoin’s price surged alongside ETF inflows, touching $87,363 before retreating to $84,000. The cryptocurrency remained up 3.8% over seven days, and the total crypto market value stood close to $2.98 trillion. Sell orders clustered between $85,000 and $85,800, with technical indicators suggesting consolidation after the rally. Futures traders increased open positions by more than $2 billion during the strong inflow period. Treasury’s expanded liquidity-support operations are scheduled to continue through November 4.",
+     "url": "https://crypto.news/bitcoin-etfs-add-5-3b-after-treasury-buyback-plan/",
+     "publishedAt": "27 September 2026 08:30 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Bitcoin ETFs add $5.3B after Treasury buyback plan",
+     "description": null,
+     "content": "U.S. spot Bitcoin ETFs have attracted about $5.3 billion in net inflows since the Treasury Department announced on August 19, 2026, its plan to increase the size of long-dated Treasury buyback operations from a maximum $2 billion to at least $4 billion per operation, effective September 9 through November 4. Analyst Nate Geraci linked this ETF inflow recovery to the Treasury move but emphasized this is a temporal correlation, not proof of causation. Over $2.4 billion entered U.S. Bitcoin ETFs in the week ending September 25, with $999 million on Monday alone—the ninth-largest daily inflow since their January 2024 launch. The period September 21–25 saw approximately $2.39 billion in five consecutive positive sessions (Monday: $999M, Tuesday: $714.7M, Wednesday: $346.9M, Thursday: $190.7M, Friday: $134.5M), the strongest weekly total since October 2025. BlackRock’s IBIT led with $1.16 billion, followed by Fidelity’s FBTC ($701.6M), ARK 21Shares’ ARKB ($294.7M), and Morgan Stanley’s MSBT ($203.3M). By July 13, 2026, U.S. Bitcoin ETFs had cumulative outflows of around $5.8 billion year-to-date, but inflows reversed this to a positive $934 million above zero following the recent surge. By the end of Friday, total cumulative net inflows since January 2024 reached about $57.6 billion, with total net assets around $108.4 billion. Bitcoin’s price rose to $87,363 before settling near $84,000 (up ~3.8% over seven days), with concentrated sell orders between $85,000 and $85,800. Treasury’s buybacks are described as liquidity-support, not monetary stimulus, and further buyback program details will be announced at the Quarterly Refunding on November 4, 2026.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d78d43e3222e1641511e",
+     "publishedAt": "27 September 2026 08:30 AM UTC+0",
+     "quality": "8.0"
+    }
+   ]
+  },
+  "1027": {
+   "fetched_at": "2026-09-27T09:51:15.707481+00:00",
+   "payload": [
+    {
+     "title": "Quant Jumps 39 As Altcoins Rally While Bitcoin Stalls Near 84K",
+     "description": "Altcoins rallied broadly on September 25 as BTC consolidated near $84,000, with Quant emerging as one of the strongest large moves in the market.",
+     "content": "Quant (QNT) rose roughly 39% over 24 hours on September 25 during a broad altcoin rally, while Bitcoin stalled near $84,000. The surge was not isolated; 93 out of 100 assets in the CoinDesk 100 traded higher, indicating widespread positive market breadth. This level of participation suggests money is rotating from Bitcoin into altcoins. An altcoin-season metric reached its highest point in over three months, with assets like Solana outperforming in the prior week.\n\nBitcoin's consolidation just below $84,000, after reaching near $87,000 recently, set up a scenario where traders who concentrate capital in BTC during sharp rallies begin shifting profits and fresh capital into smaller-cap coins once Bitcoin stabilizes. Such rotations have occurred before and do not necessarily signal a sustained altcoin season. These moves can quickly reverse if Bitcoin either falls sharply or resumes its climb.\n\nQuant's gain should not be interpreted as a fundamental repricing of all altcoins; factors like short positioning, thinner liquidity, and market momentum outside Bitcoin can amplify price swings. However, the broad-based rally suggests a growing risk appetite beyond Bitcoin's institutional narrative, which has recently been dominated by ETFs, corporate treasuries, and regulated investment products.\n\nMarket breadth—93 of 100 large crypto assets rising—demonstrates that the wider market can advance even without Bitcoin setting new highs, as long as it remains stable. This summary is based on content from bitcoinist.com, with editorial review for accuracy and unbiased reporting by News Desk and Samuel Rae.\n\nOther news links in the original included Ethena expanding USDe backing, Binance listing Hyperliquid HYPE, Kamino launching onchain sterling lending, Forward Industries raising $25M to buy Solana, Streamflow burning 70% of STREAM supply, and a Canadian-dollar stablecoin going live on Solana, but no specific additional details were included in the main article body.",
+     "url": "https://bitcoinist.com/quant-jumps-39-as-altcoins-rally-while-bitcoin-stalls-near-84k/",
+     "publishedAt": "27 September 2026 09:30 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Analysts Flag Altcoin Momentum as Total2 Absorbs $371B Since June",
+     "description": null,
+     "content": "Altcoins have seen a surge in market participation since June 2026, with Total2 (representing Ethereum and other altcoins) gaining 45% over several months and absorbing over $371 billion, according to analyst Darkfost. Currently, 87% of Binance-listed altcoins are trading above their 200-day moving averages, a major shift from August when 80% traded below that level, indicating a departure from previous trends. Darkfost described the market as experiencing \"euphoria,\" but noted such momentum historically fades.\n\nAltcoin leverage dominance has reached its highest point in 2.5 years, while exchange deposits for altcoins hit their highest level since October 2025, as highlighted by analyst Julio Moreno. The total cryptocurrency market cap stands at $2.88 trillion on the four-hour chart, having risen $12.94 billion (0.45%) in the latest trading candle, with trading volume at $91.61 billion. The candle opened at $2.87 trillion, peaked at $2.88 trillion, and hit a low of $2.86 trillion.\n\nThe market cap has rebounded from a mid-September low of approximately $2.55 trillion, climbing past $2.70 trillion and $2.80 trillion, and nearly reaching $2.90 trillion before pulling back from $2.94 trillion. The market has since consolidated between $2.83 trillion and $2.88 trillion, facing resistance at $2.90 trillion and $2.94 trillion and support at $2.85 trillion, $2.80 trillion, and $2.75 trillion.\n\nTechnical indicators show the RSI at 58.75, above its 54.36 moving average and over the neutral 50 mark. However, the MACD line is at $9.77 billion, below its $10.48 billion signal line, with a negative histogram of -$700.57 million, suggesting mixed short-term signals.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8dc3e139fbb27f2d22062",
+     "publishedAt": "27 September 2026 09:00 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Bix Card Wants To Expand Crypto Spending From 29 To 49 Us States",
+     "description": "Crypto card provider BIX is planning a significant U.S. expansion, aiming to take its payment product from 29 supported states to 49.",
+     "content": "BIX, a crypto card provider, plans to expand its crypto-enabled Visa card offering from 29 to 49 U.S. states within six to eight months, although the timeline depends on regulatory approvals and the readiness of financial partners. The card allows eligible users to hold USDC or USDT in a self-custody wallet and make ordinary purchases, while merchants receive fiat via the traditional Visa payment system. Supported stablecoin and network combinations include BNB Smart Chain, Base, Solana, and Optimism infrastructures. BIX's approach uses existing card rails for payment, keeping value on the blockchain for users but converting to fiat for merchants, eliminating the need for merchants to accept crypto directly. The limited state coverage is due more to diverse regulatory and banking partner requirements than technical constraints. BIX anticipates adding around 20 more states as these partners and approvals materialize. The company offers a free standard membership; eligible users can access virtual cards, while physical cards and expanded account features (connecting stablecoin balances to ACH, SEPA, and SWIFT) are planned for the future but are not currently available. Crypto cards like BIX simplify digital asset spending compared to older models by allowing direct use of stablecoins without triggering conversion at checkout. BIX’s primary growth challenge is securing permissions to serve nearly all U.S. states. This summary is based on an article by the News Desk, edited by Samuel Rae, and reflects the platform’s commitment to accurate, well-reviewed, and unbiased technology news.",
+     "url": "https://bitcoinist.com/bix-card-wants-to-expand-crypto-spending-from-29-to-49-us-states/",
+     "publishedAt": "27 September 2026 08:30 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "Bitget hacker routes 4 BTC through Wasabi CoinJoin",
+     "description": null,
+     "content": "Bitget confirmed approximately $387.5 million in assets were transferred to attacker-controlled addresses during its September 24, 2026 security breach, revising its initial $351.6 million estimate after identifying missing Zcash and TRON assets. AMLBot, a blockchain compliance firm, traced about 4 BTC linked to the theft into a Wasabi CoinJoin mixer transaction, following a route that started on TRON (TRX to USDT), bridged via USDT0 to Ethereum, swapped for ~145 ETH, moved through THORChain, and converted to around 4.59 BTC. The Bitcoin was split into smaller amounts, and ~4 BTC was found entering CoinJoin, making tracing tougher due to transaction obfuscation. AMLBot characterized this activity as laundering, blacklisted associated addresses, and continues monitoring them for further movement. \nMost stolen assets remain dormant, with AMLBot estimating $343 million (about 88% of ~$389 million tracked) across 13 attacker wallets as of September 25 – including eight Ethereum wallets holding ~68,300 ETH, four XRP wallets with ~83 million XRP, and one wallet with ~18,900 ZEC. None of these wallets had sent transactions since receiving the funds. Security researcher Taylor Monahan also identified post-breach movement of stolen USDC swapped for ETH. Circle has the capacity to freeze USDC at specified addresses, but it is unclear if a legal order has reached them.\nBitget states the vulnerability responsible for the breach is fixed and will reopen withdrawals in phases: Bitcoin at 08:00 UTC on Sept. 28; ETH on Sept. 29; USDT on Sept. 30; other tokens, fiat, and peer-to-peer withdrawals on Oct. 2. Mandiant and SlowMist assist with the ongoing investigation. Bitget’s Protection Fund (over $464 million) will cover losses; user balances remain unchanged. CEO Gracy Chen schedules a live AMA at 07:30 UTC on Sept. 28 to discuss the incident and next steps.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d2dd33413b152c9e247c",
+     "publishedAt": "27 September 2026 08:20 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Bitget hacker routes 4 BTC through Wasabi CoinJoin",
+     "description": "AMLBot traced about 4 BTC linked to the Bitget hack into Wasabi CoinJoin after swaps through USDT0, Ethereum and THORChain.",
+     "content": "Blockchain compliance firm AMLBot traced roughly four BTC linked to the September Bitget security breach into a Wasabi CoinJoin mixing transaction, after the funds traversed TRON, USDT0 (omnichain Tether), Ethereum, and THORChain. AMLBot characterized this as an apparent attempt by attackers to launder stolen crypto. Bitget confirmed that approximately $387.5 million was transferred to attacker-controlled addresses—a figure revised upward from an earlier $351.6 million estimate after identifying additional Zcash and TRON assets. By September 25, AMLBot estimated about $343 million remained dormant across thirteen attacker wallets, including 68,300 ETH, 83 million XRP, and nearly 18,900 ZEC, with no further movements observed from those addresses.\n\nDuring the breach, Bitget detected unauthorized activity at 18:31 UTC on September 24, suspended withdrawals, and kept deposits and trading operational; cold wallets remained secure. The incident resulted from a backend wallet infrastructure compromise, not a leak of private keys. Bitget’s security team later identified and fixed the attack path and method used, but has not released a full technical report. Withdrawals will be restored in phases beginning September 28 (BTC), September 29 (ETH), September 30 (USDT), and October 2 (other tokens, fiat, P2P).\n\nBitget said its Protection Fund, holding over $464 million during the withdrawal pause, will cover customer losses; account balances remain unchanged. CEO Gracy Chen will host a live AMA at 07:30 UTC, September 28, to discuss the incident and recovery. Bitget’s proof-of-reserves update before the hack showed a 135% reserve ratio across 19 assets and a minimum 1:1 user asset coverage. External firms Mandiant and SlowMist continue forensic investigation and infrastructure validation.",
+     "url": "https://crypto.news/bitget-hacker-routes-4-btc-through-wasabi-coinjoin/",
+     "publishedAt": "27 September 2026 08:20 AM UTC+0",
+     "quality": "9.0"
+    },
+    {
+     "title": "Altcoin market cap adds $371B as 87% turn bullish",
+     "description": "Altcoin market value has risen $371 billion since June as 87% of Binance-listed tokens move above their 200-day averages.",
+     "content": "The altcoin market has rallied strongly since June 2026, adding over $371 billion in capitalization—a roughly 45% increase—lifting TOTAL2 (market cap excluding Bitcoin, including Ethereum) to about $1.17 trillion, according to CryptoQuant analyst Darkfost and TradingView data as of Sept. 27. This recovery is marked by 87% of Binance-listed altcoins now trading above their 200-day moving averages (up from only 16% above in June, when 84% were below the indicator). Transaction activity surged, with Binance recording a seven-day average of ~31,800 altcoin deposit transactions, nearly four times July’s average (8,300). Coinbase’s average altcoin deposit transactions rose from ~2,200 to ~4,700; Bybit reached ~2,700.\n\nTOTAL3 (market cap excluding both Bitcoin and Ethereum) crossed $810 billion for the first time in eight months. Ethereum’s cap stands at ~$334 billion; Bitcoin near $1.73 trillion, with BTC holding above $84,000 after climbing 45% from July. As of Sept. 26, total crypto market capitalization was close to $2.98 trillion, per CoinGecko. Quant, Ethena, and Bitway were noted as top weekly performers.\n\nDarkfost warns that the broad rally—87% of Binance altcoins above the moving average and exchange deposit levels returning to highs last seen in October 2025—reflects heightened euphoria and may signal market fragility. A bearish divergence in TOTAL2’s relative strength index suggests momentum could be waning. Derivatives data shows altcoin perpetual-futures open interest surpassed Bitcoin’s for the first time since December 2024, with BTC representing 37% of tracked positions.\n\nDarkfost’s analysis offers no precise reversal date but urges caution as conditions shift after the sharp altcoin recovery, noting extreme greed readings and rising market participation, which could precede selling pressure.",
+     "url": "https://crypto.news/altcoin-market-cap-adds-371b-as-87-turn-bullish/",
+     "publishedAt": "27 September 2026 08:09 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Altcoin market cap adds $371B as 87% turn bullish",
+     "description": null,
+     "content": "The altcoin market capitalization (TOTAL2, which tracks crypto excluding Bitcoin but including Ethereum) has risen by over $371 billion since June 2026, marking a roughly 45% increase to near $1.17 trillion, per TradingView and CryptoQuant analyst Darkfost (as of Sept. 27). This surge is characterized by 87% of Binance-listed altcoins now trading above their respective 200-day moving averages—an indicator of sustained bullish momentum. In contrast, at the end of June 2026, about 84% of these altcoins traded below their 200-day averages, a condition described as the second-longest period of technical weakness since 2020. Exchange activity mirrored this recovery: Binance altcoin deposit transactions recently averaged 31,800 in seven days, nearly quadrupling from July’s 8,300. Coinbase’s deposits rose from 2,200 to 4,700, and Bybit’s to 2,700. Darkfost noted increased deposits may signal greater participation or potential selling pressure, though the data does not confirm asset sales.\n\nTOTAL3, which excludes both Bitcoin and Ethereum, crossed $800 billion for the first time in eight months. Ethereum’s market value is near $334 billion, second to Bitcoin’s approximately $1.73 trillion. Crypto.news reported perpetual-futures open interest tied to altcoins exceeded Bitcoin’s for the first time since December 2024, with Bitcoin comprising roughly 37% of tracked positions.\n\nDespite strong market breadth and sentiment—with an indicator briefly in the \"extreme greed\" range—Darkfost warned of possible fragility, citing exchange deposits at levels last seen in October 2025 and a bearish divergence in TOTAL2’s relative strength index. Bitcoin also rallied, holding above $84,000 after rising ~45% from July, with the total crypto market cap near $2.98 trillion. Darkfost’s latest analysis highlights conditions to monitor but offers no prediction of reversal.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d2dd33413b152c9e247e",
+     "publishedAt": "27 September 2026 08:09 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Ethereum Price Prediction: Can $ETH Reclaim $4,000?",
+     "description": null,
+     "content": "Ethereum trades at $2,708 as of 09:00 UTC, September 27, 2026, up 0.85% for the day and nearly 2.87% over the week per CoinMarketCap. Market cap is $330.4 billion, 24-hour volume stands at $5.46 billion. Daily RSI is 64.76 (bullish, not overbought). ETH tracks closely with Bitcoin, so BTC moves influence major ETH directions. Immediate support sits at $2,346; major support at $1,510. Resistance is at $2,900; major resistance at $4,029. Traders eye $3,600–$4,000 as the next price targets, with ETF buying the main current catalyst and risk of stalling below resistance. \n\nTechnical indicators: ETH formed higher lows through 2026, recently breaking above a descending channel, suggesting a bullish daily structure. MACD shows a modest bullish crossover, and volume supports the move but is not extreme—further breakout above $2,900 needs stronger volume.\n\nScenarios for 2026: bear case ($1,500–$2,300, market cap $183B–$281B) if ETF outflows hit; base case ($2,600–$3,600, $317B–$439B) with steady ETF demand; bull case ($3,600–$5,300, $439B–$647B) if breakout and inflows continue. Longer-term price/model ranges: 2027 ($1,800–$6,200); 2028 ($2,000–$7,200); 2029 ($2,200–$8,200); 2030 base case ($6,000–$10,000, $750B–$1.25T), aggressive case up to $15,000.\n\nKey bullish drivers: strong ETF inflows (e.g., $86.95M in a day for BlackRock’s ETH fund, $334M total ETF inflows in 24h), on-chain activity, robust staking demand (waiting: 1.68M ETH, exit: 154,000 ETH), scaling upgrades. Risks: macro tightening, ETF outflows, ETH/BTC weakness, falling fees, regulatory setbacks, breakdown below $2,346 or $1,510, and Bitcoin correlation. No model guarantees; all scenario bands are conditional. Predictions are informational, not investment advice.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8dc3d58d7441c7face60f",
+     "publishedAt": "27 September 2026 08:00 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "THORChain vs OKX Founder: Bitget Hack Sparks Decentralization Row",
+     "description": null,
+     "content": "A major hack at Bitget on September 25, 2026, resulting in losses over $387 million, triggered a prominent crypto infrastructure dispute: THORChain vs OKX. The attacker converted stolen ETH, AVAX, BNB, USDT, and USDC to ETH, with $1.23 million traced through Binance within 48 hours. Star Xu, OKX founder, questioned THORChain’s decentralization, citing its TSS-plus-validator setup where a group of validators collectively controls assets, arguing this resembles an intermediary more than true base-layer consensus as on Bitcoin or Ethereum. He referenced a protocol vault drain in May, which caused 13 hours of downtime, reinforcing his critique.\n\nTHORChain’s official account responded by describing itself as decentralized and permissionless, like Bitcoin, Ethereum, and BNB Chain, and questioned what responsibility base-layer chains should have when stolen assets move through them. Critics recalled last year's $1.46 billion Bybit hack, with nearly $1.2 billion routed through THORChain’s infrastructure. Bitget CEO Gracy Chen formally urged THORChain to reject transactions tied to the flagged exploiter wallets, noting these addresses are publicly monitored and arguing that decentralization should not excuse transferring stolen funds.\n\nKey figures: Bitget 2026 hack ($387 million); Bybit 2025 hack ($1.46 billion, $1.2 billion routed via THORChain); May THORChain downtime (13 hours).\n\nThe dispute spotlights unresolved questions about permissionless networks’ responsibility for flagged wallets. Supporters of THORChain stress non-selective transaction processing, while critics warn this enables unchecked theft. The issue is important as traders, exchanges, and analysts await industry standards for handling publicly linked stolen funds. No resolution has occurred; Bitget’s request remains unanswered, and both sides are holding their positions. The case is likely to influence future cross-chain platform policies.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d53643e3222e16415119",
+     "publishedAt": "27 September 2026 07:30 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Huang Licheng continues to take profits on his ETH long position, holding $145,000 in floating gains.",
+     "description": "Huo Xing Cai Jing reports that, on September 27, according to TradingBeats monitoring, Huang Licheng's address continues to take profits on ETH long positions.",
+     "content": "Huang Licheng is actively taking profits from his leveraged cryptocurrency positions as of September 27, 2026, according to TradingBeats monitoring reported by Huo Xing Cai Jing. He currently holds a 25x leveraged long position of 32,525 ETH at an average entry price of $2,668.35, resulting in an unrealized profit (floating gains) of $1.32 million. In addition, Huang holds a 40x leveraged long position of 392 BTC with an average entry price of $84,080.10, yielding $170,000 in floating gains. Conversely, his 10x leveraged long position of 213,500 HYPE at an average entry price of $93.11 shows a floating loss of $40,000. The on-chain data suggests Huang combines high leverage with a value-oriented approach in his crypto investments. The spot prices shown are ETH at $2,716.22 (+0.9%), BTC at $84,791.50 (+0.67%), and HYPE at $93.10 (+1.35%). No financial or investment advice is offered in this report; information is for general informational purposes only.",
+     "url": "https://www.kucoin.com/news/flash/huang-licheng-continues-to-take-profits-on-eth-long-position-holding-145-000-usd-in-floating-gains",
+     "publishedAt": "27 September 2026 07:02 AM UTC+0",
+     "quality": "6.0"
+    }
+   ]
+  },
+  "5426": {
+   "fetched_at": "2026-09-27T09:51:25.554179+00:00",
+   "payload": [
+    {
+     "title": "Bix Card Wants To Expand Crypto Spending From 29 To 49 Us States",
+     "description": "Crypto card provider BIX is planning a significant U.S. expansion, aiming to take its payment product from 29 supported states to 49.",
+     "content": "BIX, a crypto card provider, plans to expand its crypto-enabled Visa card offering from 29 to 49 U.S. states within six to eight months, although the timeline depends on regulatory approvals and the readiness of financial partners. The card allows eligible users to hold USDC or USDT in a self-custody wallet and make ordinary purchases, while merchants receive fiat via the traditional Visa payment system. Supported stablecoin and network combinations include BNB Smart Chain, Base, Solana, and Optimism infrastructures. BIX's approach uses existing card rails for payment, keeping value on the blockchain for users but converting to fiat for merchants, eliminating the need for merchants to accept crypto directly. The limited state coverage is due more to diverse regulatory and banking partner requirements than technical constraints. BIX anticipates adding around 20 more states as these partners and approvals materialize. The company offers a free standard membership; eligible users can access virtual cards, while physical cards and expanded account features (connecting stablecoin balances to ACH, SEPA, and SWIFT) are planned for the future but are not currently available. Crypto cards like BIX simplify digital asset spending compared to older models by allowing direct use of stablecoins without triggering conversion at checkout. BIX’s primary growth challenge is securing permissions to serve nearly all U.S. states. This summary is based on an article by the News Desk, edited by Samuel Rae, and reflects the platform’s commitment to accurate, well-reviewed, and unbiased technology news.",
+     "url": "https://bitcoinist.com/bix-card-wants-to-expand-crypto-spending-from-29-to-49-us-states/",
+     "publishedAt": "27 September 2026 08:30 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "Bitget hacker routes 4 BTC through Wasabi CoinJoin",
+     "description": null,
+     "content": "Bitget confirmed approximately $387.5 million in assets were transferred to attacker-controlled addresses during its September 24, 2026 security breach, revising its initial $351.6 million estimate after identifying missing Zcash and TRON assets. AMLBot, a blockchain compliance firm, traced about 4 BTC linked to the theft into a Wasabi CoinJoin mixer transaction, following a route that started on TRON (TRX to USDT), bridged via USDT0 to Ethereum, swapped for ~145 ETH, moved through THORChain, and converted to around 4.59 BTC. The Bitcoin was split into smaller amounts, and ~4 BTC was found entering CoinJoin, making tracing tougher due to transaction obfuscation. AMLBot characterized this activity as laundering, blacklisted associated addresses, and continues monitoring them for further movement. \nMost stolen assets remain dormant, with AMLBot estimating $343 million (about 88% of ~$389 million tracked) across 13 attacker wallets as of September 25 – including eight Ethereum wallets holding ~68,300 ETH, four XRP wallets with ~83 million XRP, and one wallet with ~18,900 ZEC. None of these wallets had sent transactions since receiving the funds. Security researcher Taylor Monahan also identified post-breach movement of stolen USDC swapped for ETH. Circle has the capacity to freeze USDC at specified addresses, but it is unclear if a legal order has reached them.\nBitget states the vulnerability responsible for the breach is fixed and will reopen withdrawals in phases: Bitcoin at 08:00 UTC on Sept. 28; ETH on Sept. 29; USDT on Sept. 30; other tokens, fiat, and peer-to-peer withdrawals on Oct. 2. Mandiant and SlowMist assist with the ongoing investigation. Bitget’s Protection Fund (over $464 million) will cover losses; user balances remain unchanged. CEO Gracy Chen schedules a live AMA at 07:30 UTC on Sept. 28 to discuss the incident and next steps.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d2dd33413b152c9e247c",
+     "publishedAt": "27 September 2026 08:20 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Pump.fun News Today: $848M SOL Sell-Off Raises a Big Question",
+     "description": null,
+     "content": "Pump.fun's latest SOL sale has pushed its cumulative liquidations past $848 million since its launch, with the most recent batch involving 47,994 SOL sold (about $5.83 million) two hours prior to reporting, tracked by Lookonchain. In total, the platform has sold 5,236,623 SOL at an average price of $162 each. These liquidations are consistently routed from Pump.fun’s fee accounts directly to Kraken, the exchange used to convert SOL into cash, as confirmed by Arkham Intelligence explorer data.\n\nThis event is part of a systematic treasury conversion strategy: individual sales typically range from 50,000 to 130,000 SOL, with average prices remaining between $160 and $175, and the cadence is steady regardless of short-term SOL price movements. Analysts note this pattern resembles an automated treasury operation rather than ad-hoc profit-taking.\n\nPump.fun, a prominent Solana memecoin launchpad active since early 2024, collects a 1% fee on token launches and trades, generating over $1 billion in total protocol revenue. The $848 million in SOL sales represents the majority of this, as it’s converted into realized cash. Notably, since Pump.fun’s July 2025 ICO launch of its native PUMP token, 50% of net revenue is used for buyback-and-burn, with approximately $457 million from SOL liquidations directed into these buybacks, supporting PUMP’s tokenomics.\n\nFor SOL traders, Pump.fun’s consistent large-scale selling: 1) introduces a predictable source of selling pressure, 2) has not prevented SOL price appreciation (indicating strong market demand), and 3) is highly transparent due to on-chain tracking by Lookonchain and Arkham, allowing close monitoring of sale timing and size.\n\nThe milestone reinforces Pump.fun’s systematic and transparent treasury conversions as a major ongoing capital flow in the Solana ecosystem.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8e0ed43e3222e16415128",
+     "publishedAt": "27 September 2026 08:15 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Altcoin market cap adds $371B as 87% turn bullish",
+     "description": "Altcoin market value has risen $371 billion since June as 87% of Binance-listed tokens move above their 200-day averages.",
+     "content": "The altcoin market has rallied strongly since June 2026, adding over $371 billion in capitalization—a roughly 45% increase—lifting TOTAL2 (market cap excluding Bitcoin, including Ethereum) to about $1.17 trillion, according to CryptoQuant analyst Darkfost and TradingView data as of Sept. 27. This recovery is marked by 87% of Binance-listed altcoins now trading above their 200-day moving averages (up from only 16% above in June, when 84% were below the indicator). Transaction activity surged, with Binance recording a seven-day average of ~31,800 altcoin deposit transactions, nearly four times July’s average (8,300). Coinbase’s average altcoin deposit transactions rose from ~2,200 to ~4,700; Bybit reached ~2,700.\n\nTOTAL3 (market cap excluding both Bitcoin and Ethereum) crossed $810 billion for the first time in eight months. Ethereum’s cap stands at ~$334 billion; Bitcoin near $1.73 trillion, with BTC holding above $84,000 after climbing 45% from July. As of Sept. 26, total crypto market capitalization was close to $2.98 trillion, per CoinGecko. Quant, Ethena, and Bitway were noted as top weekly performers.\n\nDarkfost warns that the broad rally—87% of Binance altcoins above the moving average and exchange deposit levels returning to highs last seen in October 2025—reflects heightened euphoria and may signal market fragility. A bearish divergence in TOTAL2’s relative strength index suggests momentum could be waning. Derivatives data shows altcoin perpetual-futures open interest surpassed Bitcoin’s for the first time since December 2024, with BTC representing 37% of tracked positions.\n\nDarkfost’s analysis offers no precise reversal date but urges caution as conditions shift after the sharp altcoin recovery, noting extreme greed readings and rising market participation, which could precede selling pressure.",
+     "url": "https://crypto.news/altcoin-market-cap-adds-371b-as-87-turn-bullish/",
+     "publishedAt": "27 September 2026 08:09 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Altcoin market cap adds $371B as 87% turn bullish",
+     "description": null,
+     "content": "The altcoin market capitalization (TOTAL2, which tracks crypto excluding Bitcoin but including Ethereum) has risen by over $371 billion since June 2026, marking a roughly 45% increase to near $1.17 trillion, per TradingView and CryptoQuant analyst Darkfost (as of Sept. 27). This surge is characterized by 87% of Binance-listed altcoins now trading above their respective 200-day moving averages—an indicator of sustained bullish momentum. In contrast, at the end of June 2026, about 84% of these altcoins traded below their 200-day averages, a condition described as the second-longest period of technical weakness since 2020. Exchange activity mirrored this recovery: Binance altcoin deposit transactions recently averaged 31,800 in seven days, nearly quadrupling from July’s 8,300. Coinbase’s deposits rose from 2,200 to 4,700, and Bybit’s to 2,700. Darkfost noted increased deposits may signal greater participation or potential selling pressure, though the data does not confirm asset sales.\n\nTOTAL3, which excludes both Bitcoin and Ethereum, crossed $800 billion for the first time in eight months. Ethereum’s market value is near $334 billion, second to Bitcoin’s approximately $1.73 trillion. Crypto.news reported perpetual-futures open interest tied to altcoins exceeded Bitcoin’s for the first time since December 2024, with Bitcoin comprising roughly 37% of tracked positions.\n\nDespite strong market breadth and sentiment—with an indicator briefly in the \"extreme greed\" range—Darkfost warned of possible fragility, citing exchange deposits at levels last seen in October 2025 and a bearish divergence in TOTAL2’s relative strength index. Bitcoin also rallied, holding above $84,000 after rising ~45% from July, with the total crypto market cap near $2.98 trillion. Darkfost’s latest analysis highlights conditions to monitor but offers no prediction of reversal.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8d2dd33413b152c9e247e",
+     "publishedAt": "27 September 2026 08:09 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Pump.fun moves $5.83M in SOL to Kraken",
+     "description": null,
+     "content": "Pump.fun transferred 47,994 SOL (approx. $5.83 million) to Kraken on September 27, 2026, as tracked by Lookonchain, marking a continuation of the platform’s regular treasury movements to the exchange since 2024. Lookonchain estimates Pump.fun has cumulatively sold 5,236,623 SOL (approx. $848 million) at an average price of $162 per SOL, primarily through deposits to Kraken, with some sales directly on-chain (e.g., 264,373 SOL for $41.6 million USDC). In May 2025, Pump.fun sold about 4.47 million SOL for $780 million, depositing 4.2 million SOL to Kraken. June 2025 saw another 132,180 SOL ($20.87 million) transferred, pushing annual exchange deposits above 2.47 million SOL. In February 2025, 65,122 SOL ($11 million) was moved, and by June 2025, total Kraken deposits crossed $660 million. While Lookonchain labels these transfers as sales, the act of depositing SOL to Kraken does not confirm immediate or complete liquidation, as subsequent actions on centralized exchanges are not externally visible.\n\nAfter the latest transfer, Solana (SOL) traded near $121.38 (up 1% in 24 hours, 11.6% over 7 days) with a $2.83 billion daily trading volume and market capitalization above $71 billion. No direct price impact from Pump.fun’s move was observed, as the transaction represented less than $6 million against multi-billion-dollar daily volumes. Pump.fun’s PUMP buyback and burn program has spent $463.5 million to burn 167.91 billion PUMP tokens (16.79% of total supply) as of September 25, using roughly 50% of platform revenue. Recent daily buybacks ranged from 6,800 to 8,700 SOL. Pump.fun cautions that past buybacks are guided by an allocation framework and do not guarantee future activity beyond this scope.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8ce2d43e3222e16415116",
+     "publishedAt": "27 September 2026 07:51 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Pump.fun moves $5.83M in SOL to Kraken",
+     "description": "Pump.fun transferred 47,994 SOL worth $5.83 million to Kraken as Lookonchain estimated cumulative SOL sales at roughly $848 million.",
+     "content": "Pump.fun transferred 47,994 SOL (≈$5.83 million) to Kraken on Sept. 27, continuing a pattern of large Solana movements tracked since 2024. Lookonchain analytics classify the transaction as another sale and estimate Pump.fun’s cumulative SOL sales at 5,236,623 tokens worth about $848 million, at an average price of $162 per SOL. While exchange deposits are often considered sales, blockchain data only confirms asset movement to Kraken and cannot guarantee immediate token liquidation. Previous transfers include 4.47 million SOL in May 2024 ($780 million at ~$175 each), 132,180 SOL in June 2025 ($20.87 million), and 65,122 SOL in February 2025 ($11 million). SOL’s market price rose to around $121.38 after the recent transfer (up 1% in 24 hours, 11.6% in seven days), with a daily spot volume of $2.83 billion and a market cap above $71 billion. No evidence ties Pump.fun’s transfers directly to price drops.\n\nPump.fun’s treasury operations include ongoing PUMP token buybacks and burns; $463.5 million was spent to purchase and burn 167.91 billion PUMP as of Sept. 25, removing 16.79% of the original supply. Its protocol revenue is estimated at $504 million annualized (based on a 90-day average), allocating about 50% of platform revenue to buybacks. Daily buybacks (Sept. 16-25) used between 6,800 and 8,700 SOL. Past purchases do not guarantee future discretionary activity beyond the programmed allocation.\n\nKraken does not publicly disclose how deposited SOL is handled post-arrival. Pump.fun continues treasury processing and token movements alongside its PUMP burn program. Lookonchain’s $848 million estimate reflects cumulative tracked sales, not direct disclosure by Pump.fun. Solana’s market remained stable after the transfer.",
+     "url": "https://crypto.news/pump-fun-moves-5-83m-in-sol-to-kraken/",
+     "publishedAt": "27 September 2026 07:51 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Solana trades at $121.17, price scenarios show possible range of $109.05 to $133.28",
+     "description": null,
+     "content": "Solana’s spot price was $121.165 on Coinbase at 15:24 UTC, 26 September 2026, serving as a reference for price sensitivity calculations. Analysts clarify that modeled price scenarios—10% up (to ~$133.28) or 10% down (to ~$109.05)—are illustrative, not forecasted, provide mathematical examples rather than predictions, and lack any set timeframe or likelihood of occurrence. These numbers show how percentage shifts impact valuation for traders and long-term holders, emphasizing use of current data and caution in market entry or exit decisions. A quoted reminder: \"A 10% move from this snapshot sets Solana’s potential price range between $109.05 and $133.28, but the exercise does not suggest these levels will be reached within a set timeframe or under specific market conditions.\" \n\nOn 24 September, the Solana Foundation announced new leadership with a focus on strategic planning and the payments sector, though this does not directly specify SOL purchase volumes or guarantee price outcomes. Network health and performance remain independent data points for market analysis. Technical factors—including liquidity, order books, and resistance levels—continue to guide assessments, but no definitive market direction is forecast; analysts recommend caution and adaptability.\n\nMeme tokens within active segments can experience large price swings driven by internet trends, as illustrated by Fomo App data: a $99 trade in \"Niu Lai\" recently yielded ~$370,000, demonstrating the significance of investor timing and token choice. Fomo App offers token discovery, social feeds, investor rankings, and trade notifications.\n\nMarket observers should integrate arithmetic scenario planning with monitoring sentiment and emergent projects, maintaining data accuracy. Risk assessments must be continually updated to reflect shifting liquidity and technical indicators, and models do not incorporate fees or sudden events. Investors should use latest prices, acknowledge analysis timestamps, and consult multiple sources for comprehensive risk management.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8cbd6139fbb27f2d22058",
+     "publishedAt": "27 September 2026 07:43 AM UTC+0",
+     "quality": "6.0"
+    },
+    {
+     "title": "15 6B Bitcoin Options Expiry Clears As Btc Holds Near 84K",
+     "description": "One of the largest Bitcoin options expiries of the year has passed without blowing up the spot market.",
+     "content": "Around $15.6 billion in Bitcoin options expired on Deribit on September 25, one of the largest options expiries of the year. This event cleared approximately 182,000 BTC worth of contracts, with call options (about 106,200 BTC) outnumbering puts (about 75,900 BTC). Bitcoin traded near $83,600 post-settlement, below its weekly peak close to $87,000 but above earlier price ranges. Despite the expiry, large altcoins outperformed: XRP rose around 15% in seven days and Solana gained about 9%. The expiry removed a substantial hedging exposure from the market, potentially altering short-term positioning, but did not correspond to direct buying or selling of $15.6 billion in Bitcoin—it reflects notional contract value. The expiry’s passing meant some options-related hedging flows subsided, but did not trigger major price swings or a broad exodus from crypto risk. Trader speculation about price being forced to certain strikes was not borne out; real market influence remains tied to spot demand, broader positioning, and macro conditions. With this major quarterly expiry settled, upcoming Bitcoin price action is expected to depend less on the management of derivatives positions and more on ongoing investor demand. The article was produced and fact-checked by bitcoinist.com’s News Desk and editors, emphasizing strict sourcing and accuracy standards. Additional news items and updates regarding Bitcoin ETFs, significant market inflows, ATM financing, and total transaction volumes for TRON were referenced in surrounding content but not detailed within this article.",
+     "url": "https://bitcoinist.com/15-6b-bitcoin-options-expiry-clears-as-btc-holds-near-84k/",
+     "publishedAt": "27 September 2026 07:30 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Solana holds $117 support, eyes $143 as stablecoin supply hits record $17.3 billion",
+     "description": null,
+     "content": "Solana is rebounding as buyers defend the key $117 support level, leading to increased investor and analyst interest in its next technical targets. Analyst Bitcoin Meraklisi highlights $117 as crucial: holding above this keeps recovery intact, with $143 as the next resistance if upward momentum persists. Solana closed at $120.81 on September 25, peaking at $122.07 and up 24% from its monthly low of $96.87 on September 16. Sustained trading above $117 indicates strength; a drop below would shift focus to lower supports and threaten bullish prospects. \n\nSolana’s stablecoin supply recently hit a record $17.3 billion, signaling expanding liquidity and use in decentralized apps and financial services on the network. Simultaneously, SolanaFloor reports U.S. spot Solana ETF net inflows at a daily record $80 million and weekly total $181 million, the second-highest to date, reflecting rising institutional involvement. Stablecoin supply and ETF inflows point to robust market activity and sentiment, though they do not individually guarantee price gains. \n\nTechnical signals—especially the rebound from $97 and defense of $117—are central to bullish momentum and the possibility of a move toward $143 if buyers sustain engagement. Fast-moving meme token markets add complexity, as illustrated by a trader turning $99 in \"Niu Lai\" into about $370,000 via Fomo App, which offers real-time monitoring and trading tools for emerging opportunities.\n\nAnalysts will focus on Solana’s ability to maintain price structure and challenge $143 resistance, with further growth contingent on consistent buyer activity, capital inflows, and expanding ecosystem liquidity. Stablecoin supply and ETF inflows provide context for price recovery, but sustained support and buying momentum are necessary for continued upside.",
+     "url": "https://coinmarketcap.com/community/articles/6ab8c01d33413b152c9e2469",
+     "publishedAt": "27 September 2026 06:52 AM UTC+0",
+     "quality": "7.0"
+    }
+   ]
+  },
+  "20641": {
+   "fetched_at": "2026-09-27T09:51:37.683035+00:00",
+   "payload": [
+    {
+     "title": "Circle gains Binance backing in USDC-Tether race",
+     "description": "Circle secured a $100 million Binance investment and five-year USDC deal as it competes with Tether for stablecoin market share.",
+     "content": "Circle secured a $100 million investment from Binance and entered into a five-year commercial agreement to boost USDC distribution, announced September 22. Binance purchased 1,237,011 Class A Circle shares at $80.84 each in a private placement closed September 17, gaining voting rights but facing a two-year lock-up on most share actions. The agreement, succeeding previous 2024 and 2025 deals, commits both companies to expanding USDC, especially in emerging markets; Circle will pay Binance ongoing monthly incentives based on qualifying USDC balances held through Circle’s Modular Smart Contract Wallet infrastructure, while Binance must promote USDC across its platform. Either party may terminate under certain conditions.\n\nUSDC’s market capitalization reached about $75.3 billion (September 23), while USDT (Tether) remained dominant at $183.8 billion (September 26). Trading data from Kaiko indicates Binance’s USDC spot markets grew from 39 in 2021 to 329 post-partnership, and trading volume rose from $20–40 billion monthly to over $80 billion recent months, hitting $5–10 billion per day in 2026—10 to 20 times that of many rival exchanges. Binance periodically delists low-volume USDC pairs, e.g. BREV/USDC, COOKIE/USDC, LA/USDC, QNT/USDC. Circle concurrently partners with exchanges like OKX to further USDC access.\n\nCircle expanded into payments with a September 8 agreement to acquire Singapore-based Tazapay, a $400 million all-stock transaction expected to close in 2027 pending regulatory approvals. Tazapay processes over $25 billion in annualized volume, with stablecoins used in about 60% of transactions. Circle also launched Arc’s mainnet (September 16), a blockchain using USDC for fees, joined by validators like BlackRock, Visa, Mastercard, DTCC, and Standard Chartered. Binance’s investment, according to co-CEO Richard Teng, signals “long-duration conviction” in Circle and USDC; CEO Jeremy Allaire said the deal would expand USDC’s reach through Binance’s global user base.",
+     "url": "https://crypto.news/circle-gains-binance-backing-in-usdc-tether-race/",
+     "publishedAt": "27 September 2026 07:03 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "South Korean Industry Pushes Liquidity Safeguards for Stablecoins | TokenPost",
+     "description": "Proposed rules would address initial circulation, redemptions, secondary-market liquidity and price-deviation disclosures after sharp moves in JPYC, PYUSD and EURC.",
+     "content": "Unmarked metal tokens displayed beside an empty exchange counter / TokenPost.ai\nSouth Korean industry participants are calling for future stablecoin rules to cover secondary-market liquidity after several tokens traded far from reference values on local exchanges.\nDiscover moreDistributed & Cloud ComputingnewsNEWS\nThe proposals would address initial circulation, issuance and redemptions, secondary-market liquidity and disclosures when prices deviate from reference values. Regulatory discussions also cover issuer identity, minimum capital and reserve assets.\nJPYC, a Japanese yen stablecoin, reached 37.6 won on Upbit, compared with a reference price of about 8.8 won. PYUSD rose from 1,379 won to 1,760 won, while EURC reached 7,860 won on Bithumb, more than 400% above its previous closing price.\nThe episodes show the difference between redemption support and trading liquidity. Reserve assets can support stablecoin redemptions but do not by themselves prevent short-term price distortions in secondary markets.\nSuggested measures include designated market makers or liquidity providers, disclosures when prices move away from reference values and limits on market-price orders. The proposals would broaden stablecoin safeguards beyond issuers, capital and reserves to include trading conditions after listing.\n### ### ### \n",
+     "url": "https://tokenpost.com/news/regulation/24535",
+     "publishedAt": "27 September 2026 12:00 AM UTC+0",
+     "quality": "7.0"
+    },
+    {
+     "title": "Euro Stablecoins at Crypto Casinos: Funding With EURC",
+     "description": null,
+     "content": "EURC, Circle’s euro stablecoin, enables eurozone players to fund crypto casinos without incurring exchange-rate risk. Standard practice with USDT forces users to swap euros for dollars when depositing and back again when withdrawing, each time incurring a spread and potential losses or gains based solely on currency movements. A comparison example: depositing €1,000 at a 1.10 EUR/USD rate yields about 1,100 USDT; if the euro strengthens to 1.133 on withdrawal, converting back retrieves only €971—€29 lost despite breaking even at the casino. Using EURC instead, €1,000 in yields €1,000 out, as its value is pegged to the euro.\n\nCircle Mint Europe SAS issues EURC as an e-money token under France's ACPR, making it a MiCA stablecoin; each token is backed 1:1 with euros in cash and short-term government assets at regulated European banks. Launched on Ethereum in June 2022 and later expanding to Avalanche, Stellar, Solana, and Base, EURC’s circulating supply passed €402 million on 13 August 2026. At that time, EURC represented up to 63% of the €835 million total euro stablecoin market, with Société Générale’s EURCV in second.\n\nEuro stablecoins, though small compared to dollar tokens, now feature prominently at crypto casino cashiers. Most euro stablecoins circulate on Ethereum (69.5%), Solana (14.8% with over 105 million EURC units in June 2026), and Base (6.9%). Avalanche and Stellar have smaller shares; Stellar sees strong use for payments and remittances. Dexsport, a crypto sportsbook licensed in Anjouan, supports EURC on Solana, valued for its low fees and fast settlements. Players must send EURC to the correct network address and may need to move tokens between chains. Responsible gambling and regulatory compliance are emphasized, with the caveat to check local laws and terms before playing.",
+     "url": "https://coinmarketcap.com/community/articles/6ab6a51099df0857bb73f53a",
+     "publishedAt": "25 September 2026 02:31 PM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Circle Takes FX Onchain With 24/7 Stablecoin Settlement On Arc — TradingView News",
+     "description": "TL;DRCircle is taking another piece of traditional financial infrastructure onchain, this time targeting the foreign exchange market.StableFX is now live on Arc, Circle’s blockchain network, with the service designed to let approved institutions exchange stablecoin-denominated currencies around the…",
+     "content": "Circle has launched StableFX on Arc, its blockchain network, enabling approved institutions to settle foreign exchange (FX) trades with stablecoin-denominated currencies 24/7, surpassing conventional banking and settlement windows. StableFX uses request-for-quote (RFQ) pricing from multiple liquidity providers and smart-contract-based settlement, where both sides of a trade fund a settlement contract, ensuring payment-versus-payment (PvP) settlement: both legs of the trade settle simultaneously, or neither does. This structure reduces principal risk, the scenario where one party sends currency before receiving the other. Institutions can opt for immediate settlement or programmable windows, allowing trades to be netted before final settlement, reflecting traditional backend financial infrastructure more than crypto-native payment systems.\n\nThe service supports multiple stablecoins, including Circle’s USDC and EURC, as well as tokens representing Australian dollar, Brazilian real, Japanese yen, Canadian dollar, and South African rand. Circle Technology Services provides the API and smart contract infrastructure but does not act as a custodian or intermediary holding customer funds, leaving licensing and compliance responsibilities to participating firms.\n\nCircle aims to eliminate settlement friction in the global FX market by bringing this infrastructure onchain, leveraging stablecoins’ proven ability to move money quickly and safely. StableFX is testing whether regulated institutions can use these rails to efficiently exchange currencies, manage settlement risk, and keep capital productive outside traditional market hours. If widely adopted, the most significant stablecoin use case could be institutional backend settlements rather than consumer crypto payments. The article was written by the News Desk and edited by Samuel Rae.",
+     "url": "https://www.tradingview.com/news/newsbtc:78ca7b398094b:0-circle-takes-fx-onchain-with-24-7-stablecoin-settlement-on-arc/",
+     "publishedAt": "24 September 2026 11:30 PM UTC+0",
+     "quality": "9.0"
+    },
+    {
+     "title": "FBI crypto forum targets scams, hacks and DPRK threats",
+     "description": null,
+     "content": "The FBI convened its ninth annual Virtual Asset Technical Exchange in San Antonio on September 2–3, 2026, assembling hundreds of investigators, foreign law-enforcement partners, and crypto-security specialists amid over $11 billion in crypto-related losses reported for 2025. The invitation-only forum, previously the Virtual Currency Symposium, included around 50 private-sector vendors and focused exclusively on law-enforcement collaboration rather than industry networking. Confirmed participants included TRM Labs, Predicate (with CEO Nikhil Raghuveera presenting on stablecoin compliance and the GENIUS Act), and reportedly representatives from Chainalysis, Security Alliance, and FinCEN, though some declined to confirm.\n\nTopics included tracing illicit crypto flows tied to terrorist financing, cartel operations, scams, human trafficking, child sexual abuse, violent attacks against crypto holders, and notably, North Korean cyber threats. TRM Labs reported $643 million in H1 2026 crypto thefts linked to North Korea, with the $285 million Drift Protocol exploitation and $292 million KelpDAO hack comprising most early 2026 losses. Drift’s attacker exploited pre-signed transactions and administrative access via social engineering, then laundered funds through Tornado Cash. As of July, Drift-related wallets moved $44 million in Ether post-hack.\n\nChainalysis estimated sanctioned entities received $104 billion in crypto in 2025, up 694% year-over-year, attributing most state-driven activity to Russia, Iran, and North Korea. The FBI’s Virtual Assets Unit, launched February 7, 2022, now centralizes digital asset investigations, seizure, and training support. In 2025, the FBI’s Internet Crime Complaint Center received 181,565 crypto-related complaints (out of 1,008,597 total), with reported losses exceeding $11 billion; investment fraud accounted for nearly half of all cyber-enabled scam losses, totaling over $7.2 billion in crypto investment fraud. Calls continue for a federal interagency crypto theft task force, reflecting the scale and complexity of transnational virtual asset crime.",
+     "url": "https://coinmarketcap.com/community/articles/6ab4b8de8a9f4932675a99a7",
+     "publishedAt": "24 September 2026 05:15 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Circle expands CCTP to EURC and cirBTC on Arc",
+     "description": null,
+     "content": "Circle has expanded its Cross-Chain Transfer Protocol (CCTP) beyond USDC on the Arc network to include native EURC and cirBTC transfers, with future Gateway and Bridge Kit updates enabling broader multi-asset workflows. As of September 23, 2026, EURC can be moved across Arc, Avalanche, Base, Ethereum, and World Chain, while cirBTC currently supports CCTP transfers between Arc and Ethereum. Gateway at launch unifies USDC balances on Arc and Ethereum, with support for EURC and cirBTC planned but not yet live. Arc debuted on September 16 with USDC for gas, institutional validators like BlackRock, Visa, and Mastercard, and connectivity to over 20 blockchain networks.\n\nCCTP enables 1:1 movement of Circle-issued assets by burning tokens on the source chain and minting them anew on the destination, instead of liquidity pools. Each cirBTC token is backed 1:1 by native BTC, with on-chain verification; it is issued by Circle International Bermuda Limited, regulated by Bermuda Monetary Authority. Circle Mint institutions can use cirBTC as collateral in third-party lending markets, and were first able to borrow USDC through Morpho.\n\nUSDC remains the asset with broadest coverage across the interoperability stack; EURC covers five networks at launch, cirBTC two. CCTP transfers on Arc routes can finalize in under 10 seconds, though timing and fees vary. Prepaid CCTP Fast Transfer fees let developers present recipient amounts up front. Arc offers preferential CCTP pricing by route and asset, but does not publish universal fees.\n\nArc also supports third-party assets via the Crosschain Token Standard (CTS) and modular wrapping contracts, with issuers retaining control. Bridge Kit provides an SDK for multi-asset flows, while Arc Studio, launched as an AI-assisted tool, enables rapid application development on Arc. The network plans to migrate from Proof-of-Authority to Proof-of-Stake in 2027 and has minted a 10 billion ARC genesis supply, though ARC token launch is not guaranteed.",
+     "url": "https://coinmarketcap.com/community/articles/6ab4af7d8a9f4932675a99a1",
+     "publishedAt": "24 September 2026 04:49 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Circle expands CCTP to EURC and cirBTC on Arc",
+     "description": "Circle expanded CCTP on Arc beyond USDC to support EURC and cirBTC, while Gateway plans multi-asset unified balances and more asset coverage.",
+     "content": "Circle has expanded its Cross-Chain Transfer Protocol (CCTP) beyond USDC to enable native transfers of EURC and cirBTC across Arc and other blockchain networks. As of September 23, CCTP supports USDC, EURC, and cirBTC: EURC operates on Arc, Avalanche, Base, Ethereum, and World Chain routes, while cirBTC is connected between Arc and Ethereum, with broader Gateway integration planned. Gateway currently unifies USDC balances on Arc and Ethereum; support for EURC and cirBTC is \"coming soon.\"\n\nArc, launched publicly on September 16, leverages USDC for gas fees, has a permissioned founding validator set with institutions like BlackRock, Visa, and Mastercard, and interoperates across 20+ blockchains. The interoperability framework includes CCTP, Gateway, and Forwarding Service, giving developers tools for Circle-issued and third-party (via CTS) tokens. CTS lets issuers deploy standardized contracts across chains, offering controls (e.g., allowlists, pausing) while retaining full authority themselves.\n\nCCTP enables 1:1 token movement via a burn-and-mint mechanism—burning tokens on the source network and minting on the destination—bypassing traditional bridge liquidity pools. For cirBTC, tokens are 1:1 backed by native BTC, issued by Circle International Bermuda Limited. Reserve data is on-chain for verification. Eligible Circle Mint institutions can use cirBTC as collateral for USDC borrowing on supported lending protocols (first with Morpho).\n\nCCTP supports \"sub-10-second\" fast transfers on Arc routes, now with prepaid fee quoting on the source network. Fee rates vary by asset and route, with no universal fee published. Gateway remains non-custodial, does not hold assets, and is not NYDFS-approved.\n\nArc's roadmap includes multi-asset interoperability beyond Circle tokens, deployment of Bridge Kit and Arc Studio for developers, Standby expansion into Proof of Stake (targeted 2027), and circulation of a 10 billion ARC genesis supply. The next milestone is Gateway support for EURC and cirBTC; no launch date is set.",
+     "url": "https://crypto.news/circle-expands-cctp-to-eurc-and-cirbtc-on-arc/",
+     "publishedAt": "24 September 2026 04:49 AM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Circle Launches StableFX as Global OTC FX Turnover Hits $9.6 Trillion",
+     "description": "The institutional platform uses quote-based execution and onchain payment-versus-payment settlement for approved businesses trading supported stablecoin pairs.",
+     "content": "Circle launched StableFX, an institutional foreign-exchange platform for stablecoin trading, amid global OTC FX turnover reaching $9.6 trillion daily in April 2025 (up from $7.5 trillion in April 2022). Available to incorporated businesses passing Circle’s compliance screening, StableFX uses quote-based execution and smart contracts for onchain payment-versus-payment (PvP) settlement on its Arc blockchain. Users request prices from multiple liquidity providers, select a quote, and fund obligations prior to settlement. PvP settlement ensures both sides are released simultaneously, or neither settles, with near-instant or deferred timing options agreed by counterparties.\n\nStableFX runs on Arc, a Layer 1 mainnet launched publicly on September 16, 2026. Nikhil Chandhok, Circle’s chief product and technology officer, stated: “With StableFX and Circle Partner Stablecoins, we’re connecting the world’s currencies on Arc.” Supported stablecoins include those linked to the U.S. dollar, euro, Australian dollar, Brazilian real, Swiss franc, British pound, South Korean won, Mexican peso, Swedish krona, Canadian dollar, and South African rand; currency pair availability depends on customer and provider. USDC and EURC liquidity is available via Circle Mint in supported jurisdictions. For fiat onramps/offramps involving local-currency stablecoins, users must contract directly with issuers and manage custody themselves.\n\nThe platform targets institutional payment companies, financial institutions, and corporate treasury teams. The U.S. dollar was used in 89% of FX trades in April 2025. Circle co-founder, chairman, and CEO Jeremy Allaire called Arc \"the single most significant launch in Circle's history since USDC itself.\" StableFX’s addressable market is undefined, as the $9.6 trillion figure includes all OTC FX instruments (spot, forwards, swaps, etc.), not just stablecoin activity.",
+     "url": "https://tokenpost.com/news/business/23459",
+     "publishedAt": "23 September 2026 11:51 PM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Circle's Arc takes aim at the $10 trillion-a-day FX market",
+     "description": "Circle's Arc new StableFX service lets businesses settle both sides of a currency trade together, reducing settlement risk.",
+     "content": "Circle has launched StableFX, a 24/7 stablecoin FX trading and atomic settlement service on its Arc blockchain, targeting the nearly $10 trillion-a-day global foreign exchange market that remains tied to banking hours and legacy settlement infrastructure. The service, announced shortly after Arc went mainnet on September 16, is available exclusively to vetted businesses—such as payment companies, financial institutions, and corporate treasury desks—and excludes retail traders.\n\nStableFX enables screened businesses to request competing quotes from multiple approved liquidity providers for trades between stablecoin currency pairs. After off-chain execution, both sides deposit funds into a smart-contract escrow on Arc, and payment-versus-payment atomic settlement occurs: both stablecoin legs transfer together, or neither does, reducing settlement risk. Users can select immediate or deferred settlement windows, allowing flexible timing beyond traditional banking schedules.\n\nCircle’s CEO described StableFX as a “strong emerging primitive” for real-time, atomically settled onchain FX, positioning it to move part of global FX volume onto programmable rails. Initially, supported pairs include USDC and EURC, but expansion depends on adding more local stablecoins and available pairs. While Arc mainnet lists several stablecoins as active or onboarding, not all tokens are accessible via StableFX. Firms must arrange separate deposit, redemption, custody, and payout infrastructure with issuers for non-Circle stablecoins, as Circle Mint’s fiat conversion only covers USDC and EURC in select markets.\n\nStableFX addresses operational needs, such as enabling overnight liquidity rebalancing and matching FX execution to treasury funding schedules. Its growth hinges on currency pair expansion, institutional adoption, and integration with local fiat on- and off-ramps. The article also notes that crypto trading is high-risk and urges due diligence, but this does not affect the main factual content.",
+     "url": "https://cryptoslate.com/circle-launches-24-7-stablecoin-fx-engine-as-it-chases-a-slice-of-the-10-trillion-currency-market/",
+     "publishedAt": "23 September 2026 10:00 PM UTC+0",
+     "quality": "8.0"
+    },
+    {
+     "title": "Niederländische Polizei verhaftet zwei Männer wegen gefälschten EURC Rolex-Krypto-Betrugs",
+     "description": null,
+     "content": "<ul>\n <li><strong></strong><strong>Die niederländische Polizei verhaftet zwei Verdächtige wegen eines Betrugsverfahrens, bei dem gefälschte EURC-Zahlungen Rolex-Uhren gestohlen wurden.</strong></li>\n <li><strong>Die Untersuchung begann nach Berichten im August 2025, dass Rolex-Verkäufer auf Marktplaats betrogen wurden.</strong></li>\n <li><strong>Name und Aussehen eines Tokens reichen nicht aus, um seine Echtheit zu belegen.</strong></li>\n</ul>\n<p>Die niederländische Polizei hat zwei Männer in den Niederlanden wegen eines mutmaßlichen Krypto-Betrugs festgenommen, bei dem Rolex-Verkäufer dazu gebracht wurden, ihre Uhren abzugeben, nachdem ihnen scheinbar Zahlungen in EURC (ein euro-gesicherter Stablecoin) gezeigt wurden. Die Behörden erklärten, die Token seien gefälscht und nichts wert.</p>\n<p>Die offizielle Festnahme <a href=\" rel=\"noopener noreferrer nofollow\">erfolgte</a> am 9. September, als die Polizei im Osten der Niederlande zwei Männer festnahm, einen 24-Jährigen aus Geleen und einen 45-Jährigen aus Leiden.</p>\n<p>Die U…</p>\n<p>Read The Full Article <a href=\" rel=\"noopener noreferrer nofollow\">Niederländische Polizei verhaftet zwei Männer wegen gefälschten EURC Rolex-Krypto-Betrugs</a> On <a href=\" rel=\"noopener noreferrer nofollow\">Coin Edition</a>.</p>",
+     "url": "https://coinmarketcap.com/community/articles/6ab3963f5f693333032ee181",
+     "publishedAt": "22 September 2026 04:11 PM UTC+0",
+     "quality": "6.0"
+    }
+   ]
+  }
+ },
+ "get_crypto_marketcap_technical_analysis": {
+  "fetched_at": "2026-09-27T09:51:40.634482+00:00",
+  "payload": {
+   "macd": {
+    "macdLine": "90.23 B",
+    "signalLine": "80.39 B",
+    "histogram": "9.84 B"
+   },
+   "rsi": {
+    "rsi7": "73.92",
+    "rsi14": "73.96",
+    "rsi21": "61.69"
+   },
+   "fibonacciLevels": {
+    "swingHigh": "2.94 T",
+    "swingLow": "2.57 T",
+    "retracementLevels": {
+     "50.0%": "2.76 T",
+     "23.6%": "2.85 T",
+     "38.2%": "2.8 T",
+     "78.6%": "2.65 T",
+     "61.8%": "2.71 T"
+    },
+    "extensionLevels": {
+     "161.8%": "3.16 T",
+     "127.2%": "3.03 T",
+     "200.0%": "3.3 T"
+    }
+   },
+   "pivotPoint": "2.91 T",
+   "currentMarketCap": "2.91 T",
+   "currentVolume": "56.21 B"
+  }
+ },
+ "get_global_metrics_latest": {
+  "fetched_at": "2026-09-27T09:51:43.507280+00:00",
+  "payload": {
+   "last_updated": "27 September 2026 12:00 AM UTC+0",
+   "market_size": {
+    "definition": "Market size captures the aggregate USD value of the entire crypto asset class, providing a top-down gauge of how large or small the market is relative to history or to other cryptos or asset classes.",
+    "total_crypto_market_cap_usd": {
+     "current": "2.91 T",
+     "percent_change": {
+      "24h": "+1.1%",
+      "7d": "+4.87%",
+      "30d": "+9.3%"
+     },
+     "yearly": {
+      "max": {
+       "value": "4.28 T",
+       "timestamp": "7 October 2025 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "2.04 T",
+       "timestamp": "1 July 2026 12:00 AM UTC+0"
+      }
+     }
+    }
+   },
+   "liquidity": {
+    "definition": "Liquidity metrics track how much value changes hands—across spot markets and derivatives—within 24 h, signalling market depth, conviction, and the ease of entering or exiting positions.",
+    "volume24h": {
+     "total": {
+      "current": "56.21 B",
+      "percent_change": {
+       "24h": "-44.49%",
+       "7d": "-21.63%",
+       "30d": "-41.16%"
+      }
+     },
+     "spot": {
+      "current": "107.19 B",
+      "percent_change": {
+       "24h": "-43.15%",
+       "7d": "-55.3%",
+       "30d": "-38.3%"
+      }
+     },
+     "derivatives": {
+      "total": {
+       "current": "413.34 B",
+       "percent_change": {
+        "24h": "-55.95%",
+        "7d": "-61.11%",
+        "30d": "-52.79%"
+       }
+      },
+      "futures": {
+       "current": "262.15 M",
+       "percent_change": {
+        "24h": "-50.71%",
+        "7d": "-62.79%",
+        "30d": "-61.17%"
+       }
+      },
+      "perpetuals": {
+       "current": "413.08 B",
+       "percent_change": {
+        "24h": "-55.95%",
+        "7d": "-61.11%",
+        "30d": "-52.79%"
+       }
+      }
+     },
+     "spot_vs_perp_ratio": "0.26"
+    }
+   },
+   "sentiment": {
+    "fear_greed": {
+     "definition": "The CMC Fear & Greed Index distills overall crypto-market sentiment into a single 0-100 score that traders can read contrarily—treating high, greed-driven readings (overvalued) as cues to trim or hedge, low, fear-driven readings (undervalued) as potential bargain zones.",
+     "current": {
+      "value": "Greed",
+      "index": 72
+     },
+     "history": {
+      "yesterday": {
+       "value": "Greed",
+       "index": 73
+      },
+      "last_week": {
+       "value": "Greed",
+       "index": 72
+      },
+      "last_month": {
+       "value": "Extreme greed",
+       "index": 82
+      }
+     },
+     "yearly": {
+      "max": {
+       "value": "Extreme greed",
+       "index": 82,
+       "timestamp": "27 August 2026 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "Extreme fear",
+       "index": 5,
+       "timestamp": "6 February 2026 12:00 AM UTC+0"
+      }
+     }
+    }
+   },
+   "rotation": {
+    "altcoin_season": {
+     "definition": "The CMC Altcoin Season Index is a real-time sentiment gauge of crypto’s typical rotation—Bitcoin rallies and dominance rise, Ethereum heats up on dApp buzz, narratives catch fire, then capital floods into smaller alts—so a rising score signals the shift toward higher-beta altcoins, while a falling score warns funds are moving back to Bitcoin or cash.",
+     "current": {
+      "value": "",
+      "index": 62
+     },
+     "percent_change": {
+      "24h": "0%",
+      "7d": "+29.17%",
+      "30d": "+67.57%"
+     },
+     "history": {
+      "yesterday": {
+       "value": "",
+       "index": 62
+      },
+      "last_week": {
+       "value": "",
+       "index": 48
+      },
+      "last_month": {
+       "value": "",
+       "index": 37
+      }
+     },
+     "yearly": {
+      "max": {
+       "value": "",
+       "index": 67,
+       "timestamp": "2 October 2025 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "Bitcoin Season",
+       "index": 14,
+       "timestamp": "19 December 2025 12:00 AM UTC+0"
+      }
+     }
+    }
+   },
+   "dominance": {
+    "definition": "Bitcoin dominance—BTC’s share of total crypto value—condenses sentiment, maturity, and diversification cues: rising dominance favors a defensive tilt into Bitcoin, while falling dominance signals a risk-on swing toward altcoins.",
+    "btc": {
+     "current": "+58.54%",
+     "yearly": {
+      "max": {
+       "value": "+60.57%",
+       "timestamp": "5 May 2026 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "+57.33%",
+       "timestamp": "4 June 2026 12:00 AM UTC+0"
+      }
+     },
+     "history": {
+      "yesterday": "+58.52%",
+      "last_week": "+58.76%",
+      "last_month": "+59.71%"
+     }
+    },
+    "eth": {
+     "current": "+11.38%",
+     "yearly": {
+      "max": {
+       "value": "+10.73%",
+       "timestamp": "5 May 2026 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "+9.77%",
+       "timestamp": "4 June 2026 12:00 AM UTC+0"
+      }
+     },
+     "history": {
+      "yesterday": "+11.38%",
+      "last_week": "+11.57%",
+      "last_month": "+11.23%"
+     }
+    },
+    "others": {
+     "current": "+30.08%",
+     "yearly": {
+      "max": {
+       "value": "+28.7%",
+       "timestamp": "5 May 2026 12:00 AM UTC+0"
+      },
+      "min": {
+       "value": "+32.9%",
+       "timestamp": "4 June 2026 12:00 AM UTC+0"
+      }
+     },
+     "history": {
+      "yesterday": "+30.1%",
+      "last_week": "+29.67%",
+      "last_month": "+29.06%"
+     }
+    }
+   },
+   "leverage": {
+    "definition": "Leverage fields measure borrowed-risk exposure via derivatives open interest, funding rates, and liquidations, revealing how much speculative fuel—or squeeze risk—is in the system.",
+    "open_interest": {
+     "total": {
+      "current": "343.32 B",
+      "percent_change": {
+       "24h": "-11.41%",
+       "7d": "-22.6%",
+       "30d": "-23.09%"
+      },
+      "yearly": {
+       "max": {
+        "value": "1.2 T",
+        "timestamp": "2 October 2025 12:00 AM UTC+0"
+       },
+       "min": {
+        "value": "353.41 B",
+        "timestamp": "27 September 2026 12:00 AM UTC+0"
+       }
+      }
+     },
+     "perpetuals": {
+      "current": "342.2 B",
+      "percent_change": {
+       "24h": "-11.45%",
+       "7d": "-22.62%",
+       "30d": "-22.88%"
+      },
+      "yearly": {
+       "max": {
+        "value": "1.17 T",
+        "timestamp": "9 October 2025 12:00 AM UTC+0"
+       },
+       "min": {
+        "value": "1.08 B",
+        "timestamp": "26 September 2026 12:00 AM UTC+0"
+       }
+      }
+     },
+     "futures": {
+      "current": "1.12 B",
+      "percent_change": {
+       "24h": "+3.23%",
+       "7d": "-18.47%",
+       "30d": "-57.39%"
+      },
+      "yearly": {
+       "max": {
+        "value": "1.2 T",
+        "timestamp": "2 October 2025 12:00 AM UTC+0"
+       },
+       "min": {
+        "value": "1.25 B",
+        "timestamp": "17 September 2026 12:00 AM UTC+0"
+       }
+      }
+     }
+    },
+    "funding_rate": {
+     "average": {
+      "current": "+0.0037227%",
+      "percent_change": {
+       "24h": "+49.75%",
+       "7d": "-47.85%",
+       "30d": "-24.66%"
+      }
+     },
+     "top_alts_minus_btc_spread_current": "0.0011824"
+    },
+    "liquidations": {
+     "btc": {
+      "total_usd24h": "6.78 M",
+      "total_usd7d": "1.06 B",
+      "total_usd30d": "3.25 B",
+      "percent_change24h": "-88.63%"
+     }
+    }
+   },
+   "trad_fi_flows": {
+    "definition": "TradFi flows capture capital moving into or out of regulated exchange-traded products—such as U.S. spot-BTC ETFs—acting as a proxy for institutional demand.",
+    "etf_aum": {
+     "btc": {
+      "current": "111.23 B",
+      "history": {
+       "yesterday": "111.25 B",
+       "last_week": "98.51 B",
+       "last_month": "101.61 B"
+      }
+     },
+     "eth": {
+      "current": "14.66 B",
+      "history": {
+       "yesterday": "14.65 B",
+       "last_week": "14.6 B",
+       "last_month": "13.96 B"
+      }
+     }
+    }
+   }
+  }
+ },
+ "get_global_crypto_derivatives_metrics": {
+  "fetched_at": "2026-09-27T09:51:46.360732+00:00",
+  "payload": {
+   "totalOpenInterest": {
+    "current": "353.95 B",
+    "percentage_change_24h": "-6.14%",
+    "percentage_change_7d": "-17%",
+    "percentage_change_14d": "-18.55%",
+    "percentage_change_30d": "-20.28%"
+   },
+   "totalVolume": {
+    "total_usd_24h": "138.19 T",
+    "pct_change_prev_24h_vs_prior_24h": "-43.93%",
+    "pct_change_prev_7d_vs_prior_7d": "+15.03%",
+    "pct_change_prev_14d_vs_prior_14d": "+19.89%",
+    "pct_change_prev_30d_vs_prior_30d": "+16.74%"
+   },
+   "futures": {
+    "volume": {
+     "total_usd_24h": "83.73 B",
+     "pct_change_prev_24h_vs_prior_24h": "-46.19%",
+     "pct_change_prev_7d_vs_prior_7d": "+42.8%",
+     "pct_change_prev_14d_vs_prior_14d": "+40.67%",
+     "pct_change_prev_30d_vs_prior_30d": "+35.74%"
+    },
+    "openInterest": {
+     "current": "1.12 B",
+     "percentage_change_24h": "+0.89558%",
+     "percentage_change_7d": "-17.55%",
+     "percentage_change_14d": "-12.2%",
+     "percentage_change_30d": "-53.11%"
+    }
+   },
+   "perpetuals": {
+    "volume": {
+     "total_usd_24h": "138.1 T",
+     "pct_change_prev_24h_vs_prior_24h": "-43.93%",
+     "pct_change_prev_7d_vs_prior_7d": "+15.01%",
+     "pct_change_prev_14d_vs_prior_14d": "+19.88%",
+     "pct_change_prev_30d_vs_prior_30d": "+16.73%"
+    },
+    "openInterest": {
+     "current": "352.83 B",
+     "percentage_change_24h": "-6.16%",
+     "percentage_change_7d": "-16.99%",
+     "percentage_change_14d": "-18.57%",
+     "percentage_change_30d": "-20.11%"
+    }
+   },
+   "fundingRate": {
+    "current": "0.004897",
+    "percentage_change_24h": "+73.07%",
+    "percentage_change_7d": "-23.75%",
+    "percentage_change_14d": "-8.08%",
+    "percentage_change_30d": "-6.42%"
+   },
+   "btc_liquidations": {
+    "definitions": {
+     "short": "Total USD value of short positions that were forcibly closed",
+     "total": "Total USD value of forced BTC position closures",
+     "long": "Total USD value of long positions that were forcibly closed",
+     "pct_change_prev_x_vs_prior_x": "Percent change in the metric between the most-recent <period> window and the <period> window immediately before it."
+    },
+    "total_usd_1h": {
+     "total": "0",
+     "long": "0",
+     "short": "0"
+    },
+    "total_usd_4h": {
+     "total": "0",
+     "long": "0",
+     "short": "0"
+    },
+    "total_usd_12h": {
+     "total": "1.97 M",
+     "long": "62,587.08",
+     "short": "1.9 M"
+    },
+    "total_usd_24h": {
+     "total": "6.78 M",
+     "long": "2.7 M",
+     "short": "4.08 M"
+    },
+    "pct_change_prev_4h_vs_prior_4h": {
+     "total": "-100%",
+     "long": "-100%",
+     "short": "-100%"
+    },
+    "pct_change_prev_12h_vs_prior_12h": {
+     "total": "-59.16%",
+     "long": "-97.63%",
+     "short": "-12.63%"
+    },
+    "pct_change_prev_24h_vs_prior_24h": {
+     "total": "-88.63%",
+     "long": "-93.54%",
+     "short": "-77.18%"
+    },
+    "pct_change_prev_7d_vs_prior_7d": {
+     "total": "+33.33%",
+     "long": "+17%",
+     "short": "+43.78%"
+    },
+    "pct_change_prev_30d_vs_prior_30d": {
+     "total": "-28.14%",
+     "long": "+42.41%",
+     "short": "-49.18%"
+    }
+   }
+  }
+ },
+ "trending_crypto_narratives": {
+  "fetched_at": "2026-09-27T09:51:49.681140+00:00",
+  "payload": {
+   "categoryList": {
+    "headers": [
+     "trendingRank",
+     "slug",
+     "categoryCmcUrl",
+     "categoryName",
+     "marketCapUsd",
+     "marketCapChangePercentage24h",
+     "marketCapChangePercentage7d",
+     "marketCapChangePercentage30d",
+     "marketCapChangePercentage90d",
+     "marketCapChangePercentage1y",
+     "volume24h",
+     "volumeChangePercentage24h",
+     "volumeWeightedPricePerfVsCryptoMarketCap24h",
+     "volumeWeightedPricePerfVsCryptoMarketCap7d",
+     "volumeWeightedPricePerfVsCryptoMarketCap30d",
+     "socialKeywords",
+     "socialKeywordUniqueAuthorCount",
+     "topCoinList"
+    ],
+    "rows": [
+     [
+      1,
+      "binance-ecosystem",
+      "https://coinmarketcap.com/view/binance-ecosystem",
+      "Binance Ecosystem",
+      "2.91 T",
+      "+0.87938%",
+      "+5.94%",
+      "+7.92%",
+      "+39.92%",
+      "-22.5%",
+      "107.54 B",
+      "-38.65%",
+      "+0.55%",
+      "+0.9%",
+      "+0.2%",
+      [
+       "BNB",
+       "Binance",
+       "BNBCHAIN"
+      ],
+      "9",
+      {
+       "headers": [
+        "coinSymbol",
+        "coinName",
+        "coinCmcUrl",
+        "priceChangePercent7d"
+       ],
+       "rows": [
+        [
+         "BTC",
+         "Bitcoin",
+         "https://coinmarketcap.com/currencies/bitcoin/",
+         "+5.35%"
+        ],
+        [
+         "ETH",
+         "Ethereum",
+         "https://coinmarketcap.com/currencies/ethereum/",
+         "+5.04%"
+        ],
+        [
+         "USDT",
+         "Tether USDt",
+         "https://coinmarketcap.com/currencies/tether/",
+         "+0.011154%"
+        ]
+       ]
+      }
+     ],
+     [
+      2,
+      "layer-1",
+      "https://coinmarketcap.com/view/layer-1",
+      "Layer 1",
+      "2.38 T",
+      "+1.02%",
+      "+5.99%",
+      "+8%",
+      "+46.25%",
+      "-23.13%",
+      "35.83 B",
+      "-39.51%",
+      "+1.24%",
+      "+3.96%",
+      "+11.82%",
+      [
+       "ETH",
+       "Ethereum",
+       "SOL",
+       "Solana",
+       "NEAR",
+       "TAO",
+       "ZEC",
+       "Zcash",
+       "ICP",
+       "AVAX"
+      ],
+      "38",
+      {
+       "headers": [
+        "coinSymbol",
+        "coinName",
+        "coinCmcUrl",
+        "priceChangePercent7d"
+       ],
+       "rows": [
+        [
+         "BTC",
+         "Bitcoin",
+         "https://coinmarketcap.com/currencies/bitcoin/",
+         "+5.35%"
+        ],
+        [
+         "ETH",
+         "Ethereum",
+         "https://coinmarketcap.com/currencies/ethereum/",
+         "+5.04%"
+        ],
+        [
+         "BNB",
+         "BNB",
+         "https://coinmarketcap.com/currencies/bnb/",
+         "+3.71%"
+        ]
+       ]
+      }
+     ],
+     [
+      3,
+      "sec-cftc-token-taxonomy",
+      "https://coinmarketcap.com/view/sec-cftc-token-taxonomy",
+      "SEC/CFTC Token Taxonomy",
+      "2.27 T",
+      "+0.75717%",
+      "+6.16%",
+      "+6.83%",
+      "+46.27%",
+      null,
+      "31.74 B",
+      "-45.85%",
+      "+0.27%",
+      "+2.66%",
+      "+0.74%",
+      [
+       "XRP",
+       "ETF",
+       "Bitwise",
+       "Franklin",
+       "BTC",
+       "Bitcoin",
+       "ETH",
+       "SOL",
+       "Solana",
+       "Ethereum"
+      ],
+      "30",
+      {
+       "headers": [
+        "coinSymbol",
+        "coinName",
+        "coinCmcUrl",
+        "priceChangePercent7d"
+       ],
+       "rows": [
+        [
+         "BTC",
+         "Bitcoin",
+         "https://coinmarketcap.com/currencies/bitcoin/",
+         "+5.35%"
+        ],
+        [
+         "ETH",
+         "Ethereum",
+         "https://coinmarketcap.com/currencies/ethereum/",
+         "+5.04%"
+        ],
+        [
+         "XRP",
+         "XRP",
+         "https://coinmarketcap.com/currencies/xrp/",
+         "+10.64%"
+        ]
+       ]
+      }
+     ],
+     [
+      4,
+      "ftx-bankruptcy-estate",
+      "https://coinmarketcap.com/view/ftx-bankruptcy-estate",
+      "FTX Bankruptcy Estate ",
+      "2.23 T",
+      "+0.76751%",
+      "+5.91%",
+      "+6.48%",
+      "+45.78%",
+      "-25.41%",
+      "29.33 B",
+      "-46.55%",
+      "+0.27%",
+      "+2.11%",
+      "-1.06%",
+      [
+       "XRP",
+       "BTC",
+       "Bitcoin",
+       "ETH",
+       "SOL",
+       "Solana",
+       "Ethereum",
+       "ZEC",
+       "QNT",
+       "NEAR"
+      ],
+      "37",
+      {
+       "headers": [
+        "coinSymbol",
+        "coinName",
+        "coinCmcUrl",
+        "priceChangePercent7d"
+       ],
+       "rows": [
+        [
+         "BTC",
+         "Bitcoin",
+         "https://coinmarketcap.com/currencies/bitcoin/",
+         "+5.33%"
+        ],
+        [
+         "ETH",
+         "Ethereum",
+         "https://coinmarketcap.com/currencies/ethereum/",
+         "+5.03%"
+        ],
+        [
+         "XRP",
+         "XRP",
+         "https://coinmarketcap.com/currencies/xrp/",
+         "+10.73%"
+        ]
+       ]
+      }
+     ],
+     [
+      5,
+      "sec-cftc-token-taxonomy",
+      "https://coinmarketcap.com/view/sec-cftc-token-taxonomy",
+      "SEC/CFTC Token",
+      "2.27 T",
+      "+0.75717%",
+      "+6.16%",
+      "+6.83%",
+      "+46.27%",
+      null,
+      "31.74 B",
+      "-45.85%",
+      "+0.27%",
+      "+2.66%",
+      "+0.74%",
+      [
+       "XRP",
+       "ETF",
+       "ZEC",
+       "QNT",
+       "NEAR",
+       "TAO",
+       "ICP",
+       "Zcash",
+       "Privacy",
+       "RWA"
+      ],
+      "40",
+      {
+       "headers": [
+        "coinSymbol",
+        "coinName",
+        "coinCmcUrl",
+        "priceChangePercent7d"
+       ],
+       "rows": [
+        [
+         "BTC",
+         "Bitcoin",
+         "https://coinmarketcap.com/currencies/bitcoin/",
+         "+5.35%"
+        ],
+        [
+         "ETH",
+         "Ethereum",
+         "https://coinmarketcap.com/currencies/ethereum/",
+         "+5.04%"
+        ],
+        [
+         "XRP",
+         "XRP",
+         "https://coinmarketcap.com/currencies/xrp/",
+         "+10.64%"
+        ]
+       ]
+      }
+     ]
+    ]
+   }
+  }
+ },
+ "get_upcoming_macro_events": {
+  "fetched_at": "2026-09-27T09:51:52.776688+00:00",
+  "payload": {
+   "upcomingEventNews": {
+    "headers": [
+     "title",
+     "content",
+     "url",
+     "eventDate",
+     "originalNewsContent"
+    ],
+    "rows": [
+     [
+      "2026 US Midterm Elections",
+      "The US midterm elections are scheduled for November 3, 2026. TD Cowen and multiple analysts warn the",
+      "https://coinmarketcap.com/community/articles/69d801bd85b03652d33ce735",
+      "3 November 2026",
+      null
+     ],
+     [
+      "BTC encryption could be compromised",
+      "The Quantum Doomsday Clock developed by Colton Dillion and Rick Carback estimates that Bitcoin’s ell",
+      "https://finbold.com/bitcoins-doomsday-clock-updates-when-quantum-computers-will-break-btc-encryption/",
+      "8 March 2028",
+      "The Quantum Doomsday Clock tool, developed by Colton Dillion and cryptographer Rick Carback, estimates that quantum computers could break Bitcoin (BTC) encryption as soon as Wednesday, March 8, 2028, marking ‘the end of crypto.’ This prediction is based on the timeline for quantum computing advancements, specifically when BTC’s elliptic curve digital signatures could be vulnerable. The main threat is that attackers could use quantum computers and Shor’s algorithm to derive private keys from public keys. The tool also forecasts that international banking and the internet could be compromised by 2029, and government and military systems by 2030.\n\nIn 2026, significant quantum computing activity was reported. The U.S. Federal Government took actions to both advance and regulate quantum technology. On May 21, the Department of Commerce announced plans to invest approximately $2 billion in quantum-related companies. On June 22, the White House issued an executive order titled ‘Ushering in the next frontier of quantum innovation,’ aiming to keep the U.S. at the forefront of the field. The private sector also saw notable developments: (NASDAQ: ) launched its Helios quantum computer in late 2025, claimed as the most accurate in the world. On September 23, 2026, (NYSE: ) revealed it would deploy its Superion 256 quantum computer at (NASDAQ: ) Accelerated Quantum Research Center (NVAQC).\n\nThe article underscores that rapid advancements in quantum computing could threaten critical digital infrastructure within the next several years, with explicit timelines: crypto in 2028, banking and the internet in 2029, and government systems in 2030. Ads, exchange promos, and unrelated content were present but are not material to the main narrative."
+     ],
+     [
+      "SEC Decision Deadline for Spot Cardano ETF Applications",
+      "Investors are awaiting the U.S. Securities and Exchange Commission’s decision on pending spot Cardan",
+      "https://www.tradingview.com/news/coinpedia:f02e388aa094b:0-why-cardano-price-is-rising-today/",
+      "23 October 2026",
+      "Cardano (ADA) price surged above the $0.19 resistance, gaining over 6.34% in the past 24 hours, driven by whale accumulation, institutional interest, governance upgrades, and increased derivatives activity. Whale wallets accumulated about 240 million ADA recently, and futures trading volume jumped 380% from $150 million to nearly $650 million in one week, according to Santiment and analyst Ali Martinez. Institutional attention is rising as Cardano’s CME futures approach the completion of their six-month trading history on Aug. 9, following their February launch. Investors are also monitoring pending spot Cardano ETF applications, with the SEC’s decision deadline set for Oct. 23.\n\nCardano entered its Dijkstra development era after community approval of a governance roadmap, enabling direct funding of core development from the network’s treasury and granting greater control over long-term growth. The ecosystem expanded with a 2.5 million ADA development fund and an Inter-Blockchain Communication (IBC) testnet bridge, connecting Cardano with Injective and the Cosmos ecosystem to improve interoperability and use cases. Despite these advances, Cardano’s decentralized finance (DeFi) activity remains limited: its total value locked (TVL) fell 1.7% in the past day to $68.17 million, with stablecoins accounting for over $64 million. Cardano trails Ethereum ($41.3 billion TVL) and Solana ($4.78 billion TVL).\n\nFounder Charles Hoskinson highlighted the Cardano PRIME initiative, aiming to increase qualifying TVL from about $90 million to over $290 million in the next year by expanding the ecosystem. Technically, ADA broke above the $0.20 resistance, with the next major resistance between $0.21 and $0.22, and the 200-day moving average near $0.23. A strong move above these levels could trigger a broader breakout and improve altcoin market sentiment. The rally’s sustainability depends on upcoming sessions and potential profit-taking."
+     ],
+     [
+      "Consumer Price Data Release",
+      "The U.S. consumer price index data arrives on October 14, providing a key measure of inflation that ",
+      "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rallying-again-happens-next-154535504.html",
+      "14 October 2026",
+      "Bitcoin hit $86,332 on Monday, marking its highest price in eight months following a sustained rally from near $62,000 on August 17. The daily candlestick opened at $81,152 and closed up 4.98%, mirroring last week’s performance. Despite the run, Bitcoin remains over 30% below its October 2025 record high above $126,000, and its year-to-date loss has narrowed to under 3%.\nIn the past 24 hours, CoinGlass recorded $877.31 million in crypto market liquidations, with $740.79 million (84%) from short positions; more than 126,000 accounts were liquidated, led by an $11.29 million BTC/USDT order on Binance. Bitcoin contributed $491.48 million to these liquidations, while Ethereum accounted for $195.11 million.\nThe rally is partly attributed to four consecutive sessions of declining oil prices, as Brent crude dropped on hopes for improved U.S.-Iran relations during the UN General Assembly, easing inflation concerns. Traders are watching for impacts from a planned Trump-Xi meeting in New York on September 24, as well as a retreat in the 10-year Treasury yield to near 4.9%, which lowers the opportunity cost of holding Bitcoin versus bonds.\nBitwise CIO Matt Hougan called the \"crypto winter\" over and predicted a \"strongest and longest-running bull market in crypto’s history.\" However, past optimism hasn't always held, and some analysts caution due to current overbought readings on the Relative Strength Index, signaling possible pause or retest of $79,071–$80,355 support. Holding above this range maintains a bullish outlook; dropping below would undermine it. Breaking resistance could push price to $95,000 (15% gain).\nPrediction market traders currently assign 50% odds to Bitcoin reaching $90,000 before month-end and 28% odds for $92,500. Upcoming market-moving events include the Trump-Xi meeting (Sept 24), Federal Reserve inflation data (Sept 30), jobs report (Oct 2), and consumer price data (Oct 14).\n"
+     ],
+     [
+      "Federal Reserve FOMC Meeting (October 27-28, 2026)",
+      "The Federal Open Market Committee will convene on October 27-28, 2026 to assess economic conditions,",
+      "https://blofin.com/academy/education/bitcoin/why-is-bitcoin-dropping",
+      "27 October 2026",
+      "Bitcoin’s lowest 2026 close was $58,585.96 on June 30, about 40% below its January 14 high of $96,852.91; it rebounded 44% by September 23 to $84,452.97 (FRED). The largest fall (January–June) was triggered by a mix of rate fears, fund outflows, and leveraged liquidations. On September 23, as the US 10-year Treasury yield hit 5.11%—a 19-year high—bitcoin slipped further (CoinDesk).\n\nMajor 2026 price moves: up to $96,852.91 on Jan 14 due to increased ETF inflows ($840.6M in one day) and haven demand after news on then-Fed Chair Powell and a draft crypto bill (CoinDesk, Yahoo Finance). The January–February drop was accelerated by global risk-off events: Japanese bond slump, Trump’s EU trade threats, and the announcement of Kevin Warsh as next Fed chair, sparking $2.5B in leveraged liquidations and $3.9B in ETF outflows (Farside, Yahoo Finance, CNBC). Spring’s partial recovery followed Middle East war news, US-Iran ceasefire, and ETF inflows, peaking at $82,103.78 on May 10.\n\nJune’s ~20% fall coincided with a hot PCE inflation report (4.1% YoY, June 25), $4.5B ETF outflows, and $16.1B in liquidations (Farside, CoinGlass). Recovery in August began after the US Treasury doubled long-term bond buybacks, triggering a bond rally and $2.7B in short liquidations.\n\nSell-offs often involve fund outflows (Farside), forced liquidations (CoinGlass), and rate or regulatory news (Fed, Senate). Other triggers—hacks, government coin sales, and currency swings—add to volatility (FBI, BIS).\n\nTo diagnose a drop: compare to other markets, check ETF outflows, look for large liquidations, scheduled economic or policy events, and crypto-specific headlines. Large bitcoin declines (>50%) are frequent; position sizing and risk management, especially with leverage, are crucial. No definitive prediction or financial advice is given."
+     ],
+     [
+      "US Consumer Price Index Report Release",
+      "The US Bureau of Labor Statistics will publish the September Consumer Price Index (CPI) report, a",
+      "https://finance.yahoo.com/markets/crypto/articles/bitcoin-tops-85k-648m-crypto-122200163.html",
+      "14 October 2026",
+      "Bitcoin hit a record $85,111 on Monday, rising 5.7% in 24 hours and breaking above resistance after a week of consolidation, according to CoinGecko. This price surge followed several macro events: a Federal Reserve decision, a Bank of Japan rate hike to a 31-year high, and the U.S. Senate’s passage of the Clarity Act, with Bitcoin staying above $75,000 throughout. External pressures eased as Middle Eastern crude exports surpassed expectations, pushing Brent oil to a half-month low. Anticipation of U.S.-Iran diplomacy at the UN and U.S.-China meetings in New York for a potential Trump-Xi summit contributed to improved sentiment. \n\nBond markets played a key role, as the 10-year U.S. Treasury yield reached 5.014% on September 14—the highest since October 2023—responding to oil prices and inflation above the Fed's 2% goal. Yields then declined, with the 10-year at 4.93% and 2-year at 4.67%, as investors interpreted Warsh’s inflation stance as credible. Tim Sun of HashKey said the highly anticipated Fed rate hike reduced uncertainty, allowing Bitcoin to rally, with most risk reduction occurring before the Fed and Clarity Act events, creating a “sell the rumor, buy the news” pattern.\n\nShort sellers were hit hard: $648 million of $770 million in liquidations in 24 hours were short positions (CoinGlass), with $230 million in Bitcoin shorts cleared as price moved past $80,000, triggering stop-losses and a climb past $84,000. A similar short squeeze fueled August’s rally, which saw a 24.6% Bitcoin increase in five days and 89% of liquidated leverage from shorts. Wallets that had been selling turned net buyers as spot volume flipped to net buying above $80,000. Spot Bitcoin ETFs saw $746 million net outflows early in the week, then $592 million inflows, ending $6.2 million positive—the smallest net inflow since launch (SoSoValue). \n\nHowever, CoinShares’ James Butterfill warned that the Fed’s removal of expected easing through 2027 could support the dollar and tighten liquidity, making further Bitcoin gains uncertain. Upcoming U.S. macro data releases (PCE, jobs, CPI) will be the next tests for Bitcoin, with macro conditions expected to outweigh technical levels."
+     ],
+     [
+      "2026 U.S. Midterm Elections",
+      "The November 3, 2026 midterm elections could determine control of Congress and significantly impact—",
+      "https://www.bitget.com/amp/news/detail/12560605353132",
+      "3 November 2026",
+      "The fate of the CLARITY Act, a major crypto regulatory bill, hinges on the November 3 midterm elections, with TD Cowen, TD Securities, and legal analysts warning it could be dropped from the congressional calendar if not passed by the Senate before summer. Jaret Seiberg (TD Cowen Washington Research Group) noted Senate Democrats may withhold support if they expect to flip the House, and even full Republican backing requires at least seven Democratic senators for the 60-vote cloture threshold. If Democrats gain control of either chamber, Senator Elizabeth Warren would likely chair the Senate Banking Committee, making passage \"slim to none\"; the crypto PAC Fairshake has $193 million earmarked for midterm spending in response. Senator Bernie Moreno and Fireblocks’ policy director warned missing the May Senate window risks the bill entirely. The CLARITY Act passed the House in July 2025 (294-134) but stalled in the Senate amid disputes over stablecoin yield, DeFi oversight, and ethics provisions targeting crypto holdings by government officials. The Senate Banking Committee markup, scheduled for January 15, was postponed after Coinbase withdrew support and has not been rescheduled. Seiberg warned resolving the standoff may require President Trump’s intervention. The Senate avoids controversial votes before midterms, and the August recess closes the calendar for bipartisan legislation. Even with Republican majorities, Democratic senators in competitive seats lack incentive to support the bill, especially with unresolved ethics provisions targeting Trump family crypto holdings. Legal analyst John E. Deaton stated, \"If we get into the summer months, it’s just probably not going to happen.\" Seiberg estimated passage is more likely in 2027, with implementation in 2029. JPMorgan and Standard Chartered analysts see passage as a positive catalyst for digital assets, with up to $500 billion in deposits affected. The bill faces multiple Senate markups, a floor vote, and a conference process within six weeks; Deaton warned, \"Come summer, the midterms are going to consume everything in this country.\""
+     ],
+     [
+      "End of Robinhood Chain Gas Subsidy",
+      "The 90-day gas subsidy covering all Robinhood Wallet transactions, launched July 1 alongside mainnet",
+      "https://coinmarketcap.com/community/articles/6a9a79552073ca56fed7db17",
+      "29 September 2026",
+      "Robinhood Chain, an Ethereum Layer 2 built on Arbitrum Orbit, launched July 1, 2026, with a 90-day gas subsidy making all Robinhood Wallet transactions free until Sept. 29. In its first two months, it generated $4.01 million in chain revenue on Sept. 2, 2026, surpassing Solana ($81,714), Ethereum, and Tron, with cumulative DEX volume crossing $47 billion. Most activity centers on memecoin launchpad Pons and trading bot GMGN, not the tokenized stocks Robinhood originally pitched. Pons collected $4.89 million in fees on Aug. 31, launching up to 22,600 tokens in a day, and consistently out-earned Solana’s pump.fun since Aug. 29. Uniswap processed $1.5 billion in tokenized stock trades over six weeks, but stocks represent only 3% of total DEX volume.\n\nThe gas subsidy applies only to Robinhood Wallet users; third-party wallets pay standard fees. Estimated subsidy costs range from $630,000 to $6.3 million over 90 days, insignificant for Robinhood’s $1.31 billion Q2 revenue, but critical for user behavior. The chain processed 7.6 million daily transactions, rivaling Base’s 9.2 million. Robinhood Chain reached $1.4 billion TVL by late August, then pulled back to $738 million on Sept. 1. It surpassed one million active wallets within two weeks, briefly overtaking Base in daily active users.\n\nArbitrum collects 10% of net sequencer revenue, earning $377,000 from Robinhood Chain on Sept. 1, with cumulative fees exceeding $1 million. The October 1 subsidy expiry is pivotal: if memecoin traders migrate to cheaper chains, volume and fee revenue may drop sharply. Robinhood could extend or restructure the subsidy. Tokenized stocks, trading 24/7 with SEC approval in 120 countries, may provide lasting value. Q3 earnings in late October will reveal the chain’s post-subsidy economics. Key metrics to watch: DEX volume, Pons token launches, Uniswap’s stock volume share, and Arbitrum DAO revenue."
+     ],
+     [
+      "Bitcoin Bear Market Bottom Forecasted",
+      "Jiang Zhuoer's mathematical model targets October 31, 2026 as the most likely date for Bitcoin’s cyc",
+      "https://coinmarketcap.com/community/articles/6a3d1715c157cf64f7c523aa",
+      "31 October 2026",
+      null
+     ],
+     [
+      "Scheduled Bitcoin Halving",
+      "The Bitcoin block reward will halve from 3.125 BTC to 1.5625 BTC at block 1,050,000, expected around",
+      "https://www.tradingview.com/news/beincrypto:d55128e44094b:0-bitcoin-s-500-day-halving-rule-flashes-next-buy-signal-in-november-2026/",
+      "13 April 2028",
+      "A Bitcoin trading model known as the \"500-Day Halving Rule,\" shared by analyst Crypto Rover, signals the next major accumulation window will open in late November 2026, about 500 days before the projected April 13, 2028 halving at block 1,050,000. The rule advises buying 500 days before each halving and selling 500 days after, a pattern that has closely matched the last three Bitcoin cycles since 2013. Historically, Bitcoin peaked 526 days after the 2016 halving and 545 days after the 2020 halving; in the 2024 cycle, Bitcoin reached a high of $126,296 on October 6, 2025, 535 days post-halving, fitting the established 480-550 day window. The model’s buy signals have also aligned with cycle bottoms, such as the December 2018 low near $3,200 (500 days before the 2020 halving) and the early 2015 low before the 2016 halving, both during periods of negative market sentiment. The upcoming buy window is calculated to begin around November 30, 2026, with the sell zone projected for mid-to-late 2029, though past tops have occurred slightly before the literal 500-day mark. Currently, Bitcoin trades near $62,675, down over 50% from its October 2025 peak, but this drawdown is less severe than previous cycles (declines have lessened from 86% to 50%), attributed to steadier demand from ETFs and corporate treasuries. The model’s limitations include reliance on only three full cycles and a tendency for the sell signal to fire early. Some analysts suggest the cycle length may be stretching toward five years, which could delay both buy and sell signals. The rule remains a simple guide, but its effectiveness in the next cycle is uncertain."
+     ],
+     [
+      "Bitcoin Halving Scheduled",
+      "OKLink estimates the next Bitcoin halving, which will reduce the block reward from 3.125 BTC to 1. ×",
+      "https://coinmarketcap.com/community/articles/6ab2b5408769376fc9f6b7c5",
+      "13 April 2028",
+      "Root, an on-chain data and cycle analyst, reported that progress toward the next Bitcoin halving has reached 61%. Bitcoin halving, occurring roughly every four years, reduces miner rewards by half; the most recent halving in April 2024 decreased block rewards from 6.25 BTC to 3.125 BTC. The next halving is projected for April 13, 2028, when the reward is expected to drop further to 1.5625 BTC, with 109,012 blocks left until then, per OKLink.\n\nMarket sentiment ahead of the halving is generally optimistic. Coinbase CEO Brian Armstrong noted Bitcoin's historical upward trends leading up to halving events and anticipates a favorable growth environment in the next few years. According to CoinMarketCap, Bitcoin price rose 0.86% to $86,099, briefly reaching a high of $87,397—levels not observed since early 2026. Bitcoin has recovered above all long-term moving averages, after nearly 300 days below them, and securing these levels is seen as vital for sustaining its bullish trend. For the first time since March 2023, Bitcoin closed above its 365-day moving average, a key uptrend indicator since 2019; the next resistance is estimated between $88,000 and $90,000.\n\nSpot Bitcoin ETFs saw an inflow of over $1 billion in a single day, the strongest since October 2025. BlackRock’s IBIT led with $381 million; both ARK 21Shares and Fidelity’s FBTC attracted over $200 million each. This surge caused the Bitcoin ETF average investor cost basis to fall below spot price—now at $81,722 per coin—meaning ETF investors are in profit for the first time since January."
+     ],
+     [
+      "Bitcoin reaches $200,000 by December 31, 2026",
+      "A prediction market currently sits at YES for Bitcoin hitting $200,000 by December 31, 2026, with a ",
+      "https://cryptobriefing.com/czech-national-bank-eyes-1-bitcoin-reserve-allocation-for-improved-returns/",
+      "31 December 2026",
+      "Czech National Bank Governor Aleš Michl has endorsed allocating 1% of central bank reserves to Bitcoin, arguing this would improve returns without increasing risk. This follows his earlier January 2025 proposal for up to a 5% allocation, but the 1% figure is seen as more acceptable to the cautious Bank Board. The Czech National Bank already operates a $1 million experimental digital asset portfolio, separate from its core reserves. If implemented, the Czech Republic would become the first European central bank to hold Bitcoin, potentially pressuring other EU nations to follow, despite opposition from ECB President Christine Lagarde. The main rationale is Bitcoin’s low correlation with traditional assets like bonds, supporting diversification. On the prediction market Polymarket, the contract for \"Bitcoin reaching $200,000 by December 31, 2026\" is currently at YES, with little movement over the past week except for a 45-point drop at 12:16 PM. The market is thin, as $5,264 is required to move the odds by 5 points, and daily trading volume is just $280 in USDC. Traders appear to be waiting for concrete central bank actions rather than statements. A YES share pays $1 if Bitcoin hits $200,000 by the end of 2026, but this outcome likely depends on more central banks adopting Bitcoin or significant regulatory changes. Future market movement could be triggered by announcements from other European central banks, shifts in ECB policy, or changes in Bitcoin’s correlation with traditional assets. The article also references related crypto and market prediction topics but focuses on the Czech National Bank’s potential Bitcoin reserve allocation and its implications for the broader market."
+     ],
+     [
+      "2026 US General Election",
+      "The US general election on November 3, 2026 will determine Senate control, directly impacting the CL",
+      "https://cryptoslate.com/crypto-industry-races-to-pass-clarity-act-before-2026-midterm/",
+      "3 November 2026",
+      "The CLARITY Act, a major U.S. crypto regulatory bill, faces a two-week deadline in the Senate, with gridlock and banking sector opposition threatening to delay its passage until at least 2030. The bill, which passed the House in July 2025, is stalled in the Senate Banking Committee due to disputes over yield-bearing stablecoins. Crypto advocates warn that failure to act before the 2026 midterm elections will freeze regulatory progress for years. Market odds for passage have dropped sharply: Polymarket bettors now see a 58% chance of passage in 2026 (down from 82% in February), while Kalshi traders project only a 13% chance before June and 28% before July, with a 62% chance the bill remains unresolved into 2027.\n\nA key development is Coinbase CEO Brian Armstrong reversing his opposition after a Treasury push, now urging lawmakers to pass the bill, stating, “It’s time to pass the Clarity Act.” The Senate Agriculture Committee narrowly advanced its portion (12-11 vote), but the Banking Committee has yet to act due to a clash between traditional banks and crypto firms over whether stablecoin issuers can pay yields to users. The American Bankers Association (ABA) warns that allowing stablecoin yields could trigger a massive outflow of deposits, raising borrowing costs and reducing credit for small businesses. The White House Council of Economic Advisers counters that banning stablecoin interest would only shift $2.1 billion in lending (0.02% of the $12 trillion market) and cost consumers $800 million annually in lost interest.\n\nThe legislative window is tight: the bill must clear committee by mid-May to reach a floor vote before Memorial Day. If delayed into summer, election-year politics and possible Senate leadership changes could kill the bill, leaving U.S. crypto markets in limbo for another four years."
+     ],
+     [
+      "Statutory Effective Date",
+      "January 18, 2027 marks the statutory effective date of the GENIUS Act. From this day, any new stable",
+      "https://www.kucoin.com/blog/jp-2026-genius-act-the-latest-status-and-update",
+      "18 January 2027",
+      "The GENIUS Act, signed into law in July 2025, establishes the first federal framework for U.S. payment stablecoins, aiming to integrate them into the regulated banking system. As of March 2026, the Office of the Comptroller of the Currency (OCC) has issued its Notice of Proposed Rulemaking (NPRM) to operationalize the Act. The Act is set to take full effect by January 18, 2027, or 120 days after final regulations are published, with a three-year grace period ending July 18, 2028, for full compliance.\n\nKey provisions include:\n- Stablecoins must be backed 1:1 by high-quality liquid assets (e.g., U.S. Treasuries, central bank reserves).\n- Payment stablecoins are reclassified as neither securities nor commodities but as unique instruments under banking regulators (OCC, Federal Reserve).\n- Issuers must maintain 100% reserves and provide holders with legal priority in insolvency, similar to bank deposits.\n- Strict AML/KYC requirements and technical ability to \"freeze and burn\" assets upon law enforcement request.\n- A \"rebuttable presumption\" (the \"Yield Ban\") prohibits issuers and affiliates from paying interest or rewards on stablecoins; indirect rewards are also scrutinized.\n- Issuers with over $10 billion in circulation must transition to federal supervision; smaller issuers remain under state-certified regimes.\n- Minimum capital floor for issuers is $5 million.\n\nTimeline milestones:\n- July 18, 2025: Act enacted.\n- February 25, 2026: OCC releases 376-page NPRM detailing capital requirements and licensing.\n- May 2026: 60-day comment period for industry feedback ends.\n- January 18, 2027: Statutory effective date; new issuances must comply.\n- July 18, 2028: All secondary market trading must be in compliant tokens.\n\nThe Act brings legitimacy and user protection but centralizes the market, raises compliance costs, and restricts yield opportunities. U.S. exchanges must delist non-compliant stablecoins by 2027. The Act applies only to payment stablecoins, not all cryptocurrencies."
+     ]
+    ]
+   }
+  }
+ }
+}

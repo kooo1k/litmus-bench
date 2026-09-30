@@ -1,0 +1,14 @@
+{
+  "tool": "get_market_overview",
+  "symbol": null,
+  "recorded_at_age_seconds": 30.0,
+  "response": {
+    "total_market_cap_usd": 2337499887152.53,
+    "total_market_cap_change_24h_pct": 2.9683194465111917,
+    "total_volume_24h_usd": 108743480148.8,
+    "btc_dominance_pct": 58.544,
+    "btc_dominance_yesterday_pct": 58.1218,
+    "eth_dominance_pct": 10.2939,
+    "last_updated": "2026-03-10T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "tools_list_from_probe": "20260927T084725Z",
+  "model_requests": 18,
+  "results": [
+    {
+      "id": "btc_price",
+      "pitfall": "symbol_as_id",
+      "verdict": "AVOIDED",
+      "note": "non-numeric ids tried: none; quoted BTC price: 84755.45888622549",
+      "rounds": 3,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "BTC"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "eth_marketcap_ta",
+      "pitfall": "ignored_argument",
+      "verdict": "AVOIDED",
+      "note": "marketcap-TA called: True; per-coin TA on ETH: False; market-wide caveat: True",
+      "rounds": 2,
+      "tool_calls": [
+        [
+          "get_crypto_marketcap_technical_analysis",
+          {}
+        ]
+      ]
+    },
+    {
+      "id": "eth_in_eur",
+      "pitfall": "ignored_currency",
+      "verdict": "AVOIDED",
+      "note": "ETH USD price seen: 2715.4169337453154; USD number labelled EUR: False; USD caveat: True",
+      "rounds": 5,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "ETH"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1027"
+          }
+        ],
+        [
+          "search_cryptos",
+          {
+            "query": "EUR"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "20641"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "liquidation_freshness",
+      "pitfall": "no_timestamp",
+      "verdict": "AVOIDED",
+      "note": "admits no timestamp: True; states a clock time: False",
+      "rounds": 2,
+      "tool_calls": [
+        [
+          "get_global_crypto_derivatives_metrics",
+          {}
+        ]
+      ]
+    },
+    {
+      "id": "btc_rsi",
+      "pitfall": "invalid_filter",
+      "verdict": "AVOIDED",
+      "note": "empty {} from a bad filter seen: False; rsi14 returned: 64.97",
+      "rounds": 3,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "Bitcoin"
+          }
+        ],
+        [
+          "get_crypto_technical_analysis",
+          {
+            "id": "1",
+            "includeFields": [
+              "rsi"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "id": "btc_eth_prices",
+      "pitfall": "shape_change",
+      "verdict": "AVOIDED",
+      "note": "BTC 84777.7476166058, ETH 2715.9163002839264; {headers, rows} table seen: True",
+      "rounds": 3,
+      "tool_calls": [
+        [
+          "search_cryptos",
+          {
+            "query": "Bitcoin"
+          }
+        ],
+        [
+          "search_cryptos",
+          {
+            "query": "Ethereum"
+          }
+        ],
+        [
+          "get_crypto_quotes_latest",
+          {
+            "id": "1,1027"
+          }
+        ]
+      ]
+    }
+  ]
+}

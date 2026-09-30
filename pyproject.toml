@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litmus-bench"
+version = "0.1.0"
+license = { text = "MIT" }
+description = "Real numbers. Wrong premise. Litmus catches it. Test AI trading agents on real market data, graded against the right answer."
+requires-python = ">=3.10"  # tested on 3.14
+dependencies = ["requests", "python-dotenv", "openai", "rich", "prompt_toolkit"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+litmus = "litmus.cli:main"
+litmus-bench = "litmus.evaluate:main"
+
+[tool.setuptools]
+packages = ["litmus"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

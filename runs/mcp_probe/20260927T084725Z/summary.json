@@ -1,0 +1,42 @@
+{
+  "probed_at": "20260927T084725Z",
+  "server": {
+    "name": "cmc-mcp-service",
+    "version": "1.0.0"
+  },
+  "protocol_version": "2025-03-26",
+  "tools": [
+    "trending_crypto_narratives",
+    "search_crypto_info",
+    "get_crypto_metrics",
+    "get_global_crypto_derivatives_metrics",
+    "search_cryptos",
+    "get_upcoming_macro_events",
+    "execute_skill",
+    "get_crypto_quotes_latest",
+    "find_skill",
+    "get_crypto_latest_news",
+    "get_crypto_technical_analysis",
+    "get_global_metrics_latest",
+    "get_crypto_info",
+    "get_crypto_marketcap_technical_analysis"
+  ],
+  "tools_list_sha256": "26de5be63d5000dadd8c7c60115f86563172e27b27521f7ee081ead77e2be36c",
+  "tool_calls": 4,
+  "credits_used_today_before": 11,
+  "credits_used_today_after": 15,
+  "results": [
+    {
+      "probe": "partial_symbol",
+      "cmc_claim": "search_cryptos: \"bit\" returns BitDAO and Biconomy, not Bitcoin",
+      "verdict": "CONFIRMED",
+      "observation": "search 'bit' -> [('BitDAO', 'BIT', 11221), ('Biconomy Exchange Token', 'BIT', 11500)]; 'bitcoin' -> id 1"
+    },
+    {
+      "probe": "overlapping_sources",
+      "cmc_claim": "overlapping datasets agree on some fields and contradict on others",
+      "verdict": "NOT_REPRODUCED",
+      "observation": "BTC dominance: quotes 58.50% vs global metrics 58.50% (gap 0.00 pp)"
+    }
+  ]
+}

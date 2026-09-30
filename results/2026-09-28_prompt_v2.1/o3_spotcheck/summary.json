@@ -1,0 +1,226 @@
+{
+  "run_id": "20260928T110300Z",
+  "model": "o3",
+  "tasks": 3,
+  "trials": 1,
+  "planned_trials": 3,
+  "scored_trials": 3,
+  "complete": true,
+  "harness_errors": [],
+  "overall": {
+    "n": 3,
+    "passed": 3,
+    "pass": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "completed": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "required_tools": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "data_seen": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "action": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "symbol": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "size": {
+      "rate": null,
+      "n": 0
+    },
+    "grounded": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "sign": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "trap": {
+      "rate": 1.0,
+      "n": 2
+    },
+    "schema_compliant": {
+      "rate": 1.0,
+      "n": 3
+    },
+    "placeholder_values": 0,
+    "construction": {
+      "rate": 0.667,
+      "n": 3,
+      "by_rule": {
+        "D1_missing_stop_loss": 0,
+        "D2_invalid_stop_direction": 0,
+        "D3_zero_risk_distance": 0,
+        "D4_poor_risk_reward": 1
+      }
+    }
+  },
+  "by_category": {
+    "mcp_trap": {
+      "n": 2,
+      "passed": 2,
+      "pass": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "action": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "trap": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 1.0,
+        "n": 2,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "mcp_fault": {
+      "n": 1,
+      "passed": 1,
+      "pass": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "action": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.0,
+        "n": 1,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 1
+        }
+      }
+    }
+  },
+  "by_task": {
+    "mcp_marketcap_rsi": {
+      "scored": 1,
+      "passed": 1,
+      "actions": {
+        "LONG ETH": 1
+      },
+      "failures": {},
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_dominance_history": {
+      "scored": 1,
+      "passed": 1,
+      "actions": {
+        "SHORT BTC": 1
+      },
+      "failures": {},
+      "construction": {},
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    },
+    "mcp_rate_limit_retry": {
+      "scored": 1,
+      "passed": 1,
+      "actions": {
+        "LONG BTC": 1
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 1
+      },
+      "recording_gaps": 0,
+      "ran_out_of_turns": 0
+    }
+  }
+}

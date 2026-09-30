@@ -1,0 +1,12 @@
+{
+  "kind": "historical",
+  "as_of": "2026-03-10T00:00:00Z",
+  "description": "Chop: BTC 7d range 10.2% but net -0.5%; +3.7% in 24h.",
+  "quote_age_seconds": 30,
+  "source": "CMC v3 daily historical quotes; the quote is the daily data point at as_of.",
+  "market_tools": {
+    "added": "2026-09-25T15:49:05.165813+00:00",
+    "as_of": "2026-03-10T00:00:30.000Z",
+    "rule": "latest data that existed at as_of (see record_snapshots.py)"
+  }
+}

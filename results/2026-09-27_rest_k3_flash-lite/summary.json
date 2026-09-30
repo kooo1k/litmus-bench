@@ -1,0 +1,1280 @@
+{
+  "run_id": "20260927T063103Z",
+  "model": "gemini-3.5-flash-lite",
+  "tasks": 44,
+  "trials": 3,
+  "planned_trials": 132,
+  "scored_trials": 132,
+  "complete": true,
+  "harness_errors": [],
+  "overall": {
+    "n": 132,
+    "passed": 87,
+    "pass": {
+      "rate": 0.659,
+      "n": 132
+    },
+    "completed": {
+      "rate": 0.856,
+      "n": 132
+    },
+    "required_tools": {
+      "rate": 0.917,
+      "n": 132
+    },
+    "data_seen": {
+      "rate": 1.0,
+      "n": 49
+    },
+    "action": {
+      "rate": 0.811,
+      "n": 132
+    },
+    "symbol": {
+      "rate": 0.878,
+      "n": 49
+    },
+    "size": {
+      "rate": 1.0,
+      "n": 7
+    },
+    "grounded": {
+      "rate": 0.991,
+      "n": 113
+    },
+    "sign": {
+      "rate": 1.0,
+      "n": 113
+    },
+    "trap": {
+      "rate": 0.75,
+      "n": 12
+    },
+    "schema_compliant": {
+      "rate": 0.897,
+      "n": 117
+    },
+    "placeholder_values": 0,
+    "construction": {
+      "rate": 0.617,
+      "n": 47,
+      "by_rule": {
+        "D1_missing_stop_loss": 0,
+        "D2_invalid_stop_direction": 1,
+        "D3_zero_risk_distance": 0,
+        "D4_poor_risk_reward": 17
+      }
+    }
+  },
+  "by_category": {
+    "clean": {
+      "n": 18,
+      "passed": 13,
+      "pass": {
+        "rate": 0.722,
+        "n": 18
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 18
+      },
+      "required_tools": {
+        "rate": 0.889,
+        "n": 18
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "action": {
+        "rate": 1.0,
+        "n": 18
+      },
+      "symbol": {
+        "rate": 0.667,
+        "n": 9
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 18
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 18
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.889,
+        "n": 18
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.889,
+        "n": 9,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 1
+        }
+      }
+    },
+    "timeout": {
+      "n": 12,
+      "passed": 9,
+      "pass": {
+        "rate": 0.75,
+        "n": 12
+      },
+      "completed": {
+        "rate": 0.75,
+        "n": 12
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 12
+      },
+      "data_seen": {
+        "rate": null,
+        "n": 0
+      },
+      "action": {
+        "rate": 0.75,
+        "n": 12
+      },
+      "symbol": {
+        "rate": null,
+        "n": 0
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": null,
+        "n": 0,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "stale": {
+      "n": 12,
+      "passed": 8,
+      "pass": {
+        "rate": 0.667,
+        "n": 12
+      },
+      "completed": {
+        "rate": 0.917,
+        "n": 12
+      },
+      "required_tools": {
+        "rate": 0.75,
+        "n": 12
+      },
+      "data_seen": {
+        "rate": null,
+        "n": 0
+      },
+      "action": {
+        "rate": 0.917,
+        "n": 12
+      },
+      "symbol": {
+        "rate": null,
+        "n": 0
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 11
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 11
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.909,
+        "n": 11
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": null,
+        "n": 0,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "missing_field": {
+      "n": 9,
+      "passed": 7,
+      "pass": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": null,
+        "n": 0
+      },
+      "action": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "symbol": {
+        "rate": null,
+        "n": 0
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "trap": {
+        "rate": 0.333,
+        "n": 3
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": null,
+        "n": 0,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "unavailable_asset": {
+      "n": 9,
+      "passed": 7,
+      "pass": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "completed": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "action": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.875,
+        "n": 8
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.0,
+        "n": 1,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 1
+        }
+      }
+    },
+    "rate_limit": {
+      "n": 9,
+      "passed": 4,
+      "pass": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "completed": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": null,
+        "n": 0
+      },
+      "action": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "symbol": {
+        "rate": null,
+        "n": 0
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 4
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 4
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 4
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": null,
+        "n": 0,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "contradictory": {
+      "n": 9,
+      "passed": 4,
+      "pass": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 0.444,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "action": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 1
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 1.0,
+        "n": 1,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 0
+        }
+      }
+    },
+    "constraint": {
+      "n": 9,
+      "passed": 7,
+      "pass": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "completed": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "action": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "size": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.857,
+        "n": 7
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.714,
+        "n": 7,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 2
+        }
+      }
+    },
+    "tool_choice": {
+      "n": 21,
+      "passed": 15,
+      "pass": {
+        "rate": 0.714,
+        "n": 21
+      },
+      "completed": {
+        "rate": 0.952,
+        "n": 21
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 21
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 12
+      },
+      "action": {
+        "rate": 0.857,
+        "n": 21
+      },
+      "symbol": {
+        "rate": 0.833,
+        "n": 12
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 0.95,
+        "n": 20
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 20
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.952,
+        "n": 21
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.583,
+        "n": 12,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 5
+        }
+      }
+    },
+    "directional": {
+      "n": 9,
+      "passed": 6,
+      "pass": {
+        "rate": 0.667,
+        "n": 9
+      },
+      "completed": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "action": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.667,
+        "n": 9,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 3
+        }
+      }
+    },
+    "trap": {
+      "n": 9,
+      "passed": 5,
+      "pass": {
+        "rate": 0.556,
+        "n": 9
+      },
+      "completed": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 9
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 8
+      },
+      "action": {
+        "rate": 0.667,
+        "n": 9
+      },
+      "symbol": {
+        "rate": 0.875,
+        "n": 8
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 7
+      },
+      "trap": {
+        "rate": 0.889,
+        "n": 9
+      },
+      "schema_compliant": {
+        "rate": 0.778,
+        "n": 9
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.167,
+        "n": 6,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 1,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 4
+        }
+      }
+    },
+    "recovery": {
+      "n": 6,
+      "passed": 2,
+      "pass": {
+        "rate": 0.333,
+        "n": 6
+      },
+      "completed": {
+        "rate": 0.5,
+        "n": 6
+      },
+      "required_tools": {
+        "rate": 1.0,
+        "n": 6
+      },
+      "data_seen": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "action": {
+        "rate": 0.333,
+        "n": 6
+      },
+      "symbol": {
+        "rate": 1.0,
+        "n": 2
+      },
+      "size": {
+        "rate": null,
+        "n": 0
+      },
+      "grounded": {
+        "rate": 1.0,
+        "n": 3
+      },
+      "sign": {
+        "rate": 1.0,
+        "n": 3
+      },
+      "trap": {
+        "rate": null,
+        "n": 0
+      },
+      "schema_compliant": {
+        "rate": 1.0,
+        "n": 3
+      },
+      "placeholder_values": 0,
+      "construction": {
+        "rate": 0.5,
+        "n": 2,
+        "by_rule": {
+          "D1_missing_stop_loss": 0,
+          "D2_invalid_stop_direction": 0,
+          "D3_zero_risk_distance": 0,
+          "D4_poor_risk_reward": 1
+        }
+      }
+    }
+  },
+  "by_task": {
+    "clean_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "clean_02": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG ETH": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "clean_03": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "clean_04": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {
+        "symbol": 3
+      },
+      "construction": {}
+    },
+    "clean_05": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "SHORT BTC": 3
+      },
+      "failures": {
+        "required_tools": 2
+      },
+      "construction": {}
+    },
+    "clean_06": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "timeout_01": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "none": 2,
+        "HOLD BTC": 1
+      },
+      "failures": {
+        "action": 2,
+        "completed": 2
+      },
+      "construction": {}
+    },
+    "timeout_02": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "HOLD ETH": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {}
+    },
+    "timeout_03": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "timeout_04": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "stale_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "stale_02": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "HOLD ETH": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {}
+    },
+    "stale_03": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "stale_04": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {
+        "required_tools": 3
+      },
+      "construction": {}
+    },
+    "missing_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "missing_02": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "missing_03": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {
+        "trap": 2
+      },
+      "construction": {}
+    },
+    "unavailable_01": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "HOLD": 1,
+        "HOLD SOL": 1,
+        "none": 1
+      },
+      "failures": {
+        "completed": 2,
+        "action": 1
+      },
+      "construction": {}
+    },
+    "unavailable_02": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "unavailable_03": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 1,
+        "HOLD ETH": 1,
+        "LONG ETH": 1
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "rate_limit_01": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "HOLD BTC": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {}
+    },
+    "rate_limit_02": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "none": 3
+      },
+      "failures": {
+        "action": 3,
+        "completed": 3
+      },
+      "construction": {}
+    },
+    "rate_limit_03": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "HOLD BTC": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {}
+    },
+    "contradictory_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "contradictory_02": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {
+        "required_tools": 2
+      },
+      "construction": {}
+    },
+    "contradictory_03": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "HOLD ETH": 2,
+        "LONG ETH": 1
+      },
+      "failures": {
+        "required_tools": 3,
+        "action": 1
+      },
+      "construction": {}
+    },
+    "constraint_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 2
+      }
+    },
+    "constraint_02": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "constraint_03": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "none": 2,
+        "LONG BTC": 1
+      },
+      "failures": {
+        "action": 2,
+        "completed": 2
+      },
+      "construction": {}
+    },
+    "tool_choice_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "tool_choice_02": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "tool_choice_03": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {
+        "grounded": 1
+      },
+      "construction": {
+        "D4_poor_risk_reward": 2
+      }
+    },
+    "tool_choice_04": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "HOLD BTC": 2,
+        "HOLD": 1
+      },
+      "failures": {
+        "action": 3,
+        "completed": 1
+      },
+      "construction": {}
+    },
+    "tool_choice_05": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "HOLD ETH": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "directional_01": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {},
+      "construction": {}
+    },
+    "directional_02": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "LONG ETH": 2,
+        "SHORT ETH": 1
+      },
+      "failures": {
+        "action": 2
+      },
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "directional_03": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "SHORT ETH": 3
+      },
+      "failures": {
+        "required_tools": 1
+      },
+      "construction": {
+        "D4_poor_risk_reward": 2
+      }
+    },
+    "trap_01": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "LONG BTC": 2,
+        "HOLD BTC": 1
+      },
+      "failures": {
+        "action": 3,
+        "completed": 1,
+        "trap": 1
+      },
+      "construction": {
+        "D2_invalid_stop_direction": 1
+      }
+    },
+    "trap_02": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "LONG ETH": 2,
+        "LONG": 1
+      },
+      "failures": {
+        "completed": 1,
+        "symbol": 1
+      },
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "trap_03": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG BTC": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 3
+      }
+    },
+    "tool_choice_06": {
+      "scored": 3,
+      "passed": 1,
+      "actions": {
+        "LONG ETH": 2,
+        "LONG BTC": 1
+      },
+      "failures": {
+        "symbol": 2
+      },
+      "construction": {}
+    },
+    "tool_choice_07": {
+      "scored": 3,
+      "passed": 3,
+      "actions": {
+        "LONG ETH": 3
+      },
+      "failures": {},
+      "construction": {
+        "D4_poor_risk_reward": 2
+      }
+    },
+    "recovery_01": {
+      "scored": 3,
+      "passed": 2,
+      "actions": {
+        "LONG BTC": 2,
+        "none": 1
+      },
+      "failures": {
+        "action": 1,
+        "completed": 1
+      },
+      "construction": {
+        "D4_poor_risk_reward": 1
+      }
+    },
+    "recovery_02": {
+      "scored": 3,
+      "passed": 0,
+      "actions": {
+        "none": 2,
+        "HOLD ETH": 1
+      },
+      "failures": {
+        "action": 3,
+        "completed": 2
+      },
+      "construction": {}
+    }
+  }
+}

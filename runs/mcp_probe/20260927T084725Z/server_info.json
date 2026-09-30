@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "2025-03-26",
+  "capabilities": {
+    "tools": {
+      "listChanged": true
+    }
+  },
+  "serverInfo": {
+    "name": "cmc-mcp-service",
+    "version": "1.0.0"
+  },
+  "instructions": "CoinMarketCap MCP: two tool families on one endpoint - 12 direct data tools, plus find_skill/execute_skill, a registry of hosted analysis services. They overlap in subject and sometimes in data, but differ in cost and depth.\n\nDirect tools are one-call crypto reads for asset lookup, quotes, profiles, site search, metrics, technicals, global snapshots, news, ranked narratives and future catalysts. The registry takes two calls and one synchronous run of 30-300s, but searching it with find_skill is free. It can retrieve fields; its main value is composed analysis - a market overview, a portfolio or risk read, a regime call, an attribution, a cross-market comparison - not something to assemble from direct tools. It is also the only route to U.S. equity analysis, macro and rates analysis, and prediction/event-market analytics.\n\nEvery tool accepts and silently discards unsupported arguments, so a successful call is not proof it answered: check the payload carries the asset, currency, timeframe or ranking asked for. \"Not covered here\" is a valid answer.\n\nPrefer a direct tool for a single value, field, document lookup or list it exposes. But if answering needs more than two direct-tool calls, or needs different tools' outputs combined into a judgement, call find_skill first. Where present, direct-tool time windows are fixed and monetary values are USD.\n\nCall search_cryptos before any asset-scoped direct tool when you do not already have that asset's numeric id, one term per lookup; a resolved id is reusable for later calls on the same asset. Call find_skill before execute_skill and pass back the uniqueName it returned, verbatim - these skills are remote services, and their ids are not tool names here.\n\nWhen two tools carry the same figure, pick one and stay on it for the whole answer; overlapping datasets agree on some fields and contradict on others.\n\nAll tools share one per-minute budget; exceeding it returns error 1008. Wait rather than re-parameterize, and batch ids into one call where a tool accepts them."
+}

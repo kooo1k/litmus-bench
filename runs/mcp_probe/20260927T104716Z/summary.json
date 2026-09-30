@@ -1,0 +1,66 @@
+{
+  "probed_at": "20260927T104716Z",
+  "server": {
+    "name": "cmc-mcp-service",
+    "version": "1.0.0"
+  },
+  "protocol_version": "2025-03-26",
+  "tools": [
+    "trending_crypto_narratives",
+    "search_crypto_info",
+    "get_crypto_metrics",
+    "get_global_crypto_derivatives_metrics",
+    "search_cryptos",
+    "get_upcoming_macro_events",
+    "execute_skill",
+    "get_crypto_quotes_latest",
+    "find_skill",
+    "get_crypto_latest_news",
+    "get_crypto_technical_analysis",
+    "get_global_metrics_latest",
+    "get_crypto_info",
+    "get_crypto_marketcap_technical_analysis"
+  ],
+  "tools_list_sha256": "26de5be63d5000dadd8c7c60115f86563172e27b27521f7ee081ead77e2be36c",
+  "tool_calls": 6,
+  "credits_used_today_before": 71,
+  "credits_used_today_after": 75,
+  "results": [
+    {
+      "probe": "ta_symbol_id",
+      "cmc_claim": "get_crypto_technical_analysis: a symbol ... fails with \"id is not number\"",
+      "verdict": "CONFIRMED",
+      "observation": "get_crypto_technical_analysis({'id': 'BTC'}) error body: 'error: id is not number'"
+    },
+    {
+      "probe": "news_symbol_id",
+      "cmc_claim": "get_crypto_latest_news: A symbol fails with \"id is not number\"",
+      "verdict": "CONFIRMED",
+      "observation": "get_crypto_latest_news({'id': 'BTC'}) error body: 'error: id is not number'"
+    },
+    {
+      "probe": "news_unknown_id",
+      "cmc_claim": "get_crypto_latest_news: a well-formed but unknown id returns an empty list",
+      "verdict": "CONFIRMED",
+      "observation": "unknown id: isError=False, body='[]'"
+    },
+    {
+      "probe": "quote_unknown_id",
+      "cmc_claim": "(undocumented) what an unknown quote id returns",
+      "verdict": "INFO",
+      "observation": "unknown id: isError=False, body='[]'"
+    },
+    {
+      "probe": "multi_id_headers",
+      "cmc_claim": "(undocumented) a multi-id table's columns vs a single row's keys",
+      "verdict": "CONFIRMED",
+      "observation": "table headers == single-row key order: True; only in table: []; only in row: []"
+    },
+    {
+      "probe": "rate_limit",
+      "cmc_claim": "All tools share one per-minute budget; exceeding it returns error 1008",
+      "verdict": "NOT_REPRODUCED",
+      "observation": "60 unspaced calls, no rate-limit error"
+    }
+  ]
+}

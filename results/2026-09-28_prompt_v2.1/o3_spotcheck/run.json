@@ -1,0 +1,18 @@
+{
+  "run_id": "20260928T110300Z",
+  "created": "2026-09-28T11:03:00.562687+00:00",
+  "model": "o3",
+  "provider": "openai",
+  "base_url": "https://api.openai.com/v1",
+  "reasoning_effort": null,
+  "agent_prompt": "v2.1",
+  "trials": 1,
+  "tasks_path": "tasks/mcp_benchmark.jsonl",
+  "task_ids": [
+    "mcp_marketcap_rsi",
+    "mcp_dominance_history",
+    "mcp_rate_limit_retry"
+  ],
+  "tasks_sha256": "90aa92580f6eee49e98c7439c591b014e05be528b56b088cebe6fb3dbc819231",
+  "code_sha256": "74bc6dc92e585afcb043c6ea3e300352159866b415d881cbbdcd707c2b1eaea9"
+}

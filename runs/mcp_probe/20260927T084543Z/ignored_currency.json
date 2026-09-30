@@ -1,0 +1,48 @@
+{
+  "quotes_convert_eur": {
+    "is_error": false,
+    "text": "[{\"id\":\"1\",\"name\":\"Bitcoin\",\"symbol\":\"BTC\",\"slug\":\"bitcoin\",\"price\":84692.094768855470000000000000000000,\"rank\":1,\"turnover\":0.00929406,\"last_updated_time\":\"2026-09-27T08:44:00.000Z\",\"percent_change_1h\":0.12198866,\"percent_change_24h\":0.50635225,\"percent_change_7d\":5.55639420,\"percent_change_30d\":6.23430827,\"percent_change_60d\":31.63233763,\"percent_change_90d\":41.68204886,\"percent_change_1y\":-22.56149939,\"percent_change_3y\":222.80456089356000,\"percent_change_all\":137302955.91666932003500,\"percent_change_ytd\":-4.5529,\"market_cap\":1701464183906.31,\"volume_24h\":15813507659.38849068,\"volume_change_24h\":-46.6986,\"last_updated_time_dup\":\"2026-09-27T08:44:00.000Z\",\"fully_diluted_market_cap\":1778533990145.96,\"market_cap_by_total_supply\":1701464183906.31000000,\"date_added\":\"2010-07-13T00:00:00.000Z\",\"max_supply\":21000000.00000000,\"total_supply\":20090000.00000000,\"self_reported_circulating_supply\":0,\"circulating_supply\":20090000.00000000,\"market_cap_percent_change_1h\":0.12710007016000,\"market_cap_percent_change_24h\":0.5086,\"market_cap_percent_change_7d\":5.57268465905000,\"market_cap_percent_change_30d\":6.06518010611900,\"market_cap_percent_change_90d\":40.77559639517800,\"market_cap_percent_change_1y\":-21.92742494215900,\"market_cap_percent_change_3y\":232.61987710578700,\"market_cap_percent_change_all\":8333301.84408870972774,\"market_cap_dominance\":58.47780000}]",
+    "json": [
+      {
+        "id": "1",
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "slug": "bitcoin",
+        "price": 84692.09476885547,
+        "rank": 1,
+        "turnover": 0.00929406,
+        "last_updated_time": "2026-09-27T08:44:00.000Z",
+        "percent_change_1h": 0.12198866,
+        "percent_change_24h": 0.50635225,
+        "percent_change_7d": 5.5563942,
+        "percent_change_30d": 6.23430827,
+        "percent_change_60d": 31.63233763,
+        "percent_change_90d": 41.68204886,
+        "percent_change_1y": -22.56149939,
+        "percent_change_3y": 222.80456089356,
+        "percent_change_all": 137302955.9166693,
+        "percent_change_ytd": -4.5529,
+        "market_cap": 1701464183906.31,
+        "volume_24h": 15813507659.38849,
+        "volume_change_24h": -46.6986,
+        "last_updated_time_dup": "2026-09-27T08:44:00.000Z",
+        "fully_diluted_market_cap": 1778533990145.96,
+        "market_cap_by_total_supply": 1701464183906.31,
+        "date_added": "2010-07-13T00:00:00.000Z",
+        "max_supply": 21000000.0,
+        "total_supply": 20090000.0,
+        "self_reported_circulating_supply": 0,
+        "circulating_supply": 20090000.0,
+        "market_cap_percent_change_1h": 0.12710007016,
+        "market_cap_percent_change_24h": 0.5086,
+        "market_cap_percent_change_7d": 5.57268465905,
+        "market_cap_percent_change_30d": 6.065180106119,
+        "market_cap_percent_change_90d": 40.775596395178,
+        "market_cap_percent_change_1y": -21.927424942159,
+        "market_cap_percent_change_3y": 232.619877105787,
+        "market_cap_percent_change_all": 8333301.84408871,
+        "market_cap_dominance": 58.4778
+      }
+    ]
+  }
+}

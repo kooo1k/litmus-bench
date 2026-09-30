@@ -1,0 +1,12 @@
+{
+  "tool": "get_price",
+  "symbol": "ETH",
+  "recorded_at_age_seconds": 30.0,
+  "response": {
+    "symbol": "ETH",
+    "price_usd": 2970.6418770138566,
+    "percent_change_1h": 0.171770270664,
+    "percent_change_24h": 1.209422231882,
+    "last_updated": "2025-12-31T00:00:00.000Z"
+  }
+}

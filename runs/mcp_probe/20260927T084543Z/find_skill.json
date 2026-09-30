@@ -1,0 +1,123 @@
+{
+  "find_skill": {
+    "is_error": false,
+    "text": "{\"candidates\":[{\"uniqueName\":\"detect_funding_rate_regime_shift\",\"skillDescription\":\"Use detect_funding_rate_regime_shift when a user asks whether funding has shifted into a new long-paying, short-paying, normalization, or stable-carry regime. The skill requires a public market symbol and accepts optional venue and Nd window values. When both venue funding history and open-interest-weighted funding history are usable, it returns data.status=ok with regime_state, decimal funding rates, basis-point shifts, decision_basis, risk_notes, and source attribution. If the fresh funding-history lane is unavailable, execution returns data.status=blocked instead of fabricating a regime call.\",\"resultType\":\"evidence_pack\",\"domain\":\"cex\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"symbol\":{\"description\":\"Base asset or perpetual pair to inspect, such as BTC or BTCUSDT.\",\"type\":\"string\",\"default\":\"BTC\"},\"venue\":{\"description\":\"Derivatives venue name to inspect as the single venue lane; defaults to Binance.\",\"type\":\"string\",\"default\":\"Binance\"},\"window\":{\"description\":\"Lookback window in Nd format, from 2d to 90d; defaults to 30d.\",\"type\":\"string\",\"default\":\"30d\"}},\"required\":[\"symbol\"]}},{\"uniqueName\":\"detect_accumulation_breakout_transition\",\"skillDescription\":\"Scenario / applicability: use this skill when a user has one perpetual market in mind and wants to know whether it is still dormant after an accumulation base, warming near the prior range high, starting to break out, failing a breakout attempt, or already overextended. Parameters: the caller supplies one asset identity through cmcid, slug, or symbol, plus optional venue and lookback_days controls. Granularity: the analysis is scoped to one venue-labeled perpetual context and a recent 4h observation window, not a multi-asset ranking. Core method: it compares prior-range width, distance to the prior range high, recent volume reawakening, open-interest change, funding context, optional confirmation-layer availability, and bounded market sanity. Key outputs / fields: it returns an evidence_pack with transition_state, transition_score, derived metrics, decision_basis, evidence_points, risk_flags, action_guidance, data_quality, and freshness_note. Limits / boundaries: use it as an early research screen before deeper trade review; do not treat it as execution, leverage, position-sizing, hidden-accumulation proof, or breakout-continuation prediction. Orchestration: call this skill first as a single-market transition screen, then use downstream technical analysis, liquidation, position-risk, or broader market-context skills only if the user needs confirmation, trade planning, or risk sizing. Do not use it as the final execution planner. A User Agent should escalate when degraded_layers or risk_flags indicate missing context. Missing required market context returns a top-level error, while missing secondary confirmation context is surfaced through degraded_layers and risk flags rather than hidden as a clean signal.\",\"resultType\":\"evidence_pack\",\"domain\":\"cex\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"cmcid\":{\"oneOf\":[{\"type\":\"integer\"},{\"type\":\"string\",\"minLength\":1}],\"description\":\"Canonical asset id used to resolve the base asset symbol.\"},\"slug\":{\"type\":\"string\",\"minLength\":1,\"description\":\"Canonical asset slug used to resolve the base asset symbol.\"},\"symbol\":{\"type\":\"string\",\"default\":\"BTC\",\"description\":\"Base asset symbol to evaluate, such as BTC or ETH.\"},\"venue\":{\"type\":\"string\",\"default\":\"Binance\",\"description\":\"Venue label used to select the perpetual market context.\"},\"lookback_days\":{\"type\":\"integer\",\"default\":14,\"minimum\":2,\"maximum\":90,\"description\":\"Recent lookback window used to build the transition read.\"}},\"anyOf\":[{\"required\":[\"cmcid\"]},{\"required\":[\"slug\"]},{\"required\":[\"symbol\"]}]}},{\"uniqueName\":\"macro_liquidity_monitor\",\"skillDescription\":\"Use this skill when the user wants a macro liquidity and funding-stress check before adding or trimming crypto beta (for example, is global liquidity still supportive, is there fresh carry-unwind risk, is dollar funding tightening, is TGA refilling or draining reserves). It pulls the default aligned macro snapshot with preview=true, computes liquidity and carry-stress signals across reserves, TGA, RRP, front-end spreads, and USDJPY, and returns evidence for Cloud Agent analysis. The Cloud Agent writes the final liquidity-regime read; if core macro inputs are unavailable, the result degrades to a blocked envelope instead of inventing a conclusion. Research context only, not a position-sizing or order-placement engine.\",\"resultType\":\"evidence_pack\",\"domain\":\"research\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"preview\"],\"properties\":{\"preview\":{\"type\":\"boolean\",\"const\":true,\"description\":\"Must be true. The skill exposes no user-tunable analytical parameters.\"}}}}]}",
+    "json": {
+      "candidates": [
+        {
+          "uniqueName": "detect_funding_rate_regime_shift",
+          "skillDescription": "Use detect_funding_rate_regime_shift when a user asks whether funding has shifted into a new long-paying, short-paying, normalization, or stable-carry regime. The skill requires a public market symbol and accepts optional venue and Nd window values. When both venue funding history and open-interest-weighted funding history are usable, it returns data.status=ok with regime_state, decimal funding rates, basis-point shifts, decision_basis, risk_notes, and source attribution. If the fresh funding-history lane is unavailable, execution returns data.status=blocked instead of fabricating a regime call.",
+          "resultType": "evidence_pack",
+          "domain": "cex",
+          "inputSchema": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "symbol": {
+                "description": "Base asset or perpetual pair to inspect, such as BTC or BTCUSDT.",
+                "type": "string",
+                "default": "BTC"
+              },
+              "venue": {
+                "description": "Derivatives venue name to inspect as the single venue lane; defaults to Binance.",
+                "type": "string",
+                "default": "Binance"
+              },
+              "window": {
+                "description": "Lookback window in Nd format, from 2d to 90d; defaults to 30d.",
+                "type": "string",
+                "default": "30d"
+              }
+            },
+            "required": [
+              "symbol"
+            ]
+          }
+        },
+        {
+          "uniqueName": "detect_accumulation_breakout_transition",
+          "skillDescription": "Scenario / applicability: use this skill when a user has one perpetual market in mind and wants to know whether it is still dormant after an accumulation base, warming near the prior range high, starting to break out, failing a breakout attempt, or already overextended. Parameters: the caller supplies one asset identity through cmcid, slug, or symbol, plus optional venue and lookback_days controls. Granularity: the analysis is scoped to one venue-labeled perpetual context and a recent 4h observation window, not a multi-asset ranking. Core method: it compares prior-range width, distance to the prior range high, recent volume reawakening, open-interest change, funding context, optional confirmation-layer availability, and bounded market sanity. Key outputs / fields: it returns an evidence_pack with transition_state, transition_score, derived metrics, decision_basis, evidence_points, risk_flags, action_guidance, data_quality, and freshness_note. Limits / boundaries: use it as an early research screen before deeper trade review; do not treat it as execution, leverage, position-sizing, hidden-accumulation proof, or breakout-continuation prediction. Orchestration: call this skill first as a single-market transition screen, then use downstream technical analysis, liquidation, position-risk, or broader market-context skills only if the user needs confirmation, trade planning, or risk sizing. Do not use it as the final execution planner. A User Agent should escalate when degraded_layers or risk_flags indicate missing context. Missing required market context returns a top-level error, while missing secondary confirmation context is surfaced through degraded_layers and risk flags rather than hidden as a clean signal.",
+          "resultType": "evidence_pack",
+          "domain": "cex",
+          "inputSchema": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "cmcid": {
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                ],
+                "description": "Canonical asset id used to resolve the base asset symbol."
+              },
+              "slug": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Canonical asset slug used to resolve the base asset symbol."
+              },
+              "symbol": {
+                "type": "string",
+                "default": "BTC",
+                "description": "Base asset symbol to evaluate, such as BTC or ETH."
+              },
+              "venue": {
+                "type": "string",
+                "default": "Binance",
+                "description": "Venue label used to select the perpetual market context."
+              },
+              "lookback_days": {
+                "type": "integer",
+                "default": 14,
+                "minimum": 2,
+                "maximum": 90,
+                "description": "Recent lookback window used to build the transition read."
+              }
+            },
+            "anyOf": [
+              {
+                "required": [
+                  "cmcid"
+                ]
+              },
+              {
+                "required": [
+                  "slug"
+                ]
+              },
+              {
+                "required": [
+                  "symbol"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "uniqueName": "macro_liquidity_monitor",
+          "skillDescription": "Use this skill when the user wants a macro liquidity and funding-stress check before adding or trimming crypto beta (for example, is global liquidity still supportive, is there fresh carry-unwind risk, is dollar funding tightening, is TGA refilling or draining reserves). It pulls the default aligned macro snapshot with preview=true, computes liquidity and carry-stress signals across reserves, TGA, RRP, front-end spreads, and USDJPY, and returns evidence for Cloud Agent analysis. The Cloud Agent writes the final liquidity-regime read; if core macro inputs are unavailable, the result degrades to a blocked envelope instead of inventing a conclusion. Research context only, not a position-sizing or order-placement engine.",
+          "resultType": "evidence_pack",
+          "domain": "research",
+          "inputSchema": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "preview"
+            ],
+            "properties": {
+              "preview": {
+                "type": "boolean",
+                "const": true,
+                "description": "Must be true. The skill exposes no user-tunable analytical parameters."
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
